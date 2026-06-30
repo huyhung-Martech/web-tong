@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sơ đồ cấu trúc trực quan tương tác - The Parkland</title>
+  
+  <!-- Font chữ Outfit & Font Awesome Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Tailwind CSS cho giao diện UI điều khiển -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Mermaid & SVG Pan Zoom CDNs -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Outfit', sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: #0f172a; /* Slate 900 */
+      color: #f8fafc;
+    }
+    #canvas-container {
+      width: 100vw;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+      cursor: grab;
+    }
+    #canvas-container:active {
+      cursor: grabbing;
+    }
+    /* Tùy chỉnh màu sắc Mermaid để khớp với Dark mode */
+    .node rect {
+      stroke-width: 2px !important;
+    }
+    .edgePath .path {
+      stroke: #64748b !important;
+      stroke-width: 2px !important;
+    }
+    .edgeLabel rect {
+      fill: #1e293b !important;
+    }
+    .edgeLabel span {
+      color: #94a3b8 !important;
+    }
+    /* Định dạng thanh cuộn */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #1e293b;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #475569;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Khung Canvas chứa sơ đồ -->
+  <div id="canvas-container">
+    <div id="sitemap-svg-target" class="w-full h-full flex items-center justify-center">
+      <!-- SVG sẽ được Mermaid vẽ vào đây -->
+      <div id="loading" class="text-center">
+        <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-sky-500 mx-auto mb-4"></div>
+        <p class="text-slate-400 text-sm font-semibold">Đang dựng sơ đồ trực quan...</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header Điều khiển & Tiêu đề -->
+  <div class="absolute top-6 left-6 z-10 bg-slate-900/80 backdrop-blur-md border border-slate-700/50 p-5 rounded-2xl shadow-2xl max-w-sm pointer-events-auto">
+    <span class="text-xs font-bold text-sky-400 uppercase tracking-widest bg-sky-950/60 px-2.5 py-1 rounded-md border border-sky-900/50">Sơ đồ tương tác</span>
+    <h1 class="text-lg font-extrabold text-white mt-3 leading-snug">Cấu Trúc Trang Chi Tiết<br>The Parkland</h1>
+    <p class="text-xs text-slate-400 mt-1.5 leading-relaxed">
+      Sử dụng <b>cuộn chuột</b> hoặc <b>hai ngón tay</b> để phóng to/thu nhỏ. <b>Nhấp và kéo</b> để di chuyển sơ đồ.
+    </p>
+  </div>
+
+  <!-- Bộ công cụ điều khiển Zoom/Pan chuyên nghiệp -->
+  <div class="absolute bottom-6 right-6 z-10 flex flex-col gap-2 pointer-events-auto bg-slate-900/80 backdrop-blur-md p-2 rounded-2xl border border-slate-700/50 shadow-2xl">
+    <button id="zoom-in" title="Phóng to" class="w-10 h-10 rounded-xl bg-slate-800 hover:bg-sky-600 text-white flex items-center justify-center transition-all shadow-md">
+      <i class="fa-solid fa-plus text-sm"></i>
+    </button>
+    <button id="zoom-out" title="Thu nhỏ" class="w-10 h-10 rounded-xl bg-slate-800 hover:bg-sky-600 text-white flex items-center justify-center transition-all shadow-md">
+      <i class="fa-solid fa-minus text-sm"></i>
+    </button>
+    <button id="zoom-reset" title="Khôi phục gốc" class="w-10 h-10 rounded-xl bg-slate-800 hover:bg-sky-600 text-white flex items-center justify-center transition-all shadow-md">
+      <i class="fa-solid fa-arrows-to-dot text-sm"></i>
+    </button>
+    <button id="zoom-fit" title="Thu vừa màn hình" class="w-10 h-10 rounded-xl bg-slate-800 hover:bg-sky-600 text-white flex items-center justify-center transition-all shadow-md">
+      <i class="fa-solid fa-expand text-sm"></i>
+    </button>
+  </div>
+
+  <!-- Legend Chú thích Màu sắc sơ đồ -->
+  <div class="absolute bottom-6 left-6 z-10 bg-slate-900/80 backdrop-blur-md border border-slate-700/50 p-4 rounded-2xl shadow-2xl text-xs space-y-2 pointer-events-auto hidden sm:block">
+    <div class="font-bold text-slate-300 border-b border-slate-800 pb-1.5 mb-1.5">Chú thích sơ đồ</div>
+    <div class="flex items-center gap-2">
+      <span class="w-3.5 h-3.5 rounded bg-blue-800 border border-blue-600 block"></span>
+      <span class="text-slate-400 font-medium">Trang chính / Root</span>
+    </div>
+    <div class="flex items-center gap-2">
+      <span class="w-3.5 h-3.5 rounded bg-sky-600 border border-sky-500 block"></span>
+      <span class="text-slate-400 font-medium">Phần chính / Section</span>
+    </div>
+    <div class="flex items-center gap-2">
+      <span class="w-3.5 h-3.5 rounded bg-teal-600 border border-teal-500 block"></span>
+      <span class="text-slate-400 font-medium">Tabs chức năng (12 Tabs)</span>
+    </div>
+    <div class="flex items-center gap-2">
+      <span class="w-3.5 h-3.5 rounded bg-slate-100 border border-slate-300 block"></span>
+      <span class="text-slate-800 font-bold px-1 rounded text-[10px]">Text</span>
+      <span class="text-slate-400 font-medium">Chi tiết nội dung/dữ liệu</span>
+    </div>
+    <div class="flex items-center gap-2">
+      <span class="w-3.5 h-3.5 rounded bg-amber-500 border border-amber-600 block"></span>
+      <span class="text-slate-400 font-medium">Cột Sidebar cố định bên phải</span>
+    </div>
+    <div class="flex items-center gap-2">
+      <span class="w-3.5 h-3.5 rounded bg-red-500 border border-red-600 block"></span>
+      <span class="text-slate-400 font-medium">Modal tương tác giữ căn</span>
+    </div>
+  </div>
+
+  <!-- Sơ đồ Mermaid gốc ẩn đi để xử lý render -->
+  <div id="mermaid-code" class="hidden">
+    flowchart TD
+      %% Định nghĩa style màu sắc tối ưu Dark Mode
+      classDef main fill:#1e40af,stroke:#3b82f6,stroke-width:3px,color:#fff;
+      classDef section fill:#0284c7,stroke:#0ea5e9,stroke-width:2px,color:#fff;
+      classDef tab fill:#0d9488,stroke:#14b8a6,stroke-width:2px,color:#fff;
+      classDef detail fill:#1e293b,stroke:#475569,stroke-width:1px,color:#f8fafc;
+      classDef sidebar fill:#d97706,stroke:#f59e0b,stroke-width:2px,color:#fff;
+      classDef modal fill:#b91c1c,stroke:#ef4444,stroke-width:2px,color:#fff;
+
+      Page[Trang Chi Tiết Dự Án: The Parkland]:::main
+
+      %% Header
+      Page --> Header[1. Thanh Tiêu Đề & Header]:::section
+      Header --> Breadcrumbs["Breadcrumbs (Trang chủ > Chi tiết dự án)"]:::detail
+      Header --> Info["Thông tin nhanh (Tên dự án, Loại hình, Địa chỉ)"]:::detail
+      Header --> ShareBtn["Nút chia sẻ (Copy link dự án)"]:::detail
+
+      %% Workspace Split
+      Page --> Workspace[2. Bố Cục Thân Trang Split Grid]:::section
+      
+      %% Left Column
+      Workspace --> LeftCol[Cột Trái - Nội Dung 75%]:::section
+      LeftCol --> TabBar[Thanh Điều Hướng 12 Tabs]:::section
+
+      %% Tabs Detailed Nodes
+      TabBar --> T1[Tab 1: Tổng quan]:::tab
+      T1 --> T1_1[Slogan & Hình ảnh Banner]:::detail
+      T1 --> T1_2[6 Thông số: CĐT, Diện tích, Sở hữu, Tiến độ...]:::detail
+      T1 --> T1_3[Mô tả tổng quan dự án bằng HTML]:::detail
+      T1 --> T1_4[Banner tiện ích + Video thực tế]:::detail
+      T1 --> T1_5[Carousel tiện ích: Hình ảnh + Tên tiện ích]:::detail
+      T1 --> T1_6[Carousel căn hộ 3D: Mã căn, DT, Số lượng]:::detail
+
+      TabBar --> T2[Tab 2: Vị trí]:::tab
+      T2 --> T2_1[HTML Ranh giới tiếp giáp & Kết nối vùng]:::detail
+      T2 --> T2_2[Bản đồ Google Maps nhúng Iframe]:::detail
+
+      TabBar --> T3[Tab 3: Đào tạo]:::tab
+      T3 --> T3_1[Sales Kit & Tài liệu bán hàng tải về - Google Drive]:::detail
+
+      TabBar --> T4[Tab 4: Mặt bằng]:::tab
+      T4 --> T4_1[Bộ chọn Tab phân khu mặt bằng dạng Pills]:::detail
+      T4 --> T4_2[Trình xem hình ảnh mặt bằng phóng to]:::detail
+
+      TabBar --> T5[Tab 5: Tòa nhà]:::tab
+      T5 --> T5_1[Danh sách Block/Tòa nhà + Số tầng]:::detail
+
+      TabBar --> T6[Tab 6: Bảng hàng]:::tab
+      T6 --> T6_1[Bộ chọn tòa nhà/phân khu hiển thị]:::detail
+      T6 --> T6_2[Bộ lọc & Chú thích trạng thái: Trống/Khóa/Bán]:::detail
+      T6 --> T6_3[Danh sách Grid Căn hộ: Hướng, DT, Giá bán]:::detail
+      T6 --> T6_4[Nút Đặt Chỗ - Liên kết trực tiếp Modal giữ căn]:::detail
+
+      TabBar --> T7[Tab 7: Quỹ căn]:::tab
+      T7 --> T7_1[Danh sách căn đang khóa tạm thời]:::detail
+      T7 --> T7_2[Đếm ngược thời gian giữ chỗ 15 phút]:::detail
+
+      TabBar --> T8[Tab 8: Ảnh 360]:::tab
+      T8 --> T8_1[Nhúng Virtual Tour thực tế ảo 360 độ - Kuula/ThreeJS]:::detail
+
+      TabBar --> T9[Tab 9: CSBH]:::tab
+      T9 --> T9_1[Chính sách ưu đãi, quà tặng]:::detail
+      T9 --> T9_2[File PDF Chính sách bán hàng tải về]:::detail
+
+      TabBar --> T10[Tab 10: Tiến độ]:::tab
+      T10 --> T10_1[Nhật ký tiến độ thi công công trình]:::detail
+
+      TabBar --> T11[Tab 11: Tài liệu]:::tab
+      T11 --> T11_1[Drive chứa tài liệu pháp lý dự án]:::detail
+
+      TabBar --> T12[Tab 12: Tin tức]:::tab
+      T12 --> T12_1[Các bài viết tin tức liên quan đến dự án]:::detail
+
+      %% Right Column
+      Workspace --> RightCol[Cột Phải - Sidebar 25%]:::sidebar
+      RightCol --> BrokerCard["Thẻ Môi Giới (Phùng Huy Hưng - 0989151897)"]:::detail
+      RightCol --> CallBtn["Nút gọi điện liên hệ tư vấn ngay (tel link)"]:::detail
+      RightCol --> QuickSpecs["Bảng tóm tắt thông số dự án nhanh"]:::detail
+
+      %% Interactivity & Modals
+      T6_4 -.-> LockModal[Modal Khóa Căn Giữ Chỗ 15 phút]:::modal
+      LockModal --> FormInputs["Thông tin: Mã căn, Giá, Ghi chú cọc khách"]:::detail
+      LockModal --> SubmitLock["Nút xác nhận gửi yêu cầu khóa căn"]:::detail
+  </div>
+
+  <script>
+    // Cấu hình Mermaid
+    mermaid.initialize({
+      startOnLoad: false,
+      theme: 'dark',
+      securityLevel: 'loose',
+      flowchart: {
+        useMaxWidth: false,
+        htmlLabels: true,
+        curve: 'basis'
+      }
+    });
+
+    let panZoomInstance = null;
+
+    window.addEventListener('load', async () => {
+      try {
+        const loadingEl = document.getElementById('loading');
+        const codeElement = document.getElementById('mermaid-code');
+        const targetElement = document.getElementById('sitemap-svg-target');
+
+        // Render code Mermaid thành mã SVG
+        const { svg } = await mermaid.render('sitemap-svg', codeElement.innerText);
+        
+        // Cập nhật HTML đích
+        targetElement.innerHTML = svg;
+
+        // Lấy thẻ SVG vừa được thêm vào DOM
+        const svgElement = document.querySelector('#sitemap-svg');
+        svgElement.setAttribute('width', '100%');
+        svgElement.setAttribute('height', '100%');
+        svgElement.style.maxWidth = 'none';
+
+        // Khởi tạo svg-pan-zoom
+        panZoomInstance = svgPanZoom('#sitemap-svg', {
+          zoomEnabled: true,
+          controlIconsEnabled: false, // Sử dụng bộ điều khiển tự thiết kế đẹp hơn
+          fit: true,
+          center: true,
+          minZoom: 0.1,
+          maxZoom: 10,
+          zoomScaleSensitivity: 0.3
+        });
+
+        // Đăng ký sự kiện click cho bộ điều khiển
+        document.getElementById('zoom-in').addEventListener('click', () => {
+          panZoomInstance.zoomIn();
+        });
+
+        document.getElementById('zoom-out').addEventListener('click', () => {
+          panZoomInstance.zoomOut();
+        });
+
+        document.getElementById('zoom-reset').addEventListener('click', () => {
+          panZoomInstance.reset();
+        });
+
+        document.getElementById('zoom-fit').addEventListener('click', () => {
+          panZoomInstance.fit();
+          panZoomInstance.center();
+        });
+
+        // Auto fit & center ban đầu
+        panZoomInstance.fit();
+        panZoomInstance.center();
+
+      } catch (error) {
+        console.error('Lỗi khi sinh sơ đồ tương tác:', error);
+        document.getElementById('sitemap-svg-target').innerHTML = `
+          <div class="text-center text-red-400 p-8 border border-red-900 bg-red-950/40 rounded-2xl max-w-md">
+            <i class="fa-solid fa-triangle-exclamation text-3xl mb-3"></i>
+            <h4 class="font-bold">Lỗi khởi tạo sơ đồ</h4>
+            <p class="text-xs mt-2 text-red-300/80">Không thể xử lý mã sơ đồ Mermaid. Vui lòng kiểm tra console hoặc tải lại trang.</p>
+          </div>
+        `;
+      }
+    });
+
+    // Tự động căn chỉnh khi resize cửa sổ
+    window.addEventListener('resize', () => {
+      if (panZoomInstance) {
+        panZoomInstance.resize();
+        panZoomInstance.fit();
+        panZoomInstance.center();
+      }
+    });
+  </script>
+</body>
+</html>

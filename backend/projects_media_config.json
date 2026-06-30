@@ -1,0 +1,47 @@
+{
+  "imperia-ocean-city-the-parkland": {
+    "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/avatar.jpg_2e826f43fcd28fbd4d6f4479dfe213c9646e6ef0",
+    "image360": "https://kuula.co/share/LGmRn/collection/7HT9r?logo=0",
+    "utilities": [
+      {
+        "name": "CÔNG VIÊN TRUNG TÂM",
+        "image": "https://s3-hfx03.fptcloud.com/image-upload/salepro/1766481729674-banner-web-2.webp"
+      },
+      {
+        "name": "PHÒNG GYM",
+        "image": "https://s3-hfx03.fptcloud.com/image-upload/salepro/1766481729674-banner-web-2.webp"
+      },
+      {
+        "name": "PHÒNG GAME",
+        "image": "https://s3-hfx03.fptcloud.com/image-upload/salepro/1766481729674-banner-web-2.webp"
+      },
+      {
+        "name": "CO-WORKING SPACE",
+        "image": "https://s3-hfx03.fptcloud.com/image-upload/salepro/1766481729674-banner-web-2.webp"
+      }
+    ],
+    "floorPlans": [
+      {
+        "code": "STUDIO",
+        "name": "Căn Studio",
+        "area": "30-33 m²",
+        "quantity": "1 căn/sàn",
+        "image": "https://s3-hfx03.fptcloud.com/image-upload/salepro/1766481729674-banner-web-2.webp"
+      },
+      {
+        "code": "1PN+",
+        "name": "Căn 1PN+",
+        "area": "46-48.5 m²",
+        "quantity": "5 căn/sàn",
+        "image": "https://s3-hfx03.fptcloud.com/image-upload/salepro/1766481729674-banner-web-2.webp"
+      },
+      {
+        "code": "2PN",
+        "name": "Căn 2PN+",
+        "area": "65-68 m²",
+        "quantity": "2 căn/sàn",
+        "image": "https://s3-hfx03.fptcloud.com/image-upload/salepro/1766481729674-banner-web-2.webp"
+      }
+    ]
+  }
+}

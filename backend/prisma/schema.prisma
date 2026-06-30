@@ -1,0 +1,102 @@
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id         Int      @id @default(autoincrement())
+  phone      String   @unique
+  fullName   String?
+  email      String?
+  role       String   @default("sale") // "sale", "manager", "admin"
+  teamId     Int?
+  avatarUrl  String?
+  isActive   Boolean  @default(true)
+  createdAt  DateTime @default(now())
+
+  lockOrders LockOrder[]
+}
+
+model Project {
+  id          Int      @id @default(autoincrement())
+  name        String
+  slug        String   @unique
+  description String?
+  location    String
+  developer   String?
+  estateType  String   // "high_rise" or "low_rise"
+  imageUrl    String?  // Stores base64 WebP image data or avatar URL
+  viewCount   Int      @default(0)
+  status      String   @default("opening") // "opening", "sold_out", "upcoming"
+  createdAt   DateTime @default(now())
+
+  // New detailed fields from SalePro API
+  ownershipType              String?
+  constructionDensity        String?
+  developmentScale           String?
+  buildDate                  String?
+  progress                   String?
+  locationHtml               String?
+  iframeLocation             String?
+  projectOverview            String?
+  iframeOverview             String?
+  projectDetailHtml          String?
+  iframeDetail               String?
+  image360                   String?
+  shortDescription           String?
+  shortDescriptionSalePolicy String?
+  state                      String   @default("public")
+  imageDataJson              String?  // JSON list of images
+  linkGeneralJson            String?  // JSON list of Drive documents
+  linkSalePolicyJson         String?  // JSON list of Sales Policy links
+  linkUtilityJson            String?  // JSON list of Utility links
+  img360DataJson             String?  // JSON list of 360 images
+  floorPlansJson          String?  // JSON list of floor plan data
+  mediaLinksJson          String?  // JSON list of additional media links
+
+  subdivisions Subdivision[]
+}
+
+model Subdivision {
+  id         Int      @id @default(autoincrement())
+  projectId  Int
+  project    Project  @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  name       String
+  floorCount Int?
+  createdAt  DateTime @default(now())
+
+  products   Product[]
+}
+
+model Product {
+  id             Int          @id @default(autoincrement())
+  subdivisionId  Int
+  subdivision    Subdivision  @relation(fields: [subdivisionId], references: [id], onDelete: Cascade)
+  code           String
+  floorNumber    Int?
+  roomNumber     String?
+  direction      String?
+  areaUsable     Float?
+  areaCarpet     Float?
+  price          Float
+  status         String       @default("available") // "available", "locked", "sold"
+  lockExpireAt   DateTime?
+
+  lockOrders     LockOrder[]
+}
+
+model LockOrder {
+  id         Int       @id @default(autoincrement())
+  productId  Int
+  product    Product   @relation(fields: [productId], references: [id], onDelete: Cascade)
+  saleId     Int
+  sale       User      @relation(fields: [saleId], references: [id], onDelete: Cascade)
+  lockTime   DateTime  @default(now())
+  expireTime DateTime
+  status     String    @default("pending") // "pending", "completed", "released"
+  note       String?
+}
