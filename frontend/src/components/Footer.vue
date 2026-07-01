@@ -29,7 +29,7 @@
         <ul class="space-y-3 text-sm">
           <li class="flex items-center gap-2">
             <i class="bi bi-geo-alt-fill text-accent"></i>
-            <span>Trung tâm giao dịch BĐS Hưng Land, Hà Nội & TP. HCM</span>
+            <span>Công ty giao dịch BĐS Hưng Land, Hà Nội & TP. HCM</span>
           </li>
           <li class="flex items-center gap-2">
             <i class="bi bi-envelope-fill text-accent"></i>
