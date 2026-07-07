@@ -28,6 +28,7 @@
           :src="project.image_url || 'https://via.placeholder.com/400x250'" 
           class="card-img-top w-full h-full object-cover cursor-pointer absolute inset-0" 
           alt="Project Image"
+          loading="lazy"
         >
         
         <!-- Hot Badge -->

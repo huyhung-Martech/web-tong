@@ -179,7 +179,7 @@
                     class="w-64 flex-shrink-0 border border-slate-200 rounded-2xl overflow-hidden bg-white shadow-md hover:shadow-lg transition-shadow"
                   >
                     <div class="h-44 overflow-hidden bg-slate-100 border-b border-slate-100 flex items-center justify-center">
-                      <img :src="util.image" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" :alt="util.name">
+                      <img :src="util.image" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" :alt="util.name" loading="lazy">
                     </div>
                     <div class="bg-blue-800 py-3.5 px-4 text-center">
                       <span class="text-xs font-extrabold text-white tracking-wider block truncate">{{ util.name }}</span>
@@ -219,7 +219,7 @@
                   class="w-80 flex-shrink-0 border border-slate-200 rounded-2xl bg-white shadow-md p-6 flex flex-col items-center hover:shadow-lg transition-shadow relative"
                 >
                   <div class="h-60 w-full flex items-center justify-center bg-white rounded-xl mb-4 overflow-hidden">
-                    <img :src="plan.image" class="max-h-full max-w-full object-contain hover:scale-105 transition-transform duration-300" :alt="plan.name">
+                    <img :src="plan.image" class="max-h-full max-w-full object-contain hover:scale-105 transition-transform duration-300" :alt="plan.name" loading="lazy">
                   </div>
                   
                   <h5 class="text-xl font-black text-slate-800 mb-4 tracking-wider">{{ plan.code }}</h5>
@@ -577,7 +577,7 @@
             <div v-if="projectNews.length > 0" class="space-y-4">
               <div v-for="news in projectNews" :key="news.id" class="flex gap-4 p-4 bg-slate-50 border border-slate-200/60 rounded-xl hover:shadow-sm hover:bg-white transition-all">
                 <div class="w-24 h-16 rounded-lg overflow-hidden bg-slate-100 flex-shrink-0">
-                  <img :src="news.image" class="w-full h-full object-cover" alt="News Image">
+                  <img :src="news.image" class="w-full h-full object-cover" alt="News Image" loading="lazy">
                 </div>
                 <div>
                   <span class="text-[10px] font-extrabold text-primary uppercase bg-blue-50 border border-blue-100 py-0.5 px-2 rounded">{{ news.category }}</span>
@@ -600,7 +600,7 @@
         <!-- Broker Card -->
         <div class="bg-white border border-slate-200 p-5 rounded-2xl shadow-sm text-center">
           <div class="w-20 h-20 rounded-full overflow-hidden mx-auto border-2 border-slate-200 shadow-inner bg-slate-50">
-            <img src="https://s3-hfx03.fptcloud.com/admin-bds/odoo/avatar.jpg_2e826f43fcd28fbd4d6f4479dfe213c9646e6ef0" class="w-full h-full object-cover" alt="Broker">
+            <img src="https://s3-hfx03.fptcloud.com/admin-bds/odoo/avatar.jpg_2e826f43fcd28fbd4d6f4479dfe213c9646e6ef0" class="w-full h-full object-cover" alt="Broker" loading="lazy">
           </div>
           <h4 class="font-extrabold text-slate-800 text-base mt-4">Phùng Huy Hưng</h4>
           <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mt-0.5">Chuyên viên Bất Động Sản</p>
