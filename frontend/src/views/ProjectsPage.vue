@@ -171,6 +171,7 @@ const filteredProjects = computed(() => {
       (p.investor && p.investor.toLowerCase().includes(searchLow)) ||
       (p.description && p.description.toLowerCase().includes(searchLow));
       
+    return matchesCategory && matchesDeveloper && matchesLocation && matchesStatus && matchesSearch;
   });
 });
 
