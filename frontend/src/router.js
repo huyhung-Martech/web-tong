@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import ProjectsPage from './views/ProjectsPage.vue';
-import ProjectDetailPage from './views/ProjectDetailPage.vue';
-import NewsPage from './views/NewsPage.vue';
-import EventsPage from './views/EventsPage.vue';
-import ComparePage from './views/ComparePage.vue';
-import GuidePage from './views/GuidePage.vue';
-import SignInPage from './views/SignInPage.vue';
+const ProjectsPage = () => import('./views/ProjectsPage.vue');
+const ProjectDetailPage = () => import('./views/ProjectDetailPage.vue');
+const NewsPage = () => import('./views/NewsPage.vue');
+const EventsPage = () => import('./views/EventsPage.vue');
+const ComparePage = () => import('./views/ComparePage.vue');
+const GuidePage = () => import('./views/GuidePage.vue');
+const SignInPage = () => import('./views/SignInPage.vue');
 
 const routes = [
   {

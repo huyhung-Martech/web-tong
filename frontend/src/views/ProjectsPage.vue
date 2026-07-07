@@ -79,9 +79,22 @@
           <p class="text-sm text-slate-400">Thử thay đổi từ khóa tìm kiếm hoặc bộ lọc danh mục.</p>
         </div>
 
-        <div v-else class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          <div v-for="p in filteredProjects" :key="p.id">
-            <ProjectCard :project="p" @view-detail="navigateToDetail" />
+        <div v-else class="space-y-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div v-for="p in displayedProjects" :key="p.id">
+              <ProjectCard :project="p" @view-detail="navigateToDetail" />
+            </div>
+          </div>
+
+          <!-- Show More Button -->
+          <div v-if="filteredProjects.length > displayedProjects.length" class="flex justify-center pt-4">
+            <button 
+              @click="displayLimit += 12" 
+              class="flex items-center gap-2 bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 px-6 py-2.5 rounded-xl text-xs font-extrabold shadow-sm transition-all"
+            >
+              <i class="bi bi-arrow-down-short text-base"></i>
+              Xem thêm dự án
+            </button>
           </div>
         </div>
       </div>
@@ -99,7 +112,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, computed } from 'vue';
+import { ref, onMounted, computed, watch } from 'vue';
 import { useRouter } from 'vue-router';
 import ProjectCard from '../components/ProjectCard.vue';
 import Sidebar from '../components/Sidebar.vue';
@@ -117,6 +130,12 @@ const selectedDeveloper = ref('all');
 const selectedLocation = ref('all');
 const selectedStatus = ref('all');
 const searchQuery = ref('');
+
+const displayLimit = ref(12);
+
+watch([selectedCategory, selectedDeveloper, selectedLocation, selectedStatus, searchQuery], () => {
+  displayLimit.value = 12;
+});
 
 onMounted(() => {
   fetchProjects();
@@ -175,8 +194,11 @@ const filteredProjects = computed(() => {
       (p.investor && p.investor.toLowerCase().includes(searchLow)) ||
       (p.description && p.description.toLowerCase().includes(searchLow));
       
-    return matchesCategory && matchesDeveloper && matchesLocation && matchesStatus && matchesSearch;
   });
+});
+
+const displayedProjects = computed(() => {
+  return filteredProjects.value.slice(0, displayLimit.value);
 });
 
 const hotProjects = computed(() => {
