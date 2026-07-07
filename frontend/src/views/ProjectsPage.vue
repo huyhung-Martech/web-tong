@@ -118,7 +118,7 @@ import ProjectCard from '../components/ProjectCard.vue';
 import Sidebar from '../components/Sidebar.vue';
 
 const router = useRouter();
-const API_BASE = '/api';
+const API_BASE = '/data_json';
 
 // State variables
 const projects = ref([]);

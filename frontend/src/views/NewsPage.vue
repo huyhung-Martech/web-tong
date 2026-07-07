@@ -42,7 +42,7 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 
-const API_BASE = '/api';
+const API_BASE = '/data_json';
 const news = ref([]);
 const loading = ref(true);
 

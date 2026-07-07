@@ -689,7 +689,7 @@ import { useRoute } from 'vue-router';
 import Three360Viewer from '../components/Three360Viewer.vue';
 
 const route = useRoute();
-const API_BASE = '/api';
+const API_BASE = '/data_json';
 
 const props = defineProps({
   slug: {
