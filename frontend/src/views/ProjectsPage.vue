@@ -116,9 +116,10 @@ import { ref, onMounted, computed, watch } from 'vue';
 import { useRouter } from 'vue-router';
 import ProjectCard from '../components/ProjectCard.vue';
 import Sidebar from '../components/Sidebar.vue';
+import projectsData from '../data/search_duan_data.json';
+import newsData from '../data/get_real_news.json';
 
 const router = useRouter();
-const API_BASE = '/data_json';
 
 // State variables
 const projects = ref([]);
@@ -145,27 +146,12 @@ onMounted(() => {
 // API calls
 async function fetchProjects() {
   loading.value = true;
-  try {
-    const res = await fetch(`${API_BASE}/search_duan_data.json`);
-    if (res.ok) {
-      projects.value = await res.json();
-    }
-  } catch (e) {
-    console.error('Error fetching projects:', e);
-  } finally {
-    loading.value = false;
-  }
+  projects.value = projectsData;
+  loading.value = false;
 }
 
 async function fetchNews() {
-  try {
-    const res = await fetch(`${API_BASE}/get_real_news.json`);
-    if (res.ok) {
-      newsList.value = await res.json();
-    }
-  } catch (e) {
-    console.error('Error fetching news:', e);
-  }
+  newsList.value = newsData;
 }
 
 // Compute values

@@ -41,22 +41,14 @@
 
 <script setup>
 import { ref, onMounted } from 'vue';
+import newsData from '../data/get_real_news.json';
 
-const API_BASE = '/data_json';
 const news = ref([]);
 const loading = ref(true);
 
-onMounted(async () => {
-  try {
-    const res = await fetch(`${API_BASE}/get_real_news.json`);
-    if (res.ok) {
-      news.value = await res.json();
-    }
-  } catch (e) {
-    console.error('Error fetching news:', e);
-  } finally {
-    loading.value = false;
-  }
+onMounted(() => {
+  news.value = newsData;
+  loading.value = false;
 });
 
 function readMore(item) {

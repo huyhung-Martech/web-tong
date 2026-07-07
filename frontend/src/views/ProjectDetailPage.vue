@@ -689,7 +689,6 @@ import { useRoute } from 'vue-router';
 import Three360Viewer from '../components/Three360Viewer.vue';
 
 const route = useRoute();
-const API_BASE = '/data_json';
 
 const props = defineProps({
   slug: {
@@ -759,14 +758,12 @@ watch(() => props.slug, async () => {
 async function fetchProjectDetail() {
   loading.value = true;
   try {
-    const res = await fetch(`${API_BASE}/get_project_detail_${props.slug}.json`);
-    if (res.ok) {
-      project.value = await res.json();
-      await fetchSubdivisions();
-      await fetchProjectNews();
-    }
+    const detail = await import(`../data/get_project_detail_${props.slug}.json`);
+    project.value = detail.default;
+    await fetchSubdivisions();
+    await fetchProjectNews();
   } catch (e) {
-    console.error('Error fetching project detail:', e);
+    console.error('Error loading project detail dynamically:', e);
   } finally {
     loading.value = false;
   }
@@ -775,28 +772,24 @@ async function fetchProjectDetail() {
 async function fetchSubdivisions() {
   if (!project.value) return;
   try {
-    const res = await fetch(`${API_BASE}/get_building_${project.value.id}.json`);
-    if (res.ok) {
-      subdivisions.value = await res.json();
-      if (subdivisions.value.length > 0) {
-        activeSubdivisionId.value = subdivisions.value[0].id;
-        await fetchInventory(activeSubdivisionId.value);
-      }
+    const building = await import(`../data/get_building_${project.value.id}.json`);
+    subdivisions.value = building.default;
+    if (subdivisions.value.length > 0) {
+      activeSubdivisionId.value = subdivisions.value[0].id;
+      await fetchInventory(activeSubdivisionId.value);
     }
   } catch (e) {
-    console.error('Error fetching subdivisions:', e);
+    console.error('Error loading subdivisions dynamically:', e);
   }
 }
 
 async function fetchInventory(subdivisionId) {
   inventoryLoading.value = true;
   try {
-    const res = await fetch(`${API_BASE}/search_banghang_data_${subdivisionId}.json`);
-    if (res.ok) {
-      inventory.value = await res.json();
-    }
+    const banghang = await import(`../data/search_banghang_data_${subdivisionId}.json`);
+    inventory.value = banghang.default;
   } catch (e) {
-    console.error('Error fetching inventory:', e);
+    console.error('Error loading inventory dynamically:', e);
   } finally {
     inventoryLoading.value = false;
   }
@@ -804,15 +797,13 @@ async function fetchInventory(subdivisionId) {
 
 async function fetchProjectNews() {
   try {
-    const res = await fetch(`${API_BASE}/get_real_news.json`);
-    if (res.ok) {
-      const allNews = await res.json();
-      // Filter news containing project name in title or general list
-      const projName = (project.value.project_name || project.value.name).toLowerCase();
-      projectNews.value = allNews.filter(n => n.title.toLowerCase().includes(projName) || n.summary.toLowerCase().includes(projName));
-      if (projectNews.value.length === 0) {
-        projectNews.value = allNews.slice(0, 2); // Default mock fallback
-      }
+    const newsData = await import(`../data/get_real_news.json`);
+    const allNews = newsData.default;
+    // Filter news containing project name in title or general list
+    const projName = (project.value.project_name || project.value.name).toLowerCase();
+    projectNews.value = allNews.filter(n => n.title.toLowerCase().includes(projName) || n.summary.toLowerCase().includes(projName));
+    if (projectNews.value.length === 0) {
+      projectNews.value = allNews.slice(0, 2); // Default mock fallback
     }
   } catch (e) {
     console.error(e);
