@@ -1,0 +1,131 @@
+{
+  "id": 1322,
+  "name": "XANH ISLAND CÁT BÀ",
+  "slug": "xanh-island-cat-ba",
+  "description": "Di sản thiên nhiên quý giá",
+  "location": "Đảo Cát Bà, huyện Cát Hải, TP Hải Phòng",
+  "developer": "SUN GROUP",
+  "estateType": "high_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/1._AVATAR_MẪU.jpg_442df8090ece26c8a28ddf5ad7c74eeb2e18c2aa",
+  "viewCount": 463,
+  "status": "opening",
+  "createdAt": 1781920218779,
+  "ownershipType": "70 năm",
+  "constructionDensity": "17,23%",
+  "developmentScale": "3500 căn",
+  "buildDate": null,
+  "progress": "Đang thi công",
+  "locationHtml": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-1_80a3c1ef5a3542cf139b6ee38abf92e6f73b30bc\" class=\"img img-fluid o_we_custom_image\" style=\"width: 100%;\"></p><p><strong>Vị trí dự án Sun Group Cát Bà – Xanh Island</strong> được đánh giá là một trong những tọa độ đắt giá bậc nhất Hải Phòng. Tọa lạc trên đảo Cát Bà – trung tâm du lịch biển nổi tiếng quốc tế, dự án hưởng lợi trực tiếp từ dòng khách trong và ngoài nước. Cát Bà nằm ở phía Nam vịnh Hạ Long, cách trung tâm TP. Hải Phòng khoảng 30km, thuận tiện kết nối bằng cả đường bộ, đường biển và cáp treo.</p><p>Sun Group Cát Bà – Xanh Island là khu đô thị du lịch nghỉ dưỡng biển cao cấp, trải rộng tại thị trấn Cát Bà và xã Trân Châu, huyện Cát Hải. Dự án có quy mô gần 50ha, cung ứng khoảng 2.742 sản phẩm, được quy hoạch đồng bộ với bến du thuyền, bến tàu du lịch, trung tâm hội nghị quốc tế, tổ hợp thương mại – dịch vụ, khu thể thao – giải trí cùng hệ thống 6 khách sạn 5 sao và 1 khách sạn 4 sao.</p><p><strong>Kết nối vùng nổi bật:</strong></p><ul>\n<li>\nCách vịnh Lan Hạ khoảng 3,5km\n</li>\n<li>\nCách đảo Khỉ khoảng 4km\n</li>\n<li>\nCách Vườn quốc gia Cát Bà khoảng 8km\n</li>\n<li>\nDi chuyển đến đảo Đầu Bê khoảng 2 giờ đi tàu</li></ul><p>\n\n</p>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6275.9490185570085!2d107.04643567238857!3d20.722275385832535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a450038698e33%3A0x2ec41204a1874bc0!2zU3VuIEPDoXQgQsOg!5e0!3m2!1svi!2s!4v1766568552457!5m2!1svi!2s\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": "https://kuula.co/share/n1/collection/7b7rM?logo=0",
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_fabdad6687ba9e5e87fcfe427d6059fcd019989f\" class=\"img img-fluid o_we_custom_image\" style=\"width: 100%;\"></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "AvaH2",
+      "image_coordinate_name": "AvaH2",
+      "image_data": [
+        {
+          "image_name": "Xanh2.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Xanh2.jpg_80bc18e6e4e4512fd841a4e7b68f2b4cd490d24b"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "SCB",
+      "image_coordinate_name": "AvarXanhIL",
+      "image_data": [
+        {
+          "image_name": "1. AVATAR MẪU.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/1._AVATAR_MẪU.jpg_442df8090ece26c8a28ddf5ad7c74eeb2e18c2aa"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "H1A",
+      "image_coordinate_name": "H1A",
+      "image_data": [
+        {
+          "image_name": "Xanh1H1A.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Xanh1H1A.jpg_0537e130aa489712caee6f96b39147e80e7593b5"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "H1B",
+      "image_coordinate_name": "H1B",
+      "image_data": [
+        {
+          "image_name": "Xanh1H1B.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Xanh1H1B.jpg_dd88d87fdedc44a4263dc5646000a89c1654dd08"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "THANH LONG",
+      "image_coordinate_name": "THANH LONG",
+      "image_data": [
+        {
+          "image_name": "32_D7_Birdview TT_02_THANH LONG_tu bien vao_thay phao hoa_006.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/32_D7_Birdview_TT_02_THANH_LONG_tu_bien_vao_thay_phao_hoa_006.jpg_e96ae9399c1a5d634999bd0a40928669c6c2c2f5"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "CHÍNH SÁCH BÁN HÀNG",
+      "link_utility_url": "https://drive.google.com/drive/folders/11eH2omsfBSp3qIqT_LfKQjmcMs4Ibskt?usp=drive_link"
+    },
+    {
+      "link_utility_name": "FILE GIỚI THIỆU DỰ ÁN",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgAMnBlXcxL0SavPPiAdRjn4Abge4aVPocKJjg-f2vURfsU?e=MSwDK3"
+    },
+    {
+      "link_utility_name": "LAYOUT",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgB0nWJKPxizQIxR1GqBZB_CAV3u2XDcNfwtgMcNO8sKhvY?e=NKTMew"
+    },
+    {
+      "link_utility_name": "NHÀ MẪU",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgCRlhTyRxmYTakcloNESQ9-AXXM2it_VoeE7rQAy7dFu74?e=Wb9AXp"
+    },
+    {
+      "link_utility_name": "SLIDE ĐÀO TẠO",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgByRXEb4kR4Q6y6hDtnSoNfAYlBLrEiZDSEOVB_1zeA2ko?e=SOrKfW"
+    },
+    {
+      "link_utility_name": "TIÊU CHUẨN BÀN GIAO",
+      "link_utility_url": "https://drive.google.com/drive/folders/1-7mddEIIh7VS3-E5j_hTafvepa9uKbEv?usp=drive_link"
+    },
+    {
+      "link_utility_name": "TIẾN ĐỘ XÂY DỰNG",
+      "link_utility_url": "https://drive.google.com/drive/folders/1sVWxyziU1zfvTbR4zRCO1K7PLJkwaIoC?usp=drive_link"
+    },
+    {
+      "link_utility_name": "TMB PHÂN KHU 1",
+      "link_utility_url": "https://drive.google.com/drive/folders/17aMZ_3-xGoaayfBOz8wMS_q7KLUA7Kbs?usp=drive_link"
+    },
+    {
+      "link_utility_name": "TƯ LIỆU HÌNH ẢNH CÁT BÀ",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgB3ih0ohzy7SKMGdMSsdhNHAendIPiLioi-nM0I0QGkdmQ?e=QSTaxc"
+    },
+    {
+      "link_utility_name": "TỜ GẬP XANH 1",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgADa4Q1qCFzSr0NnHRB0rexAVznxnJS1OUHourDTE9E_OI?e=zkgPhY"
+    },
+    {
+      "link_utility_name": "ẢNH PHỐI CẢNH",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgBiJb4ZtRzjRIWHBYlIq02vAVPF1HDIazRMOU9uTI3cyT4?e=jcrHYZ"
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}

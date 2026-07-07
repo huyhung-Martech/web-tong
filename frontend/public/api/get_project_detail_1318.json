@@ -1,0 +1,99 @@
+{
+  "id": 1318,
+  "name": "SUN URBAN CITY TT",
+  "slug": "sun-urban-city-tt",
+  "description": "Đô thị nghỉ dưỡng phía Nam Hà Nội",
+  "location": "Phường Lam Hạ, TP Phủ Lý, Tỉnh Hà Nam (Ninh Bình)",
+  "developer": "SUN GROUP",
+  "estateType": "low_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/avatar_sun_urban_TT.jpg_daeccb70c8fddf7cbec29f720ca0d80b0dc163e2",
+  "viewCount": 525,
+  "status": "opening",
+  "createdAt": 1781920218572,
+  "ownershipType": "Sở hữu lâu dài",
+  "constructionDensity": "18%",
+  "developmentScale": "420ha",
+  "buildDate": null,
+  "progress": null,
+  "locationHtml": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-1_6c16204c645ebbc710734de0326fe9e6115fa7e2\" class=\"img img-fluid o_we_custom_image\"></p><p><br></p><p>Dự án sở hữu vị trí chiến lược với khả năng kết nối giao thông thuận lợi khi nằm gần Quốc lộ 1A, cao tốc Pháp Vân – Cầu Giẽ – Ninh Bình, các tuyến Vành đai 3.5 và 4; trong tương lai còn liên thông với Vành đai 5 Vùng Thủ đô, sân bay Ứng Hòa và đường sắt cao tốc Bắc – Nam, hình thành cửa ngõ giao thương đa phương thức. Điểm nhấn nổi bật là mô hình “thành phố trong lòng thành phố” với không gian sống sinh thái, hiện đại, tiện ích đồng bộ; vị trí phong thủy đắc địa tại giao điểm ba dòng sông lớn mang lại sinh khí dồi dào, đồng thời sở hữu tiềm năng tăng giá hấp dẫn nhờ hưởng lợi trực tiếp từ sự phát triển mạnh mẽ của hạ tầng giao thông Hà Nam và Vùng Thủ đô.</p><p>\n\n</p>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.552256234325!2d105.91990947475718!3d20.56549280352979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135cf102adc17eb%3A0x4e0e45c5cb9ed3a2!2sSun%20Urban%20City%20H%C3%A0%20Nam!5e0!3m2!1sen!2s!4v1765961368662!5m2!1sen!2s\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": "https://kuula.co/share/hVdTM?logo=0",
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p><br></p><p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_420b9155fb17b0d3b808766b5fcec39b8cf3d532\" class=\"img img-fluid o_we_custom_image\"></p><p><br></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "AVATAR_SUN_URBAN_TT",
+      "image_coordinate_name": "AVATAR SUN URBAN TT",
+      "image_data": [
+        {
+          "image_name": "avatar sun urban TT.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/avatar_sun_urban_TT.jpg_daeccb70c8fddf7cbec29f720ca0d80b0dc163e2"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "FA",
+      "image_coordinate_name": "FA",
+      "image_data": [
+        {
+          "image_name": "flora.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/flora.jpg_d5b68652e5855c59295b617b6b5e322bb2f89ccc"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "SUTT",
+      "image_coordinate_name": "SUTT",
+      "image_data": [
+        {
+          "image_name": "kim ngân.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/kim_ngân.jpg_414b62e05b74862d3efcd4a3b4d3b07ee37b1303"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "CHÍNH SÁCH BÁN HÀNG",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgBbSrIqMPmBS6mUwgfvYF0_AUAZ6MyPkx7cd9ftG_9Li0k?e=fTg1uf"
+    },
+    {
+      "link_utility_name": "HỒ SƠ PHÁP LÝ",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgABAVroSCfLQZpyPt-Q8rKqAcKNaHpuLSCqEUsL6nWg10k?e=UTgQqU"
+    },
+    {
+      "link_utility_name": "MẪU NHÀ",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgAgf5PjZowVTKXailDHXEQRAZNhx_AtctbK2wIW_4A4WYQ?e=LisnN9"
+    },
+    {
+      "link_utility_name": "MẶT BẰNG",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgBJ9Vwo0my7QaNO06BDPWnYAQJZSEg2jESUtL0EnX1yqpQ?e=papCIe"
+    },
+    {
+      "link_utility_name": "PHỐI CẢNH",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgDSUYrtMqhfQ4XecV8lORMgATQgnk8iM29k5NqBXOqpbUM?e=0c0UNc"
+    },
+    {
+      "link_utility_name": "TIÊU CHUẨN BÀN GIAO",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgA7AWHAA5kGQaK4NrkvGwEMAfqgjIbzUAoh-jK5k2ZQ9SM?e=fFtFiC"
+    },
+    {
+      "link_utility_name": "TÀI LIỆU ĐÀO TẠO",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgDOiMf7bvefSKgv7qFygYbdAfiwgvqZ7eknIxYt58vM04w?e=jCXKZw"
+    },
+    {
+      "link_utility_name": "VĂN BẢN + HỢP ĐỒNG",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgBOg6AeYfC-T72Hhnz7deooAasbuXSeLA3z_OB7dXptjKk?e=FeIwQh"
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}

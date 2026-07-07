@@ -1,0 +1,28 @@
+[
+  {
+    "id": 22283,
+    "code": "S6.0312.08",
+    "floor_number": 12,
+    "room_number": "08",
+    "direction": "Tây Nam",
+    "area_usable": 60.0,
+    "area_carpet": 83.0,
+    "price": 2920000000.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 24143,
+    "code": "S6.0321.15",
+    "floor_number": 21,
+    "room_number": "15",
+    "direction": "Tây Nam",
+    "area_usable": 92.0,
+    "area_carpet": 98.0,
+    "price": 5281920147.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  }
+]

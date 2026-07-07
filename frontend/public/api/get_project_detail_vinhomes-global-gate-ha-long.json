@@ -1,0 +1,89 @@
+{
+  "id": 1334,
+  "name": "VINHOMES GLOBAL GATE HẠ LONG",
+  "slug": "vinhomes-global-gate-ha-long",
+  "description": "Hạ Long Xanh - Thành phố kỳ quan kết nối toàn cầu bên Vịnh Di Sản",
+  "location": "Thị xã Quảng Yên, TP. Hạ Long, Tỉnh Quảng Ninh",
+  "developer": "VINHOMES",
+  "estateType": "low_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/01.Cam_tổng.jpg_44eb2c134d1f60dba24f9f598450237a33d7ca65",
+  "viewCount": 38937,
+  "status": "opening",
+  "createdAt": 1781920217960,
+  "ownershipType": "Sở hữu lâu dài",
+  "constructionDensity": null,
+  "developmentScale": null,
+  "buildDate": null,
+  "progress": null,
+  "locationHtml": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-1_bfaa837b46271e8e921c12e5963abbd197d6ad65\" class=\"img img-fluid o_we_custom_image\"></p><p><span style=\"font-size: 14px;\"><strong>VỊ TRÍ KẾT NỐI ĐA CỰC – TÂM ĐIỂM GIAO THƯƠNG MỚI</strong></span></p><p>Sở hữu tọa độ chiến lược hiếm có, Vinhomes Global Gate Hạ Long không chỉ là nơi an cư mà còn là “trạm trung chuyển giá trị” của toàn khu vực phía Bắc.</p><p>🚄<strong> 23 phút tới Hà Nội: </strong>Kết nối siêu tốc qua tuyến đường sắt cao tốc, mở rộng cơ hội làm việc – kinh doanh liên vùng, đón dòng khách thủ đô đổ về cuối tuần.</p><p>🚗<strong> 30 phút tới Hải Phòng</strong>: Liên kết nhanh với trung tâm công nghiệp – cảng biển lớn nhất miền Bắc, gia tăng tiềm năng khai thác thương mại và logistics.</p><p>✈️<strong> 45 phút tới sân bay Vân Đồn/sân bay quốc tế Cát Bi (Hải Phòng): </strong>Đón trọn dòng khách quốc tế, thúc đẩy kinh doanh lưu trú – dịch vụ – du lịch cao cấp.</p><p>🌍 <strong>2 giờ tới Móng Cái:</strong> Chạm cửa khẩu quốc tế, mở rộng giao thương xuyên biên giới – đòn bẩy tăng trưởng dài hạn.</p><p>🚗 <strong>25 phút tới Đảo Tuần Châu: </strong>Tạo thành trục du lịch - đô thị ven biển sầm uất tại Quảng Ninh.<strong></strong></p><p>🚀 <strong>2 giờ tới Hà Nội: </strong>Di chuyển qua cao tốc Hà Nội - Hạ Long kết nối trực tiếp tới thủ đô.</p><p>\nBao quanh là hệ sinh thái du lịch triệu đô: Hạ Long – Tuần Châu – Cát Bà… tạo nên dòng tiền bền vững quanh năm\n\n</p>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24177.699808826746!2d106.89806102708023!3d20.930432367609452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a5f6059cf5a3d%3A0xdbb61ed5c0c3550d!2zSOG6oSBMb25nIFhhbmggUXXhuqNuZyBZw6pu!5e1!3m2!1svi!2s!4v1775708882051!5m2!1svi!2s\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": "<p>VINHOMES GLOBAL GATE HẠ LONG -&nbsp;Thành phố kỳ quan kết nối toàn cầu bên Vịnh Di Sản</p>",
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": "https://kuula.co/share/collection/7T4v1?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1",
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_7b8a6db483e12db99b6cc3b14e3d00c74b276317\" class=\"img img-fluid o_we_custom_image\"></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "avaVTD",
+      "image_coordinate_name": "avaVTD",
+      "image_data": [
+        {
+          "image_name": "avaVTD.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/avaVTD.jpg_4aeed9f3d439c7ed748af33678437c24bae56197"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "hlx1",
+      "image_coordinate_name": "hlx1",
+      "image_data": [
+        {
+          "image_name": "01.Cam tổng.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/01.Cam_tổng.jpg_44eb2c134d1f60dba24f9f598450237a33d7ca65"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "CSBH",
+      "link_utility_url": "https://drive.google.com/drive/folders/1hJEJqStEN9QhyZsTieI6JqQBEBy-KY5L?usp=drive_link"
+    },
+    {
+      "link_utility_name": "Layout Thiết Kế",
+      "link_utility_url": "https://drive.google.com/drive/folders/1yE5LEFaEZ9Jtw3EfAxGHWqsNevqJpCwE?usp=drive_link"
+    },
+    {
+      "link_utility_name": "Phối Cảnh",
+      "link_utility_url": "https://drive.google.com/drive/folders/1Xi2L0efDOcCBrn5HpPqtkTUbU-utXTYz?usp=drive_link"
+    },
+    {
+      "link_utility_name": "Slide Đào Tạo",
+      "link_utility_url": "https://drive.google.com/drive/folders/1lgWZdBuutqeXgbfOx7CkJnEzsJNa6jpv?usp=drive_link"
+    },
+    {
+      "link_utility_name": "Tiện Ích",
+      "link_utility_url": "https://drive.google.com/drive/folders/1vmuLNr9XsMLIlfGQNooRdn2tRt_Rt1tr?usp=drive_link"
+    },
+    {
+      "link_utility_name": "Tổng Mặt Bằng",
+      "link_utility_url": "https://drive.google.com/drive/folders/1tkDnglUKNmK7dONxS22dSBnnECiG53Dm?usp=drive_link"
+    },
+    {
+      "link_utility_name": "Video",
+      "link_utility_url": "https://drive.google.com/drive/folders/1iGmBm-11CaDednMFI0SsmUxYlwX3lt1V?usp=drive_link"
+    },
+    {
+      "link_utility_name": null,
+      "link_utility_url": null
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}

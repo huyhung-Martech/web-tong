@@ -1,0 +1,101 @@
+{
+  "id": 1290,
+  "name": "BLANCA CITY THẤP TẦNG",
+  "slug": "blanca-city-thap-tang",
+  "description": "Nơi đẳng cấp được định nghĩa lại, nơi giá trị vượt thời gian được tôn vinh, và nơi di sản cá nhân được kiến tạo cho muôn đời sau.",
+  "location": "Đường 3 Tháng 2 Bà Rịa - Vũng Tàu thành phố Vũng Tàu",
+  "developer": "SUN GROUP",
+  "estateType": "low_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/BlancaCity.jpg_1472161583d2d89a2deeb230e58017e1dc88d626",
+  "viewCount": 515,
+  "status": "opening",
+  "createdAt": 1781920218563,
+  "ownershipType": "Sở hữu lâu dài",
+  "constructionDensity": null,
+  "developmentScale": "~96,6 ha.",
+  "buildDate": null,
+  "progress": null,
+  "locationHtml": "<p style=\"margin-bottom: 0px;\"><br></p><p style=\"margin-bottom: 0px;\"><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-1_1d930eb8c785d3966554cbf3a39349bf06aaf590\" class=\"img img-fluid o_we_custom_image\"></p><p style=\"margin-bottom: 0px;\"><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-2_04f4dbfa676e8c3bccbcebe5cb88f0ea91c45c10\" class=\"img img-fluid o_we_custom_image\"></p><p style=\"margin-bottom: 0px;\"><br></p><p style=\"margin-bottom: 0px;\"><strong>Vị trí kim cương Biểu tượng kiêu hãnh&nbsp;của 1 Vũng Tàu thịnh vượng trội</strong> </p><p style=\"margin-bottom: 0px;\">Tọa lạc tại vị trí kim cương bên biển Bãi Sau, Phân khu Blanca sở hữu lợi thế kết nối vượt - chỉ 30 phút đến sân bay quốc tế Long</p><p style=\"margin-bottom: 0px;\">Thành, nơi đây đón đầu làn sóng di chuyển mới, trở thành điểm đến lý tưởng cho cả nghỉ dưỡng cuối tuần lẫn lưu trú dài ngày. Là khu phố biển gần TP.HCM nhất, Phân khu&nbsp;Blanca quy tụ dòng khách hiện đại yêu chuộng trải nghiệm biển nhưng vẫn gắn kết tiện nghi đô thị. Và hơn cả một công trình, đó là những toà tháp Trắng tinh khôi đầu tiên kiêu hãnh bên bờ Bãi Sau Vũng Tàu, đánh dấu bước chuyển mình ngoạn mục của thành phổ biến - nơi quá khứ hào hùng gặp gỡ tương lai phồn vinh.</p>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7848.962423359118!2d107.13059904441027!3d10.383301846509072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31757144d56d7187%3A0xda614d2870c111a!2sBLANCA%20CITY%20l%20C%C4%90T%20SUNGROUP%20V%C5%A8NG%20T%C3%80U!5e0!3m2!1svi!2s!4v1760522633841!5m2!1svi!2s\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": "https://blancacitysun.com.vn/360-blanca-city/",
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p><br></p><p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_b48c88dcf3dcf8c178186e386ba492103b081c40\" class=\"img img-fluid o_we_custom_image\"></p><p></p><p></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "AVATA Blanca",
+      "image_coordinate_name": "Blanca thấp tầng",
+      "image_data": [
+        {
+          "image_name": "BlancaCity.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/BlancaCity.jpg_1472161583d2d89a2deeb230e58017e1dc88d626"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "casa",
+      "image_coordinate_name": "casa",
+      "image_data": [
+        {
+          "image_name": "casa.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/casa.jpg_fac2a811d041c805cd301e85b356c34c87b84b42"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "CSBH",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgCvcrRT3bkVT4UGeJ6mGaqlAe_59iouHVfOaK4gpPupcn8?e=nFPo9i"
+    },
+    {
+      "link_utility_name": "CÔNG CỤ BÁN HÀNG",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgDut2DdEU2YR4ZX2lLgSscZATBRtKC4cZDVc_iAGIRhxtc?e=FUBY7I"
+    },
+    {
+      "link_utility_name": "FILE ĐÀO TẠO",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgC7B0LLy74AT6peP3F-e_XJAaJNNG83f0vuG_-K0kibCdM?e=QhNRKH"
+    },
+    {
+      "link_utility_name": "LAYOUT CĂN HỘ, MẶT BẰNG TẦNG",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgArfHUA6HQZTrAfKvilCQttAWSAhaOjZXfayyJ9fOUQAMw?e=kFbZWO"
+    },
+    {
+      "link_utility_name": "NHÀ MẪU",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgARqwhVT_tESKiXIuWMrz2oAV89kOh90cF4rcN6vfqW2wg?e=WBS92y"
+    },
+    {
+      "link_utility_name": "PHÁP LÝ DỰ ÁN",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgC4-ukOH_-eR6g1FEVBXGsVAbR_V_smprpBf9QZbmfgIUU?e=P6jzYD"
+    },
+    {
+      "link_utility_name": "QUY TRÌNH THỦ TỤC",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgAnqQVvFwL8SbOHLoo3zPi1AXBGVuDqPUwlqcvDKVSCGms?e=Qhpct0"
+    },
+    {
+      "link_utility_name": "SALES KIT",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgCPLsmX90KXQorfdIRLZ4yJAd3s8tb9Rtgml45TDOBJBFU?e=2KmErW"
+    },
+    {
+      "link_utility_name": "TIÊU CHUẨN BÀN GIAO",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgApisPk0ZHSTLbOEyZOtqjuAXot2UdaPGAji1dBIz6I9Yw?e=zWfimM"
+    },
+    {
+      "link_utility_name": "TMB",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgBeFkdOSe4BRr9hKKB8s9uAAbD55UhnrVUU_Rr_MOoMitU?e=GKWWyo"
+    },
+    {
+      "link_utility_name": "ẢNH PHỐI CẢNH",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgBOqehokFYrQ40_Si1OBeuHAdnS3nUpjRsvfzIm6K7AL9U?e=FJHAp3"
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}

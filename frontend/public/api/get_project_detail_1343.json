@@ -1,0 +1,81 @@
+{
+  "id": 1343,
+  "name": "HORIZON BAY",
+  "slug": "horizon-bay",
+  "description": "Sống nơi đây, nghỉ dưỡng là đây",
+  "location": "Sát vịnh biển Hạ Long tại bán đảo 1, khu đô thị vịnh biển Halong Marina, phường Bãi Cháy, tp Hạ Long, Quảng Ninh.",
+  "developer": "KHÁC",
+  "estateType": "low_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/1._AVATAR_MẪU.jpg_9b8f2494c0f1803dc1e64578fd1a3e799520b7ef",
+  "viewCount": 296,
+  "status": "opening",
+  "createdAt": 1781920218799,
+  "ownershipType": "Sở hữu lâu dài",
+  "constructionDensity": null,
+  "developmentScale": "7ha",
+  "buildDate": null,
+  "progress": "Xây hoàn thiện và sẵn sàng bàn giao",
+  "locationHtml": "<p><br></p><p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-1_7a0ae8782a5cf567b55f3dda490782c3eb7c3dc7\" class=\"img img-fluid o_we_custom_image\"></p><p>Tọa lạc tại bán đảo 1 của Khu đô thị du lịch Halong Marina, Horizon Bay sở hữu tọa độ vàng của thủ phủ du lịch miền Bắc. Dự án trở thành tâm điểm kết nối, dễ dàng được tiếp cận bởi các thành phố lớn thông qua các hệ thống giao thông trọng điểm như cao tốc Hà Nội – Hải Phòng - Hạ Long – Móng Cái, cảng tàu khách quốc tế và sân bay Vân Đồn. Thiết lập một “mắt xích\" giao thông hoàn chỉnh, kết nối nhanh chóng đến hơn 50 danh thắng nổi tiếng của Hạ Long cũng như các khu vực lân cận.</p><p>- 25km: từ Hạ Long tới Hải Phòng</p><p>- 50km: từ Hạ Long tới Sân bay Vân Đồn</p><p>- 125km: từ Hạ Long tới&nbsp;Hà Nội</p><p>-&nbsp;180km: từ Hạ Long tới&nbsp;Móng Cái</p>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4458.496240801999!2d106.99036295459831!3d20.955525181202237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a5f0acee94475%3A0x5d89e40a56d5c3f6!2zSE9SSVpPTiBCQVkgSOG6oCBMT05HIC0gVFLhu7BDIFRJ4bq-UCBDxJBU!5e1!3m2!1sen!2s!4v1770175110251!5m2!1sen!2s\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": null,
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_7d137ca3417b531e868b5fb7a2a818170cc183e2\" class=\"img img-fluid o_we_custom_image\"></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "HB",
+      "image_coordinate_name": "HB",
+      "image_data": [
+        {
+          "image_name": "1. AVATAR MẪU.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/1._AVATAR_MẪU.jpg_9b8f2494c0f1803dc1e64578fd1a3e799520b7ef"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "HO",
+      "image_coordinate_name": "HO",
+      "image_data": [
+        {
+          "image_name": "ho.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/ho.jpg_3acc18f2526132f16763defef4cc6e57e4b48c32"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "CHÍNH SÁCH BÁN HÀNG",
+      "link_utility_url": "https://drive.google.com/drive/folders/17PRCUFByXsntSUJm__gTEYBNitgEpQ5u"
+    },
+    {
+      "link_utility_name": "LAYOUT",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgAvTD0paEBzSpD0txc5BtgBATYzt74-a5f8q-QdNiLQzm4?e=9Hi8cH"
+    },
+    {
+      "link_utility_name": "MẪU HỢP ĐỒNG",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgD1K_Ct732eQ4RlKBFDC8vOAcXXRivrorFtzwXtyXXuR_Y?e=yy04mL"
+    },
+    {
+      "link_utility_name": "PHÁP LÝ DỰ ÁN",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgDGEy87Oac-Sp-c46PBpVlSAewtfE1Jr9tDYktx3lwC0Qo?e=Q9qb9z"
+    },
+    {
+      "link_utility_name": "TÀI LIỆU DỰ ÁN",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgD2PzmRCXhiQbCz2he1qyG3ARQFG2B2sbyp-Q4vdI5QeBo?e=FagKuR"
+    },
+    {
+      "link_utility_name": "TỔNG MẶT BẰNG",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgBfWXvFVXBeR6cugyCNv_QEAcIOT3PybKhzj6Z6LcWUn6o?e=AFMa9t"
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}

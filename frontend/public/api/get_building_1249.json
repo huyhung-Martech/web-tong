@@ -1,0 +1,72 @@
+[
+  {
+    "id": 834,
+    "projectId": 1249,
+    "name": "A3",
+    "floorCount": 25,
+    "createdAt": 1781920220866
+  },
+  {
+    "id": 835,
+    "projectId": 1249,
+    "name": "K1",
+    "floorCount": 25,
+    "createdAt": 1781920220856
+  },
+  {
+    "id": 836,
+    "projectId": 1249,
+    "name": "K2",
+    "floorCount": 25,
+    "createdAt": 1781920220846
+  },
+  {
+    "id": 837,
+    "projectId": 1249,
+    "name": "K3",
+    "floorCount": 25,
+    "createdAt": 1781920220835
+  },
+  {
+    "id": 838,
+    "projectId": 1249,
+    "name": "K5",
+    "floorCount": 25,
+    "createdAt": 1781920220875
+  },
+  {
+    "id": 860,
+    "projectId": 1249,
+    "name": "A1",
+    "floorCount": 25,
+    "createdAt": 1781920220794
+  },
+  {
+    "id": 1377,
+    "projectId": 1249,
+    "name": "A2",
+    "floorCount": 25,
+    "createdAt": 1781920220345
+  },
+  {
+    "id": 1589,
+    "projectId": 1249,
+    "name": "S2",
+    "floorCount": 25,
+    "createdAt": 1781920219691
+  },
+  {
+    "id": 1638,
+    "projectId": 1249,
+    "name": "S1",
+    "floorCount": 25,
+    "createdAt": 1781920219498
+  },
+  {
+    "id": 1656,
+    "projectId": 1249,
+    "name": "S3",
+    "floorCount": 25,
+    "createdAt": 1781920219336
+  }
+]

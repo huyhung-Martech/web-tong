@@ -1,0 +1,67 @@
+[
+  {
+    "id": 28235,
+    "code": "S203A21",
+    "floor_number": 3,
+    "room_number": "21",
+    "direction": "Chính Tây",
+    "area_usable": 62.0,
+    "area_carpet": 65.0,
+    "price": 3946000000.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 28529,
+    "code": "S22117",
+    "floor_number": 21,
+    "room_number": "17",
+    "direction": "Tây Bắc",
+    "area_usable": 76.0,
+    "area_carpet": 71.0,
+    "price": 5338000000.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 29403,
+    "code": "S203A24",
+    "floor_number": 3,
+    "room_number": "24",
+    "direction": "Chính Bắc",
+    "area_usable": 84.0,
+    "area_carpet": 78.0,
+    "price": 4000429969.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 29404,
+    "code": "S22017",
+    "floor_number": 20,
+    "room_number": "17",
+    "direction": "Tây Bắc",
+    "area_usable": 70.0,
+    "area_carpet": 60.0,
+    "price": 5306000000.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 29861,
+    "code": "S203A17",
+    "floor_number": 3,
+    "room_number": "17",
+    "direction": "Chính Nam",
+    "area_usable": 85.0,
+    "area_carpet": 80.0,
+    "price": 5442389617.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  }
+]

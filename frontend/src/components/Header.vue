@@ -40,14 +40,6 @@
             Liên hệ đại lý
           </a>
 
-          <!-- User status / login -->
-          <div v-if="user" class="flex items-center gap-2">
-            <img :src="user.avatarUrl || 'https://via.placeholder.com/40'" class="w-8 h-8 rounded-full border border-slate-300 shadow-inner" alt="Avatar">
-            <button @click="$emit('logout')" class="text-xs text-red-500 font-semibold hover:underline">Đăng xuất</button>
-          </div>
-          <router-link v-else to="/sign-in" class="flex items-center gap-1.5 border border-slate-200 hover:bg-slate-50 text-slate-700 px-3.5 py-2 rounded-xl text-xs font-extrabold transition-all">
-            Đăng nhập
-          </router-link>
         </div>
       </div>
     </div>

@@ -1,0 +1,67 @@
+[
+  {
+    "id": 22100,
+    "code": "BS1013.22",
+    "floor_number": 13,
+    "room_number": "22",
+    "direction": "Chính Tây",
+    "area_usable": 73.0,
+    "area_carpet": 97.0,
+    "price": 5957429820.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 22154,
+    "code": "BS1032.27",
+    "floor_number": 32,
+    "room_number": "27",
+    "direction": "Đông Nam",
+    "area_usable": 55.0,
+    "area_carpet": 64.0,
+    "price": 5792226186.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 22155,
+    "code": "BS1039.17",
+    "floor_number": 39,
+    "room_number": "17",
+    "direction": "Chính Tây",
+    "area_usable": 67.0,
+    "area_carpet": 60.0,
+    "price": 5669934959.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 28788,
+    "code": "BS1034.27",
+    "floor_number": 34,
+    "room_number": "27",
+    "direction": "Tây Bắc",
+    "area_usable": 66.0,
+    "area_carpet": 83.0,
+    "price": 5689535372.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 28796,
+    "code": "BS1035.27",
+    "floor_number": 35,
+    "room_number": "27",
+    "direction": "Tây Bắc",
+    "area_usable": 65.0,
+    "area_carpet": 78.0,
+    "price": 5680605805.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  }
+]

@@ -1,0 +1,555 @@
+{
+  "id": 612,
+  "name": "VINHOMES GRAND PARK",
+  "slug": "vinhomes-grand-park",
+  "description": "Vinhomes Grand Park hứa hẹn trở thành điểm đến quốc tế mới “Thành phố triệu điểm đến” đối với du khách trong và ngoài nước",
+  "location": "Đường Nguyễn Xiển - Phước Thiện, phường Long Bình, TP. Hồ Chí Minh",
+  "developer": "VINHOMES",
+  "estateType": "high_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/GrandPark-Q9.jpg_ec8ab4773219b1c29e72002e487f3a876a3e4e66",
+  "viewCount": 24780,
+  "status": "opening",
+  "createdAt": 1781920217979,
+  "ownershipType": null,
+  "constructionDensity": null,
+  "developmentScale": null,
+  "buildDate": null,
+  "progress": null,
+  "locationHtml": "<h2><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-1_e5a0cbf560c1b89d8819cf72856b1b1e54798835\" class=\"img img-fluid o_we_custom_image\"></h2><h2>Tọa độ Vàng - Ngàn kết nối</h2><p>\n\n\n<strong>5phút</strong></p><ul><li>Khu Công nghệ cao 2</li><li>Bệnh viện Đa khoa Thành phố</li><li>Đại học Fullbright</li></ul><p><strong>8phút</strong></p><ul><li>Trung tâm hành chính</li><li>Bến xe miền Đông mới</li><li>Metro Bên Thành - Suối Tiên</li></ul><p><strong>15phút</strong></p><ul><li>Khu du lịch Suối Tiên</li><li>Cao tốc Long Thành - Dầu Giây</li><li>Hầm Thủ Thiêm</li></ul><p><strong>30phút</strong></p><ul><li>Trung tâm TP. Hồ Chí Minh</li><li>Vinhomes Central Park</li><li>Vinhomes Golden River</li></ul><p><strong>40phút</strong></p><ul><li><img src=\"https://grandpark.vinhomes.vn/wp-content/themes/main/assets/images/home/section8/icon-location.svg\">Sân bay quốc tế Long Thành</li></ul>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7837.233619035034!2d106.82821154594424!3d10.840608471092882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175218eb9cd4d71%3A0xf2769bc55a193936!2zVmluaG9tZXMgR3JhbmQgUGFyayBRdeG6rW4gOSAoVFAgVGjhu6cgxJDhu6ljKQ!5e0!3m2!1svi!2s!4v1746634434603!5m2!1svi!2s\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": "https://360.goku.agency/vinhomes-grand-park/toan-canh",
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p>&nbsp;</p><p></p><p></p><p></p><p></p><p></p><p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_01e94f0b36315d497d329103bdef7fefd466eecf\" class=\"img img-fluid o_we_custom_image\" style=\"width: 100%;\"></p><p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-2_9097c0d5fc6b44c3bd39b613ea808f09fb435c75\" class=\"img img-fluid o_we_custom_image\" style=\"width: 100%;\"></p><p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-3_83db440f5b39906fe7b24b49e61957a3841946ad\" class=\"img img-fluid o_we_custom_image\" style=\"width: 100%;\"></p><p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-5_7c554ea53546fa072cfe7feeb66ae0a46cf8f640\" class=\"img img-fluid o_we_custom_image\" style=\"width: 100%;\"></p><p><img class=\"img-fluid\" src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-5_1b2561743fb6dc6a6f90d40338f17add0f8e7068\"></p><p><img class=\"img-fluid\" src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-6_76b6e4b980a89d2d190375215bed17838ebfbc20\"></p><p></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "BE1",
+      "image_coordinate_name": "BE1",
+      "image_data": [
+        {
+          "image_name": "BE-1.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/BE-1.jpg_438ab2ec068c13a867a2a788ebfc0d47ebce5ff6"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "BE2",
+      "image_coordinate_name": "BE2",
+      "image_data": [
+        {
+          "image_name": "BE-2.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/BE-2.jpg_3d663d3da7b1d71af41a5f73e1bf4a53dfc35516"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "BE3",
+      "image_coordinate_name": "BE3",
+      "image_data": [
+        {
+          "image_name": "BE-3.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/BE-3.jpg_3b7ca2605c658e09ca964e8509c3da64d4d6ec2e"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "BE5",
+      "image_coordinate_name": "BE5",
+      "image_data": [
+        {
+          "image_name": "be-5.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/be-5.jpg_cc4a06f1313eb2106cda2948d42dd85b58827ea1"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "BE6",
+      "image_coordinate_name": "BE6",
+      "image_data": [
+        {
+          "image_name": "be-6.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/be-6.jpg_f3447a40677ff3022768d67111a43a714b92d63b"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "BE7",
+      "image_coordinate_name": "BE7",
+      "image_data": [
+        {
+          "image_name": "BE-7.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/BE-7.jpg_c4f3d8e75f3c0ca82440f61a000bc098609a378c"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "BS10",
+      "image_coordinate_name": "BS10",
+      "image_data": [
+        {
+          "image_name": "BS-10.png",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/BS-10.png_0bcf7c69442efc2d9dde4ead0489953cf1a4b452"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "BS11",
+      "image_coordinate_name": "BS11",
+      "image_data": [
+        {
+          "image_name": "BS-11.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/BS-11.jpg_e97e844ef0c24b0640b5fc9d11862ded79adfc17"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "BS12",
+      "image_coordinate_name": "BS12",
+      "image_data": [
+        {
+          "image_name": "BS-12.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/BS-12.jpg_02cf2a083bf3bbc9d0ec105ff06937ef332fda3d"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "BS15",
+      "image_coordinate_name": "BS15",
+      "image_data": [
+        {
+          "image_name": "BS-15.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/BS-15.jpg_954cfefd89ccf2f7b770140cb075eab64f37b41e"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "BS16",
+      "image_coordinate_name": "BS16",
+      "image_data": [
+        {
+          "image_name": "BS16.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/BS16.jpg_a2196ab3840fd82890337d66e6801f216498334d"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "BS7",
+      "image_coordinate_name": "BS7",
+      "image_data": [
+        {
+          "image_name": "BS-07.png",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/BS-07.png_1a6a525b2d4c27e269dce62ed850fc119192523c"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "BS8",
+      "image_coordinate_name": "BS8",
+      "image_data": [
+        {
+          "image_name": "BS-08.png",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/BS-08.png_19b7dc7bebecdd4140c8319cb3636090d34a1e15"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "BS9",
+      "image_coordinate_name": "BS9",
+      "image_data": [
+        {
+          "image_name": "BS-09.png",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/BS-09.png_969f403b94299a65d2957337da5bc16f9c859b33"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "GH1",
+      "image_coordinate_name": "GH1",
+      "image_data": [
+        {
+          "image_name": "GH1.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/GH1.jpg_0cecbff9dbc2030c4caeebca5d885b5d35150822"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "GH2",
+      "image_coordinate_name": "GH2",
+      "image_data": [
+        {
+          "image_name": "GH2.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/GH2.jpg_b9970f6a051370bffdaa96a80450133ae3b259d2"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "GH3",
+      "image_coordinate_name": "GH3",
+      "image_data": [
+        {
+          "image_name": "GH3.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/GH3.jpg_c2c99fc068fa532bd555eb071572e4fd5b842ab4"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "GH5",
+      "image_coordinate_name": "GH5",
+      "image_data": [
+        {
+          "image_name": "GH5 (1).jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/GH5_(1).jpg_4486d1ebbdb564648322d4f3719aeec52a036f8c"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "GH6",
+      "image_coordinate_name": "GH6",
+      "image_data": [
+        {
+          "image_name": "GH6 (1).jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/GH6_(1).jpg_12d4f3bbc48fda17445ce74c3e50c66ff500fbb2"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "OS2",
+      "image_coordinate_name": "OS2",
+      "image_data": [
+        {
+          "image_name": "OS2 (1).jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/OS2_(1).jpg_798856edbd6486b20ac919ea8191d25c105f8f35"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S1.01",
+      "image_coordinate_name": "S1.01",
+      "image_data": [
+        {
+          "image_name": "S1.01.png",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/S1.01.png_807ceac2d1335ebfb136ef4132f14a65a1348cdc"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S1.02",
+      "image_coordinate_name": "S1.02",
+      "image_data": [
+        {
+          "image_name": "S1.02.png",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/S1.02.png_fb5836674ce1b36560f0d77c3ca114c561c8d502"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S1.06",
+      "image_coordinate_name": "S1.06",
+      "image_data": [
+        {
+          "image_name": "S1.06.png",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/S1.06.png_802c28a221cf98e0176ccf9b229dc26091ba7f80"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S1.07",
+      "image_coordinate_name": "S1.07",
+      "image_data": [
+        {
+          "image_name": "S1.07.png",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/S1.07.png_99cd3311a7c38633d6b5be263afdcf3d83923155"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S10-01",
+      "image_coordinate_name": "S10-01",
+      "image_data": [
+        {
+          "image_name": "S10.01.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/S10.01.jpg_3bf4b1a7f14cf2f1cc7a55450c08ed8d6888e6cb"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S10.02",
+      "image_coordinate_name": "S10.02",
+      "image_data": [
+        {
+          "image_name": "S10-02.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/S10-02.jpg_d62d03433d1c69efa4f57d0c2dda38be162601bd"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S10.03",
+      "image_coordinate_name": "S10.03",
+      "image_data": [
+        {
+          "image_name": "S10-03.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/S10-03.jpg_f9ae22f9580e006a6415f888a4d613a7ad7fe825"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S10.06",
+      "image_coordinate_name": "S10.06",
+      "image_data": [
+        {
+          "image_name": "S10-06.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/S10-06.jpg_448b0fee9e2c6cb7bc8e5b44a33c7faa0a8d744a"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S10.07",
+      "image_coordinate_name": "S10.07",
+      "image_data": [
+        {
+          "image_name": "S10-07.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/S10-07.jpg_73e129bce55d3b5c4b26bb3addaac03b015238bb"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S2.01",
+      "image_coordinate_name": "S2.01",
+      "image_data": [
+        {
+          "image_name": "S2.01.png",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/S2.01.png_da315f9a59e85902601da91fc39672d225b7eb40"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S2.03",
+      "image_coordinate_name": "S2.03",
+      "image_data": [
+        {
+          "image_name": "S2.03.png",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/S2.03.png_841f4c965425e148f54d9ec739adbb501de41d61"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S2.05",
+      "image_coordinate_name": "S2.05",
+      "image_data": [
+        {
+          "image_name": "S2.05.png",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/S2.05.png_7871758f53b595698d703d60c628768edeac9bed"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S3.01",
+      "image_coordinate_name": "S3.01",
+      "image_data": [
+        {
+          "image_name": "S3.01.png",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/S3.01.png_230df820a36a49077d99a5d86dfa6bb77e5d793d"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S3.02",
+      "image_coordinate_name": "S3.02",
+      "image_data": [
+        {
+          "image_name": "S3.02.png",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/S3.02.png_984e37805f0c8d4d31e368b4204abc731c759a3b"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S5.01",
+      "image_coordinate_name": "S5.01",
+      "image_data": [
+        {
+          "image_name": "S5.01.png",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/S5.01.png_55b489c20881e92c09dfb317ec9b8830108ce390"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S5.03",
+      "image_coordinate_name": "S5.03",
+      "image_data": [
+        {
+          "image_name": "S5.03.png",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/S5.03.png_694faf6b1804d57923cf635682fb44d3eba7fdf4"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S6.01",
+      "image_coordinate_name": "S6.01",
+      "image_data": [
+        {
+          "image_name": "S6-01.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/S6-01.jpg_34dc39cee00342ad4db4065c2c9d279c0043d367"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S6.02",
+      "image_coordinate_name": "S6.02",
+      "image_data": [
+        {
+          "image_name": "S6-02.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/S6-02.jpg_606a2f1ee724cf4585d701aede6f89b1aa0b36ce"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S6.03",
+      "image_coordinate_name": "S6.03",
+      "image_data": [
+        {
+          "image_name": "S6-03.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/S6-03.jpg_2448ba819a01ec6d6d1f7d6df174b94689d8f799"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S6.05",
+      "image_coordinate_name": "S6.05",
+      "image_data": [
+        {
+          "image_name": "S6-05.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/S6-05.jpg_2d81586b0498124c1e355d847903957bbddaac7e"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S6.06",
+      "image_coordinate_name": "S6.06",
+      "image_data": [
+        {
+          "image_name": "S6-06.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/S6-06.jpg_b8e5d3d4589aaee0d4deb1c1bb18848442613f19"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S7-01",
+      "image_coordinate_name": "S7-01",
+      "image_data": [
+        {
+          "image_name": "S7.01.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/S7.01.jpg_e3e027a815fa6a7bc41e7dd3ef6eb36f9df4c2f6"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S8-01",
+      "image_coordinate_name": "S8-01",
+      "image_data": [
+        {
+          "image_name": "S8.01.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/S8.01.jpg_6b241d857fad0f44ec4565576b0be2b7d2e38a81"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S9-03",
+      "image_coordinate_name": "S9-03",
+      "image_data": [
+        {
+          "image_name": "S9.03.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/S9.03.jpg_ade019c4cc7fca17bf40ef48f9dfd36092602dee"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "GP",
+      "image_coordinate_name": "VINHOMES GRAND PARK",
+      "image_data": [
+        {
+          "image_name": "GrandPark-Q9.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/GrandPark-Q9.jpg_ec8ab4773219b1c29e72002e487f3a876a3e4e66"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "ẢNH OS1",
+      "image_coordinate_name": "ẢNH OS1",
+      "image_data": [
+        {
+          "image_name": "TOA-OPS1.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/TOA-OPS1.jpg_1400c81fab040b3729a7f7dd953b364dc7574d4a"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "ẢNH OS5",
+      "image_coordinate_name": "ẢNH OS5",
+      "image_data": [
+        {
+          "image_name": "OPS5.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/OPS5.jpg_4c96d1f0095f548d604794c2a950ccc77650423b"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "CHÍNH SÁCH BÁN HÀNG",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgCywBqEwjSRSKJT7__iCqo9AcLEm4_lb5mvEYRxZmAsX1c?e=GvvgwI"
+    },
+    {
+      "link_utility_name": "MẪU HỢP ĐỒNG MUA BÁN",
+      "link_utility_url": "https://drive.google.com/drive/folders/1PG-4HhJIf7vf7UtKDNxzXtr53ORMCCtJ?usp=drive_link"
+    },
+    {
+      "link_utility_name": "PHÂN KHU BEVERLY",
+      "link_utility_url": "https://drive.google.com/drive/folders/1xE4ZkZvi_cHuNTs5uvbW8UUW1f-U6RfJ?usp=drive_link"
+    },
+    {
+      "link_utility_name": "PHÂN KHU BEVERLY SOLARI",
+      "link_utility_url": "https://drive.google.com/drive/folders/1E28z7u9iuHm_5yNVtM02o2usR-oayHsw?usp=drive_link"
+    },
+    {
+      "link_utility_name": "PHÂN KHU GLORY HEIGHTS",
+      "link_utility_url": "https://drive.google.com/drive/folders/1u61DEcrKZMFaoNiZaOwA653WrjYTcxgs?usp=drive_link"
+    },
+    {
+      "link_utility_name": "PHÂN KHU MANHATTAN",
+      "link_utility_url": "https://drive.google.com/drive/folders/1YYMCuB24GzY-3g4XBnri3YAjg9gcMW3U?usp=drive_link"
+    },
+    {
+      "link_utility_name": "PHÂN KHU MANHATTAN GLORY",
+      "link_utility_url": "https://drive.google.com/drive/folders/13sAQQ3vIEAXx6zftIXMujXHL3RZ8ONgj?usp=drive_link"
+    },
+    {
+      "link_utility_name": "PHÂN KHU ORIGAMI",
+      "link_utility_url": "https://drive.google.com/drive/folders/14y36lGGf24IoGubw-swvCk0x9mE4ukYO?usp=drive_link"
+    },
+    {
+      "link_utility_name": "PHÂN KHU RAINBOW",
+      "link_utility_url": "https://drive.google.com/drive/folders/1WQ8XhwG-kl5wCeCF3vfMTvLxOKu7gyUi?usp=sharing"
+    },
+    {
+      "link_utility_name": "PHÂN KHU THE OPUS ONE",
+      "link_utility_url": "https://drive.google.com/drive/folders/1HrG8X06ya-fnVL38aSmxkF-gqqNcxWM9?usp=drive_link"
+    },
+    {
+      "link_utility_name": "SLIDE ĐÀO TẠO",
+      "link_utility_url": "https://docs.google.com/presentation/d/11DuKPQJCwVHtJBoBedUslD93qOw0qzCk/edit?usp=drive_link&ouid=105594505059147333897&rtpof=true&sd=true"
+    },
+    {
+      "link_utility_name": "TIÊU CHUẨN BÀN GIAO",
+      "link_utility_url": "https://drive.google.com/drive/folders/1d7qeYs0sRUaM2tXn7eC9YpGyXASIDfEu?usp=drive_link"
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}

@@ -1,0 +1,111 @@
+{
+  "id": 1390,
+  "name": "THE VISTA VAN LA",
+  "slug": "the-vista-van-la-1",
+  "description": "Đô thị xanh kết nối, chuẩn sống tương lai phía Tây Hà Nội",
+  "location": "Đ. Quang Trung, P. Kiến Hưng, Hà Nội",
+  "developer": "KHÁC",
+  "estateType": "high_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Avata-dự-án.jpg_9c79adde5bf843da88e7b3cb4ba6c5fc6f942fd3",
+  "viewCount": 1340,
+  "status": "opening",
+  "createdAt": 1781920218066,
+  "ownershipType": "Lâu dài",
+  "constructionDensity": "26%",
+  "developmentScale": "02 Tòa 25 Tầng Và 02 Hầm",
+  "buildDate": null,
+  "progress": null,
+  "locationHtml": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-1_deda6dcd5ec7cd485be54e1cb134f46d3c091241\" class=\"img img-fluid o_we_custom_image\"></p><p>\nTọa lạc tại trung tâm khu vực phát triển năng động phía Tây Nam Hà Nội,\ndự án sở hữu lợi thế kết nối trực tiếp đến các trục giao thông huyết mạch và tuyến metro, cụ\nthể:&nbsp;</p><p>• Vành đai 3: Chạy sát ranh phía Đông Bắc Hà Đông, kết nối nhanh Hà Đông với: Thanh Xuân\n- Cầu Giấy - Nam Từ Liêm.&nbsp;</p><p>• Thông qua Đường Vành đai 3.5 Hà Nội, Hà Đông liên kết trực tiếp với chuỗi đô thị mới đang\nphát triển mạnh ở phía Tây, bao gồm: Khu đô thị Văn Phú - Khu đô thị Dương Nội - Khu đô\nthị ParkCity Hà Nội - Khu đô thị Geleximco Lê Trọng Tấn - các khu đô thị dọc Đại lộ Thăng\nLong và khu vực Hoài Đức - Bắc Từ Liêm.&nbsp;</p><p>• Thông qua Đường Vành đai 4 - Vùng Thủ đô (Hà Nội - Hưng Yên - Bắc Ninh), Hà Đông có\nthể kết nối nhanh tới hệ thống khu công nghiệp (KCN) lớn của vùng kinh tế Bắc Bộ, như:\nKCN Thăng Long II, KCN Yên Phong, KCN Quế Võ, KCN Phố Nối.</p><p>\n<strong>Từ The Vista Văn La - kết nối toàn thành phố chỉ trong một nhịp di chuyển:&nbsp;</strong></p><p><strong>• 2 phút</strong> đến Metro 2A (ga Văn Khê)&nbsp;</p><p><strong>• 5 phút</strong> đến MM Mega Mall Hà Đông&nbsp;</p><p>• <strong>10 phút</strong> đến: AEON Mall, Royal City, Đại lộ Thăng Long&nbsp;</p><p><strong>• 15 phút</strong> đến Trung tâm Hà Nội&nbsp;</p><p><strong>• 30 phút</strong> đến Hồ Gươm&nbsp;</p><p><strong>• 40 phút</strong> đến Sân bay quốc tế Nội Bài\n3.3.&nbsp;</p><p><strong>05 trục hạ tầng chiến lược của khu vực Hà Đông,</strong> gồm:&nbsp;</p><p>• 01 - Hanoi Metro Line 2A (Cát Linh - Hà Đông), trong đó có 05 ga tại địa bàn Hà Đông: ga\nVăn Quán, ga Hà Đông, ga La Khê, ga Văn Khê, ga Yên Nghĩa.&nbsp;</p><p>• 02 - Quốc lộ 6: Trục Quang Trung - Nguyễn Trãi\n• 03 - Trục Tố Hữu - Lê Văn Lương&nbsp;</p><p>• 04 - Đại lộ Thăng Long&nbsp;</p><p>• 05 - Cầu vượt Lê Trọng Tấn - QL6 (đã được phê duyệt, thực hiện 2026-2028)\n\n\n</p>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.8938097324876!2d105.75718267476734!3d20.956779190247875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x66052270999cff13%3A0x88639073d9509268!2sThe%20Vista%20V%C4%83n%20La!5e0!3m2!1sen!2s!4v1777866252663!5m2!1sen!2s\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": "https://kuula.co/share/LPqyr?logo=1&info=0&logosize=105&fs=1&vr=1&zoom=1&autorotate=0.02&thumbs=1&margin=2&alpha=0.70",
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_19017ec8f39102466ca203d4ad199937fe9cf4ca\" class=\"img img-fluid o_we_custom_image\"></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "avataTHEVISTA",
+      "image_coordinate_name": "avataTHEVISTA",
+      "image_data": [
+        {
+          "image_name": "Avata-dự-án.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Avata-dự-án.jpg_9c79adde5bf843da88e7b3cb4ba6c5fc6f942fd3"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "avataV1",
+      "image_coordinate_name": "avataV1",
+      "image_data": [
+        {
+          "image_name": "Avata-V1.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Avata-V1.jpg_94b31758b86370e808b2d570cc205eb9ab0965b4"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "avtV2vt",
+      "image_coordinate_name": "avtV2vt",
+      "image_data": [
+        {
+          "image_name": "Avata-V2.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Avata-V2.jpg_656b903e0fd25264e5c67e86c0a6c74800d732d3"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "CSBH",
+      "link_utility_url": "https://drive.google.com/drive/folders/14AqpDTp38TP94_dNwJy5g_W97AfyWmez?usp=drive_link"
+    },
+    {
+      "link_utility_name": "LAYOUT BÓC MÁI",
+      "link_utility_url": "https://drive.google.com/drive/folders/19jnsrU1qSmbIfGKP7kwq3Brt66sqsTJ5?usp=sharing"
+    },
+    {
+      "link_utility_name": "MẪU HỒ SƠ KHÁNH HÀNG",
+      "link_utility_url": "https://drive.google.com/drive/folders/1ye3BvEhqMCMCVP9qaAWBDk0ZFHIlJPL2?usp=sharing"
+    },
+    {
+      "link_utility_name": "MẶT BẰNG",
+      "link_utility_url": "https://drive.google.com/drive/folders/11LJEC6L4pBqApG_RSuI-YpeGYWJScEGZ?usp=drive_link"
+    },
+    {
+      "link_utility_name": "PHÁP LÝ DỰ ÁN",
+      "link_utility_url": "https://drive.google.com/drive/folders/1CaS8xIe13UM2Bz2NglUWzFSCw86dq7qB?usp=drive_link"
+    },
+    {
+      "link_utility_name": "Q&A",
+      "link_utility_url": "https://drive.google.com/drive/folders/1nyP6NjDlMpxTxaQ4d_FRxxSQ61yHwzua?usp=drive_link"
+    },
+    {
+      "link_utility_name": "TIÊU CHUẨN BÀN GIAO",
+      "link_utility_url": "https://drive.google.com/drive/folders/1ayYSpR0vf_WU1ohyfM9TQP8_IWf0rVC2?usp=sharing"
+    },
+    {
+      "link_utility_name": "TÀI LIỆU DỰ ÁN",
+      "link_utility_url": "https://drive.google.com/drive/folders/1R2qvmN_VEj5n6rWXVF9VCEG4fkpGmI_m?usp=drive_link"
+    },
+    {
+      "link_utility_name": "VIDEO",
+      "link_utility_url": "https://drive.google.com/drive/folders/1PfkiV2yCPxr_ilS5xsCI_FHxGj6auqdS?usp=drive_link"
+    },
+    {
+      "link_utility_name": "VỊ TRÍ DỰ ÁN",
+      "link_utility_url": "https://drive.google.com/drive/folders/16tDJ19tFa6fRLmY1nx5Joykz4c6Z0HIa?usp=drive_link"
+    },
+    {
+      "link_utility_name": "ẢNH PHỐI CẢNH",
+      "link_utility_url": "https://drive.google.com/drive/folders/11IMVd_TzNMiKRclFGZhdUP6BZHDMAagv?usp=drive_link"
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "id": 25422,
+    "code": "A40530",
+    "floor_number": 5,
+    "room_number": "30",
+    "direction": "Đông Nam",
+    "area_usable": 66.0,
+    "area_carpet": 79.0,
+    "price": 3981911931.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  }
+]

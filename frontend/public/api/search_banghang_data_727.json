@@ -1,0 +1,41 @@
+[
+  {
+    "id": 22202,
+    "code": "BS920.16",
+    "floor_number": 20,
+    "room_number": "16",
+    "direction": "Tây Nam",
+    "area_usable": 65.0,
+    "area_carpet": 93.0,
+    "price": 6002264566.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 22207,
+    "code": "BS931.19",
+    "floor_number": 19,
+    "room_number": "19",
+    "direction": "Chính Nam",
+    "area_usable": 66.0,
+    "area_carpet": 83.0,
+    "price": 5660333318.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 22209,
+    "code": "BS933.19",
+    "floor_number": 33,
+    "room_number": "19",
+    "direction": "Tây Nam",
+    "area_usable": 77.0,
+    "area_carpet": 67.0,
+    "price": 5616000000.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  }
+]

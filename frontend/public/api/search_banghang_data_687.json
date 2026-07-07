@@ -1,0 +1,41 @@
+[
+  {
+    "id": 25923,
+    "code": "S6.0221.15",
+    "floor_number": 21,
+    "room_number": "15",
+    "direction": "Đông Bắc",
+    "area_usable": 61.0,
+    "area_carpet": 67.0,
+    "price": 5520268481.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 26153,
+    "code": "S6.0221.01",
+    "floor_number": 21,
+    "room_number": "01",
+    "direction": "Đông Nam",
+    "area_usable": 67.0,
+    "area_carpet": 87.0,
+    "price": 5575868058.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 29323,
+    "code": "S6.0213.15",
+    "floor_number": 13,
+    "room_number": "15",
+    "direction": "Chính Đông",
+    "area_usable": 62.0,
+    "area_carpet": 60.0,
+    "price": 5542574350.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  }
+]

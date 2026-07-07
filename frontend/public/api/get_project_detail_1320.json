@@ -1,0 +1,299 @@
+{
+  "id": 1320,
+  "name": "SUN URBAN CITY",
+  "slug": "sun-urban-city",
+  "description": "Đô thị nghỉ dưỡng phía Nam Hà Nội",
+  "location": "Phường Lam Hạ, TP Phủ Lý, Tỉnh Hà Nam (Ninh Bình)",
+  "developer": "SUN GROUP",
+  "estateType": "high_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/avatar_sun_urban.jpg_585d8f2b87c3b0f14ea0c76e5cea61a445e6db11",
+  "viewCount": 882,
+  "status": "opening",
+  "createdAt": 1781920218533,
+  "ownershipType": "Sở hữu lâu dài",
+  "constructionDensity": "18%",
+  "developmentScale": "420ha",
+  "buildDate": null,
+  "progress": null,
+  "locationHtml": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-1_6c16204c645ebbc710734de0326fe9e6115fa7e2\" class=\"img img-fluid o_we_custom_image\"></p><p>Dự án sở hữu vị trí chiến lược với khả năng kết nối giao thông thuận lợi khi nằm gần Quốc lộ 1A, cao tốc Pháp Vân – Cầu Giẽ – Ninh Bình, các tuyến Vành đai 3.5 và 4; trong tương lai còn liên thông với Vành đai 5 Vùng Thủ đô, sân bay Ứng Hòa và đường sắt cao tốc Bắc – Nam, hình thành cửa ngõ giao thương đa phương thức. Điểm nhấn nổi bật là mô hình “thành phố trong lòng thành phố” với không gian sống sinh thái, hiện đại, tiện ích đồng bộ; vị trí phong thủy đắc địa tại giao điểm ba dòng sông lớn mang lại sinh khí dồi dào, đồng thời sở hữu tiềm năng tăng giá hấp dẫn nhờ hưởng lợi trực tiếp từ sự phát triển mạnh mẽ của hạ tầng giao thông Hà Nam và Vùng Thủ đô.</p>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.552256234325!2d105.91990947475718!3d20.56549280352979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135cf102adc17eb%3A0x4e0e45c5cb9ed3a2!2sSun%20Urban%20City%20H%C3%A0%20Nam!5e0!3m2!1sen!2s!4v1765961368662!5m2!1sen!2s\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": "https://kuula.co/share/collection/71c2C?logo=0&info=0&fs=1&vr=1&sd=1&initload=0&thumbs=1",
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_27158f08c89d84a6ac53fb400cfd3d202282efc7\" class=\"img img-fluid o_we_custom_image\"></p><p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-2_0edd53ed0d3a46f7941e196f7a6d1bbc7cdee9dc\" class=\"img img-fluid o_we_custom_image\"></p><p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-3_b80122e92de295f88e52dcbc79e5b09dbccfb4a2\" class=\"img img-fluid o_we_custom_image\"></p><p><br></p><p></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "A2-art",
+      "image_coordinate_name": "A2",
+      "image_data": [
+        {
+          "image_name": "a2.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/a2.jpg_46a1ad9d18e297ce863412ec6f9bf9d4bf458c44"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "a3-art",
+      "image_coordinate_name": "A3",
+      "image_data": [
+        {
+          "image_name": "a3.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/a3.jpg_b9b97d65cf2cb599674bf724b62cabced641bdb7"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "A4-art",
+      "image_coordinate_name": "A4",
+      "image_data": [
+        {
+          "image_name": "a4.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/a4.jpg_0ea434ebeb20de17d80da3103e9e93f9aa142b7c"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "A8-ART",
+      "image_coordinate_name": "A8",
+      "image_data": [
+        {
+          "image_name": "a8.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/a8.jpg_3caa768b3c0ad935c296b8890ffad8db84eda883"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "AVATAR_SUN_URBAN",
+      "image_coordinate_name": "AVATAR SUN URBAN TT",
+      "image_data": [
+        {
+          "image_name": "avatar sun urban.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/avatar_sun_urban.jpg_585d8f2b87c3b0f14ea0c76e5cea61a445e6db11"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "P11",
+      "image_coordinate_name": "P11",
+      "image_data": [
+        {
+          "image_name": "P11.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/P11.jpg_e81b4d94f972240723fbddf4659ba5c9de1c35fe"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "P25",
+      "image_coordinate_name": "P25",
+      "image_data": [
+        {
+          "image_name": "p25.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/p25.jpg_7d138ac52da29335688dfaaa6c5df0c79db44f07"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "P26",
+      "image_coordinate_name": "P26",
+      "image_data": [
+        {
+          "image_name": "p26.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/p26.jpg_73b35c922a25197bf611e9e7a8c0dadd11f6c009"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "P28",
+      "image_coordinate_name": "P28",
+      "image_data": [
+        {
+          "image_name": "p28.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/p28.jpg_cea7179270bc320f7a6ad36da5b90288bd929f5c"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "A6-art",
+      "image_coordinate_name": "a6",
+      "image_data": [
+        {
+          "image_name": "a6.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/a6.jpg_46e1624df992fe935a84ebf891188009675ec230"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "A7-art",
+      "image_coordinate_name": "a7",
+      "image_data": [
+        {
+          "image_name": "a7.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/a7.jpg_296043c9aac50a11c35c2c4b46203ac62e9e0491"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "pr-p10",
+      "image_coordinate_name": "p10",
+      "image_data": [
+        {
+          "image_name": "P10.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/P10.jpg_0b80f7b99543b7aea0d6c7a2bcb5f7755f73fac3"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "p15",
+      "image_coordinate_name": "p15",
+      "image_data": [
+        {
+          "image_name": "P15.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/P15.jpg_0b4fea538780f3ed1acb9341d430b6fd559d69b4"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "p16",
+      "image_coordinate_name": "p16",
+      "image_data": [
+        {
+          "image_name": "P16.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/P16.jpg_13791c4176fd1d7cbd35fc15ca92cb5e287f0e03"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "p18",
+      "image_coordinate_name": "p18",
+      "image_data": [
+        {
+          "image_name": "P18.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/P18.jpg_bf64aef9d8e1452a2ee079dc9750e94bd2063f8b"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "p19",
+      "image_coordinate_name": "p19",
+      "image_data": [
+        {
+          "image_name": "P19.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/P19.jpg_9a326f28f912536ed1b0bda8747a1efc21fb28f8"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "p24",
+      "image_coordinate_name": "p24",
+      "image_data": [
+        {
+          "image_name": "p24.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/p24.jpg_135488d54e00af57a9050b090538a0c974ec9d02"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "p3",
+      "image_coordinate_name": "p3",
+      "image_data": [
+        {
+          "image_name": "P3.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/P3.jpg_2115abe2dc23a113513ec13042a7027cc173242a"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "p4",
+      "image_coordinate_name": "p4",
+      "image_data": [
+        {
+          "image_name": "P4.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/P4.jpg_b09a8635b5902b84a6e13ba13ae81eae304286f1"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "PR-P5",
+      "image_coordinate_name": "p5",
+      "image_data": [
+        {
+          "image_name": "P5.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/P5.jpg_7ee265117a1d28b3a4ebaa0515ed4f34b8624729"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "p6",
+      "image_coordinate_name": "p6",
+      "image_data": [
+        {
+          "image_name": "P6.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/P6.jpg_4cb5912c18ab4b34b1f685cbaa25d9091f1f1ea6"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "p8",
+      "image_coordinate_name": "p8",
+      "image_data": [
+        {
+          "image_name": "P8.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/P8.jpg_29e5ca57f7ac81909402bf916a153a215b42566b"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "pr-p9",
+      "image_coordinate_name": "p9",
+      "image_data": [
+        {
+          "image_name": "P9.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/P9.jpg_5954da2480a0a881dfb9a4c4328f7817cb61f95f"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "CHÍNH SÁCH BÁN HÀNG",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgBbSrIqMPmBS6mUwgfvYF0_AUAZ6MyPkx7cd9ftG_9Li0k?e=fTg1uf"
+    },
+    {
+      "link_utility_name": "HỒ SƠ PHÁP LÝ",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgABAVroSCfLQZpyPt-Q8rKqAcKNaHpuLSCqEUsL6nWg10k?e=ZKdgT8"
+    },
+    {
+      "link_utility_name": "MẪU NHÀ",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgCVQKtlnw3XRYd65ltzY5m8AUrrA7tHjLycYboHfRl9UC0?e=6Iimvy"
+    },
+    {
+      "link_utility_name": "MẶT BẰNG",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgBJ9Vwo0my7QaNO06BDPWnYAQJZSEg2jESUtL0EnX1yqpQ?e=papCIe"
+    },
+    {
+      "link_utility_name": "PHỐI CẢNH",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgDSUYrtMqhfQ4XecV8lORMgATQgnk8iM29k5NqBXOqpbUM?e=0c0UNc"
+    },
+    {
+      "link_utility_name": "TIÊU CHUẨN BÀN GIAO",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgAgWseyx3lORoCB5z-qv2eCAUdlibLnuTGLh3xkg6UnFoA?e=weks0g"
+    },
+    {
+      "link_utility_name": "TÀI LIỆU ĐÀO TẠO",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgDOiMf7bvefSKgv7qFygYbdAfiwgvqZ7eknIxYt58vM04w?e=usJTeN"
+    },
+    {
+      "link_utility_name": "VĂN BẢN + HỢP ĐỒNG",
+      "link_utility_url": "https://mayhomesvn-my.sharepoint.com/:f:/g/personal/data_mayhomes_vn/IgBOg6AeYfC-T72Hhnz7deooAasbuXSeLA3z_OB7dXptjKk?e=FeIwQh"
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}

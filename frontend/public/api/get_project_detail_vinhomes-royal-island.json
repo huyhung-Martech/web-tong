@@ -1,0 +1,193 @@
+{
+  "id": 181,
+  "name": "VINHOMES ROYAL ISLAND",
+  "slug": "vinhomes-royal-island",
+  "description": "Vinhomes Royal Island là đại đô thị thông minh đẳng cấp quốc tế tọa lạc tại đảo Vũ Yên, thành phố Hải Phòng.",
+  "location": "Thủy Nguyên, Hải An, Hải Phòng",
+  "developer": "VINHOMES",
+  "estateType": "low_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/VHRI.jpg_09c0b7212334a0420e936e64ebfb10e952dc5ade",
+  "viewCount": 11418,
+  "status": "opening",
+  "createdAt": 1781920218007,
+  "ownershipType": null,
+  "constructionDensity": null,
+  "developmentScale": null,
+  "buildDate": null,
+  "progress": null,
+  "locationHtml": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-1_9ffd4ec8eadd4a37027b172777bae322c3965b48\" class=\"img img-fluid o_we_custom_image\"></p><p>Vinhomes Royal Island là Thành phố đảo hoàng gia đầu tiên của Việt Nam tọa lạc ngay giữa Trung tâm của Thành phố Cảng sôi động, với vị trí đắc địa hội tụ 3 “địa thế vàng” Không – Thuỷ – Bộ,&nbsp;<strong>Vinhomes Royal Island</strong>&nbsp;mang đến cho cư dân cuộc sống tiện nghi nhờ khả năng kết nối nhanh chóng ngay tới nội thành, các trung tâm kinh tế lớn của miền Bắc và quốc tế.</p><ul><li>&nbsp;5 phút kết nối thẳng tới “Thành phố tương lai Thuỷ Nguyên” – Trung tâm mới của Hải Phòng qua cầu Vũ Yên.</li><li>&nbsp;10 phút đến thẳng Trung tâm thành phố Cảng qua cầu Hoàng gia.</li><li>&nbsp;40 phút di chuyển, đến ngay Vịnh di sản Hạ Long ngàn năm.</li><li>&nbsp;60 phút tới Thủ đô Hà Nội.</li><li>&nbsp;Chỉ 2 – 4h bay, vi vu tới các “Thủ phủ của châu Á” như Thái Lan, Hàn Quốc, Trung Quốc, Nhật Bản… nhờ gần kề 3 sân bay quốc tế lớn nhất miền Bắc: Cát Bi – Nội Bài- Vân Đồn.</li></ul><p><strong>Vị trí đắc địa của Vinhomes Royal Island.</strong></p><ul><li>Nằm trọn vẹn trên đảo Vũ Yên, trung tâm hành chính mới của Hải Phòng, được ví như “hòn ngọc” giữa lòng thành phố Cảng.</li><li>Tiếp giáp với sông Cửa Cấm và sông Thượng Lý, mang đến cảnh quan sông nước trù phú, thanh bình.</li><li>Kết nối trực tiếp với cao tốc Hà Nội – Hải Phòng và quốc lộ 5A, tạo điều kiện di chuyển nhanh chóng, thuận tiện.</li><li>Gần cảng hàng không quốc tế Cát Bi và ga Hải Phòng, thúc đẩy giao thương liên kết trong khu vực và quốc tế.</li></ul><p><br></p>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2835.7137432438476!2d106.71673628488922!3d20.875784919253007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7b2e201117e7%3A0x87028aeac64ea89a!2zVmluaG9tZXMgVsWpIFnDqm4!5e0!3m2!1sen!2s!4v1741834119145!5m2!1sen!2s\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": "https://kuula.co/share/hYnvb?logo=0",
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p></p><p></p><p></p><p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_54f319a560e0a465cef172e8a090bb9b7acf8260\" class=\"img img-fluid o_we_custom_image\" style=\"width: 100%;\"></p><p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-2_7f28aa068c414ebc867360b15489950a2e5acd30\" class=\"img img-fluid o_we_custom_image\" style=\"width: 100%;\"></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "QUÝ TỘC",
+      "image_coordinate_name": "AVAQUYTOC",
+      "image_data": [
+        {
+          "image_name": "Quytoc.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Quytoc.jpg_5273a7f701efae54b2d0e0df5babae0a16eed920"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "GOLFLAND",
+      "image_coordinate_name": "AVARGOLFLAND",
+      "image_data": [
+        {
+          "image_name": "Golfland.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Golfland.jpg_50c63f85e2da5d9ab8898556265cc6db683c526f"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "Hoàng Gia",
+      "image_coordinate_name": "AvaHoangGia",
+      "image_data": [
+        {
+          "image_name": "Hoanggia.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Hoanggia.jpg_ae5afc1c95a1f37b9b22c09dde24035017fb5826"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "Miyabi",
+      "image_coordinate_name": "AvaMiyabi",
+      "image_data": [
+        {
+          "image_name": "Miyabi.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Miyabi.jpg_81586361af9951fee3b38af723c2c2f9fd997aba"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "Tài Lộc",
+      "image_coordinate_name": "AvaTaiLoc",
+      "image_data": [
+        {
+          "image_name": "Tailoc.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Tailoc.jpg_ac508e41a0e9ea1585768ca6d2594c5ae3d69424"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "Komorebi",
+      "image_coordinate_name": "AvarKomorebi",
+      "image_data": [
+        {
+          "image_name": "Komorebi.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Komorebi.jpg_f9080891674e19fbf31b4de603db20bd1d781ace"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "Hoàng gia",
+      "image_coordinate_name": "Hoàng gia",
+      "image_data": [
+        {
+          "image_name": "Hoanggia.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Hoanggia.jpg_ae5afc1c95a1f37b9b22c09dde24035017fb5826"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "PKKD",
+      "image_coordinate_name": "PKKINHDO",
+      "image_data": [
+        {
+          "image_name": "Kinhdo.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Kinhdo.jpg_1a1253767633c725c5bff2d26b25072aa7ee4c5b"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "Tài lộc",
+      "image_coordinate_name": "Tài lộc",
+      "image_data": [
+        {
+          "image_name": "Tailoc.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Tailoc.jpg_ac508e41a0e9ea1585768ca6d2594c5ae3d69424"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "Đảo Vua",
+      "image_coordinate_name": "avaDaoVua",
+      "image_data": [
+        {
+          "image_name": "Daovua.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Daovua.jpg_670bcde51dea12cdba6ba4c8fad8bf8364cf328e"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "royisland_tt",
+      "image_coordinate_name": "royisland_tt",
+      "image_data": [
+        {
+          "image_name": "VHRI.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/VHRI.jpg_09c0b7212334a0420e936e64ebfb10e952dc5ade"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "Đảo Thiên Đường",
+      "image_coordinate_name": "Đảo Thiên Đường",
+      "image_data": [
+        {
+          "image_name": "Daothienduong.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Daothienduong.jpg_068b4a1c097e28cf88806a01a8d49877904bd7f3"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "CSBH",
+      "link_utility_url": "https://drive.google.com/drive/folders/10Go_CIx8_JXB6q71GEny3mzpMuoV03h4?usp=drive_link"
+    },
+    {
+      "link_utility_name": "LAYOUT",
+      "link_utility_url": "https://drive.google.com/drive/folders/1vGPaoMBmYVZ9r_JPsX0-hBi2RiBpCKaO?usp=drive_link"
+    },
+    {
+      "link_utility_name": "PHÁP LÝ DỰ ÁN",
+      "link_utility_url": "https://drive.google.com/drive/folders/1fywxc_jd_A0yaqmNFCu2iq_75lx8vYZH?usp=drive_link"
+    },
+    {
+      "link_utility_name": "TIÊU CHUẨN BÀN GIAO",
+      "link_utility_url": "https://drive.google.com/drive/folders/11cf6Oov4LQbQ_ie0F0V0qmRdvk9OZVlP?usp=drive_link"
+    },
+    {
+      "link_utility_name": "TIÊU CHUẨN HOÀN THIỆN",
+      "link_utility_url": "https://drive.google.com/drive/folders/14UbOJ4lsmsPile2rA3iRZaTm_VK966p6?usp=drive_link"
+    },
+    {
+      "link_utility_name": "TÀI LIỆU ĐÀO TẠO",
+      "link_utility_url": "https://drive.google.com/drive/folders/1xAsZam_RRrXh6bK2zexZs5HEqKrbQXO-?usp=drive_link"
+    },
+    {
+      "link_utility_name": "TỔNG MẶT BẰNG",
+      "link_utility_url": "https://drive.google.com/file/d/1jlJXsHPNSnD23WkpIFHoVWO-w5CFjX5M/view?usp=sharing"
+    },
+    {
+      "link_utility_name": "VIDEO",
+      "link_utility_url": "https://drive.google.com/drive/folders/1rk8K1o53BmZ_GL0F4iOOJBy4u8KE6cWo?usp=drive_link"
+    },
+    {
+      "link_utility_name": "ẢNH PHỐI CẢNH",
+      "link_utility_url": "https://drive.google.com/drive/folders/1MzVPvzg1ZOWq33wVofbBmQAXqI1th9N0?usp=drive_link"
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}

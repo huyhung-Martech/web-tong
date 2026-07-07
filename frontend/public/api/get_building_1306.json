@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1368,
+    "projectId": 1306,
+    "name": "THE SAPPHIRE",
+    "floorCount": 25,
+    "createdAt": 1781920220364
+  },
+  {
+    "id": 1439,
+    "projectId": 1306,
+    "name": "THE RUBY - R1",
+    "floorCount": 25,
+    "createdAt": 1781920220066
+  },
+  {
+    "id": 1633,
+    "projectId": 1306,
+    "name": "THE RUBY - R2",
+    "floorCount": 25,
+    "createdAt": 1781920219546
+  }
+]

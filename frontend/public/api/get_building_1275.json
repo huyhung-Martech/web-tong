@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1134,
+    "projectId": 1275,
+    "name": "S1",
+    "floorCount": 25,
+    "createdAt": 1781920220641
+  },
+  {
+    "id": 1135,
+    "projectId": 1275,
+    "name": "S2",
+    "floorCount": 25,
+    "createdAt": 1781920220632
+  }
+]

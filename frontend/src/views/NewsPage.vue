@@ -42,13 +42,13 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 
-const API_BASE = 'http://localhost:8089/rest_api';
+const API_BASE = '/api';
 const news = ref([]);
 const loading = ref(true);
 
 onMounted(async () => {
   try {
-    const res = await fetch(`${API_BASE}/pu/news_public/news/get_real_news`);
+    const res = await fetch(`${API_BASE}/get_real_news.json`);
     if (res.ok) {
       news.value = await res.json();
     }

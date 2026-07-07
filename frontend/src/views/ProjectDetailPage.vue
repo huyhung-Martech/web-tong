@@ -418,11 +418,10 @@
                 v-for="p in inventory" 
                 :key="p.id"
                 :class="['border rounded-xl p-3.5 flex flex-col justify-between h-28 select-none transition-all shadow-sm', 
-                  p.status === 'available' ? 'bg-emerald-50 border-emerald-200 text-emerald-800 hover:border-emerald-400 cursor-pointer hover:shadow' : '',
+                  p.status === 'available' ? 'bg-emerald-50 border-emerald-200 text-emerald-800' : '',
                   p.status === 'locked' ? 'bg-amber-50 border-amber-200 text-amber-800' : '',
                   p.status === 'sold' ? 'bg-red-50 border-red-200 text-red-800 cursor-not-allowed opacity-65' : ''
                 ]"
-                @click="p.status === 'available' ? confirmLockProduct(p) : null"
               >
                 <div class="flex justify-between items-start">
                   <span class="font-extrabold text-sm tracking-wider">{{ p.code }}</span>
@@ -436,16 +435,15 @@
                 <div class="flex justify-between items-end mt-auto">
                   <span class="font-extrabold text-xs text-slate-800">{{ formatPrice(p.price) }}</span>
                   
-                  <!-- Timer or status label -->
-                  <div v-if="p.status === 'locked'" class="text-[0.65rem] font-bold bg-amber-500 text-white px-1.5 py-0.5 rounded animate-pulse flex items-center gap-0.5">
-                    <i class="bi bi-clock-fill"></i>
-                    <span>{{ activeTimers[p.id] || 'Lock' }}</span>
+                  <!-- Status label -->
+                  <div v-if="p.status === 'locked'" class="text-[0.65rem] font-bold bg-amber-500 text-white px-1.5 py-0.5 rounded">
+                    Đang khóa
                   </div>
                   <div v-else-if="p.status === 'sold'" class="text-[0.65rem] font-bold bg-red-500 text-white px-1.5 py-0.5 rounded">
                     Đã Bán
                   </div>
-                  <div v-else class="text-[0.65rem] font-bold text-emerald-600 hover:underline">
-                    Đặt Chỗ
+                  <div v-else class="text-[0.65rem] font-bold text-emerald-600">
+                    Còn trống
                   </div>
                 </div>
               </div>
@@ -453,46 +451,7 @@
           </div>
         </div>
 
-        <!-- 7. QUỸ CĂN (Locked Units List) -->
-        <div v-else-if="activeTab === 'lock_requests'" class="space-y-6">
-          <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-6">
-            <h4 class="text-sm font-extrabold text-slate-800 uppercase tracking-wider border-b border-slate-100 pb-2 flex items-center gap-2">
-              <i class="bi bi-file-lock text-primary"></i> Quỹ căn đang khóa tạm thời / Giữ chỗ
-            </h4>
 
-            <div v-if="lockedInventory.length > 0" class="overflow-x-auto">
-              <table class="w-full text-sm text-left border-collapse">
-                <thead>
-                  <tr class="border-b border-slate-200 text-slate-400 font-extrabold text-xs uppercase">
-                    <th class="py-3 px-4">Mã Căn</th>
-                    <th class="py-3 px-4">Tòa / Block</th>
-                    <th class="py-3 px-4">Giá</th>
-                    <th class="py-3 px-4">Người Khóa</th>
-                    <th class="py-3 px-4">Thời gian còn lại</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr v-for="item in lockedInventory" :key="item.id" class="border-b border-slate-100 hover:bg-slate-50 transition-colors">
-                    <td class="py-4 px-4 font-bold text-slate-800">{{ item.code }}</td>
-                    <td class="py-4 px-4 font-medium text-slate-500">{{ getSubdivisionName(item.subdivision_id) || 'Tòa nhà' }}</td>
-                    <td class="py-4 px-4 font-bold text-slate-800">{{ formatPrice(item.price) }}</td>
-                    <td class="py-4 px-4 font-medium text-amber-600">{{ item.locked_by || 'Đại lý' }}</td>
-                    <td class="py-4 px-4">
-                      <span class="text-xs font-bold bg-amber-500 text-white py-1 px-2.5 rounded-lg animate-pulse inline-flex items-center gap-1">
-                        <i class="bi bi-clock-fill"></i>
-                        {{ activeTimers[item.id] || '--:--' }}
-                      </span>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            <div v-else class="text-center py-20 text-slate-400 text-sm bg-white rounded-xl border border-slate-200/60 shadow-sm">
-              Không có căn hộ nào đang trong trạng thái khóa giữ chỗ.
-            </div>
-          </div>
-        </div>
 
         <!-- 8. ẢNH 360° -->
         <div v-else-if="activeTab === 'tour360'" class="space-y-6">
@@ -725,16 +684,12 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted, inject, watch, computed } from 'vue';
+import { ref, onMounted, watch, computed } from 'vue';
 import { useRoute } from 'vue-router';
 import Three360Viewer from '../components/Three360Viewer.vue';
 
 const route = useRoute();
-const API_BASE = 'http://localhost:8089/rest_api';
-
-// Globally injected user
-const user = inject('user');
-const openLogin = inject('openLogin');
+const API_BASE = '/api';
 
 const props = defineProps({
   slug: {
@@ -749,13 +704,10 @@ const project = ref(null);
 const subdivisions = ref([]);
 const activeSubdivisionId = ref(null);
 const inventory = ref([]);
-const lockedInventory = ref([]);
 const inventoryLoading = ref(false);
 
 const activeTab = ref('overview');
 const selectedProduct = ref(null);
-const lockNote = ref('');
-const showLockConfirmModal = ref(false);
 const projectNews = ref([]);
 
 // New states for interactive Layout & custom sliders
@@ -777,7 +729,6 @@ const tabs = [
   { id: 'layout', name: 'Mặt bằng', icon: 'bi-aspect-ratio-fill', iconColor: 'text-slate-700' },
   { id: 'building', name: 'Tòa nhà', icon: 'bi-buildings-fill', iconColor: 'text-slate-700' },
   { id: 'inventory', name: 'Bảng hàng', icon: 'bi-grid-3x3-gap-fill', iconColor: 'text-slate-700' },
-  { id: 'lock_requests', name: 'Quỹ căn', icon: 'bi-file-lock-fill', iconColor: 'text-red-500' },
   { id: 'tour360', name: 'Ảnh 360', icon: 'bi-camera-fill', iconColor: 'text-blue-500' },
   { id: 'policy', name: 'Chính sách bán hàng', icon: 'bi-file-earmark-text-fill', iconColor: 'text-slate-600' },
   { id: 'progress', name: 'Tiến độ', icon: 'bi-calendar-event-fill', iconColor: 'text-blue-500' },
@@ -793,17 +744,8 @@ function scrollSlider(sliderId, direction) {
   }
 }
 
-// Real-time timers map: product_id -> 'mm:ss'
-const activeTimers = ref({});
-let syncInterval = null;
-
 onMounted(async () => {
   await fetchProjectDetail();
-  syncInterval = setInterval(updateActiveTimers, 5000);
-});
-
-onUnmounted(() => {
-  if (syncInterval) clearInterval(syncInterval);
 });
 
 watch(() => props.slug, async () => {
@@ -811,11 +753,13 @@ watch(() => props.slug, async () => {
   selectedLayoutIndex.value = 0;
 });
 
+
+
 // Fetch Detail data
 async function fetchProjectDetail() {
   loading.value = true;
   try {
-    const res = await fetch(`${API_BASE}/pu/property/master/data/get_project_detail?project_id=${props.slug}`);
+    const res = await fetch(`${API_BASE}/get_project_detail_${props.slug}.json`);
     if (res.ok) {
       project.value = await res.json();
       await fetchSubdivisions();
@@ -831,7 +775,7 @@ async function fetchProjectDetail() {
 async function fetchSubdivisions() {
   if (!project.value) return;
   try {
-    const res = await fetch(`${API_BASE}/pr/property/data/get_building?project_id=${project.value.id}`);
+    const res = await fetch(`${API_BASE}/get_building_${project.value.id}.json`);
     if (res.ok) {
       subdivisions.value = await res.json();
       if (subdivisions.value.length > 0) {
@@ -847,11 +791,9 @@ async function fetchSubdivisions() {
 async function fetchInventory(subdivisionId) {
   inventoryLoading.value = true;
   try {
-    const res = await fetch(`${API_BASE}/pr/property/coordinate_building/search_banghang_data?subdivision_id=${subdivisionId}`);
+    const res = await fetch(`${API_BASE}/search_banghang_data_${subdivisionId}.json`);
     if (res.ok) {
       inventory.value = await res.json();
-      updateLockedInventoryList();
-      updateActiveTimers();
     }
   } catch (e) {
     console.error('Error fetching inventory:', e);
@@ -862,7 +804,7 @@ async function fetchInventory(subdivisionId) {
 
 async function fetchProjectNews() {
   try {
-    const res = await fetch(`${API_BASE}/pu/news_public/news/get_real_news`);
+    const res = await fetch(`${API_BASE}/get_real_news.json`);
     if (res.ok) {
       const allNews = await res.json();
       // Filter news containing project name in title or general list
@@ -883,10 +825,6 @@ function handleSubdivisionChange() {
   }
 }
 
-function updateLockedInventoryList() {
-  lockedInventory.value = inventory.value.filter(p => p.status === 'locked');
-}
-
 function getSubdivisionName(subId) {
   const sub = subdivisions.value.find(s => s.id === subId);
   return sub ? sub.name : '';
@@ -896,74 +834,6 @@ function goToTabAndSelectSub(tabId, subId) {
   activeTab.value = tabId;
   activeSubdivisionId.value = subId;
   fetchInventory(subId);
-}
-
-// Timer countdown mapping
-async function updateActiveTimers() {
-  if (inventory.value.length === 0) return;
-
-  const lockedProducts = inventory.value.filter((p) => p.status === 'locked');
-  for (const p of lockedProducts) {
-    try {
-      const res = await fetch(`${API_BASE}/pr/property/data/get_product_locking_time?product_id=${p.id}`);
-      if (res.ok) {
-        const timeData = await res.json();
-        
-        if (timeData.status === 'locked' && timeData.seconds_remaining > 0) {
-          const m = Math.floor(timeData.seconds_remaining / 60);
-          const s = timeData.seconds_remaining % 60;
-          activeTimers.value[p.id] = `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
-        } else {
-          delete activeTimers.value[p.id];
-          await fetchInventory(activeSubdivisionId.value);
-          break;
-        }
-      }
-    } catch (e) {
-      console.error('Error syncing timer:', e);
-    }
-  }
-}
-
-// Locking triggers
-function confirmLockProduct(product) {
-  if (!user.value) {
-    alert('Bạn cần đăng nhập bằng Số điện thoại của Đại lý/Môi giới để thực hiện khóa căn giữ chỗ!');
-    openLogin();
-    return;
-  }
-  selectedProduct.value = product;
-  lockNote.value = '';
-  showLockConfirmModal.value = true;
-}
-
-async function submitLockOrder() {
-  try {
-    const res = await fetch(`${API_BASE}/pr/property/order/create_lock_order`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        product_id: selectedProduct.value.id,
-        sale_id: user.value.id,
-        note: lockNote.value,
-      }),
-    });
-
-    if (res.ok) {
-      alert(`Khóa căn thành công! Căn hộ ${selectedProduct.value.code} được giữ chỗ trong 15 phút.`);
-      showLockConfirmModal.value = false;
-      selectedProduct.value = null;
-      lockNote.value = '';
-      
-      await fetchInventory(activeSubdivisionId.value);
-    } else {
-      const err = await res.json();
-      alert(`Lỗi khóa căn: ${err.message || 'Căn hộ không khả dụng'}`);
-    }
-  } catch (e) {
-    console.error('Error locking product:', e);
-    alert('Không kết nối được đến server backend.');
-  }
 }
 
 // Utility formatting helpers

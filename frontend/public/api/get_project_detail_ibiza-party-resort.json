@@ -1,0 +1,89 @@
+{
+  "id": 1400,
+  "name": "IBIZA PARTY RESORT",
+  "slug": "ibiza-party-resort",
+  "description": "Flamingo Hải Tiến - Tâm điểm tiệc tùng, bùng nổ trải nghiệm",
+  "location": "Bãi biển Linh Trường, Xã Hoằng Trường, Huyện Hoằng Hóa, Tỉnh Thanh Hóa",
+  "developer": "FLAMINGO HOLDINGS",
+  "estateType": "high_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Thumbnail.jpg_18862540635356159b86232cbafcc8f714b32944",
+  "viewCount": 158,
+  "status": "opening",
+  "createdAt": 1781920218877,
+  "ownershipType": "50 năm",
+  "constructionDensity": null,
+  "developmentScale": null,
+  "buildDate": null,
+  "progress": null,
+  "locationHtml": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-1_0cd039572fdf0e5470deddb677ee8f9663facb60\" class=\"img img-fluid o_we_custom_image\"></p><p><span style=\"font-size: 14px;\"><strong>Flamingo Hải Tiến – Thiên đường giải trí về đêm</strong></span></p><p>Tọa lạc tại đầu mũi biển Linh Trường chỉ cách Hà Nội 160km,&nbsp;<strong>Flamingo Hải Tiến</strong>&nbsp;cho thấy diện mạo của một thành phố ngay mặt tiền biển, sôi động, rực rỡ và thịnh vượng, một không gian của ánh sáng, của mua sắm ẩm thực, của vui chơi giải trí và tận hưởng bất tận. Đây là dự án lớn bậc nhất của tỉnh, đem đến một nơi vui chơi, nghỉ dưỡng, thu hút du khách, nhà đầu tư trong và ngoài nước.</p><p>Flamingo Hải Tiến là nốt nhạc mở màn cho bản nhạc giao hòa trời biển mà Flamingo dệt nên tại vùng đất Linh Trường đẹp như tranh vẽ. Thiên đường tiện ích 5 sao mang đến cho du khách những trải nghiệm tuyệt với giữa biển xanh, cát trắng, nắng vàng, chỉ một bước chân trải nghiệm cảm giác hòa mình cùng tự nhiên.</p><p>Flamingo Hải Tiến nằm ngay đường bờ biển Linh Trường, có chiều dài chạy dọc gần 12km thuộc địa phận xã Hoằng Trường, Hoằng Hóa, tỉnh Thanh Hóa.</p><p>Với hình dạng như một mũi tên vươn ra biển khơi, Flamingo Hải Tiến có ba mặt giáp biển, là vị thế hiếm có tại khu vực miền Bắc.</p><p>Flamingo Hải Tiến còn sở hữu vị thế đắc địa “Tựa sơn hướng thủy” với lưng tựa núi, mặt hướng biển – mang đến sự hưng thịnh cho toàn bộ dự án.</p><p>Thêm vào đó, ngay bên cạnh dự án là Chùa Bụt – một địa điểm du lịch tâm linh hiện tại đang thu hút hàng trăm nghìn lượt khách mỗi năm.</p><p>Từ dự án dễ dàng kết nhanh chóng tới các khu vực như sau:</p><p>+ Cách thành phố Thanh Hóa: 25km</p><p>+ Cách Cầu cảng biển Hải Tiến: 6km</p><p>+ Cách Khu Du Lịch Eureka Linh Trường: 4,6km</p><p>\n\n</p><p>\n\n</p><p>\n\n</p>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.857999652868!2d105.9601433747402!3d19.88821712597388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31365b456939114f%3A0xafab2212fcd76b24!2zRmxhbWluZ28gSOG6o2kgVGnhur9u!5e0!3m2!1sen!2s!4v1779875721812!5m2!1sen!2s\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": "https://batdongsanbacbo.vn/Flamingo360/",
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_1a860dab3c85a619d011e1344b31de9645e6c0a2\" class=\"img img-fluid o_we_custom_image\"></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "avataIBIZA PARTY RESORT",
+      "image_coordinate_name": "IBIZA PARTY RESORT",
+      "image_data": [
+        {
+          "image_name": "Hinhanh.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Hinhanh.jpg_2b3fd95afeea06968944cd1fcdaacefdc40b33bc"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "avatFlamingHT",
+      "image_coordinate_name": "avatFlamingHT",
+      "image_data": [
+        {
+          "image_name": "Thumbnail.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Thumbnail.jpg_18862540635356159b86232cbafcc8f714b32944"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "CSBH",
+      "link_utility_url": "https://drive.google.com/drive/folders/1ZF8iQzrmTh9DDyRa_uRS7Pv29PKuu-G-?usp=drive_link"
+    },
+    {
+      "link_utility_name": "HÌNH ẢNH TỔNG THỂ",
+      "link_utility_url": "https://drive.google.com/drive/folders/172K4_bNYc5AyrKD-B1M4MzqAoqOnXYMM?usp=drive_link"
+    },
+    {
+      "link_utility_name": "HỢP ĐỒNG MẪU",
+      "link_utility_url": "https://drive.google.com/drive/folders/1IKfRBARzb0t0j8Ia5cHpRjkJlqAuOq6F?usp=drive_link"
+    },
+    {
+      "link_utility_name": "MẶT BẰNG DỰ ÁN",
+      "link_utility_url": "https://drive.google.com/drive/folders/1iOPPpgqfxuoI0HRWl0Ovs6qEu5fhJhLk?usp=drive_link"
+    },
+    {
+      "link_utility_name": "Q&A",
+      "link_utility_url": "https://drive.google.com/drive/folders/1equN1Q3EuGGcEuc7TfcHBFjC-Orcmp1v?usp=drive_link"
+    },
+    {
+      "link_utility_name": "QUY TRÌNH GIAO DỊCH",
+      "link_utility_url": "https://drive.google.com/drive/folders/1HZkhC_Mm8fuWkaoDpwen3-PepBGBsLE3?usp=drive_link"
+    },
+    {
+      "link_utility_name": "THÔNG TIN DỰ ÁN",
+      "link_utility_url": "https://drive.google.com/drive/folders/1T0G3RYn-Nrjjp1MKDQH7e5YZrugYAmdo?usp=drive_link"
+    },
+    {
+      "link_utility_name": "VIDEO",
+      "link_utility_url": "https://drive.google.com/drive/folders/1hUh6ij5AZ4GIgpbD6a1RqpOhHzfxrZGd?usp=drive_link"
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}

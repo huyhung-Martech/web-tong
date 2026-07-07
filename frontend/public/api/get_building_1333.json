@@ -1,0 +1,114 @@
+[
+  {
+    "id": 814,
+    "projectId": 1333,
+    "name": "B-LMT",
+    "floorCount": 25,
+    "createdAt": 1781920220914
+  },
+  {
+    "id": 815,
+    "projectId": 1333,
+    "name": "A-LMT",
+    "floorCount": 25,
+    "createdAt": 1781920220904
+  },
+  {
+    "id": 1156,
+    "projectId": 1333,
+    "name": "B-SPARK",
+    "floorCount": 25,
+    "createdAt": 1781920220615
+  },
+  {
+    "id": 1157,
+    "projectId": 1333,
+    "name": "B-GLOW",
+    "floorCount": 25,
+    "createdAt": 1781920220624
+  },
+  {
+    "id": 1334,
+    "projectId": 1333,
+    "name": "B1-MPP",
+    "floorCount": 25,
+    "createdAt": 1781920220408
+  },
+  {
+    "id": 1335,
+    "projectId": 1333,
+    "name": "B2-MPP",
+    "floorCount": 25,
+    "createdAt": 1781920220399
+  },
+  {
+    "id": 1385,
+    "projectId": 1333,
+    "name": "A1-MPP",
+    "floorCount": 25,
+    "createdAt": 1781920220290
+  },
+  {
+    "id": 1386,
+    "projectId": 1333,
+    "name": "A2-MPP",
+    "floorCount": 25,
+    "createdAt": 1781920220282
+  },
+  {
+    "id": 1388,
+    "projectId": 1333,
+    "name": "A-GLOW",
+    "floorCount": 25,
+    "createdAt": 1781920220273
+  },
+  {
+    "id": 1399,
+    "projectId": 1333,
+    "name": "A-SPARK",
+    "floorCount": 25,
+    "createdAt": 1781920220162
+  },
+  {
+    "id": 1590,
+    "projectId": 1333,
+    "name": "B1-MCC",
+    "floorCount": 25,
+    "createdAt": 1781920219682
+  },
+  {
+    "id": 1591,
+    "projectId": 1333,
+    "name": "B2-MCC",
+    "floorCount": 25,
+    "createdAt": 1781920219673
+  },
+  {
+    "id": 1639,
+    "projectId": 1333,
+    "name": "A-MCC",
+    "floorCount": 25,
+    "createdAt": 1781920219489
+  },
+  {
+    "id": 1669,
+    "projectId": 1333,
+    "name": "A-Nexus Zone",
+    "floorCount": 25,
+    "createdAt": 1781920219204
+  },
+  {
+    "id": 1670,
+    "projectId": 1333,
+    "name": "B1-Nexus Zone",
+    "floorCount": 25,
+    "createdAt": 1781920219194
+  },
+  {
+    "id": 1671,
+    "projectId": 1333,
+    "name": "B2-Nexus Zone",
+    "floorCount": 25,
+    "createdAt": 1781920219186
+  }
+]

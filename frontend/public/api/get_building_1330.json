@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1586,
+    "projectId": 1330,
+    "name": "TOÀ L1",
+    "floorCount": 25,
+    "createdAt": 1781920219720
+  },
+  {
+    "id": 1587,
+    "projectId": 1330,
+    "name": "TOÀ L2",
+    "floorCount": 25,
+    "createdAt": 1781920219711
+  },
+  {
+    "id": 1588,
+    "projectId": 1330,
+    "name": "TOÀ Z1",
+    "floorCount": 25,
+    "createdAt": 1781920219702
+  },
+  {
+    "id": 1642,
+    "projectId": 1330,
+    "name": "TOÀ Z3",
+    "floorCount": 25,
+    "createdAt": 1781920219461
+  },
+  {
+    "id": 1643,
+    "projectId": 1330,
+    "name": "TOÀ L4",
+    "floorCount": 25,
+    "createdAt": 1781920219450
+  },
+  {
+    "id": 1644,
+    "projectId": 1330,
+    "name": "TOÀ L3",
+    "floorCount": 25,
+    "createdAt": 1781920219441
+  },
+  {
+    "id": 1655,
+    "projectId": 1330,
+    "name": "TÒA Z2",
+    "floorCount": 25,
+    "createdAt": 1781920219344
+  }
+]

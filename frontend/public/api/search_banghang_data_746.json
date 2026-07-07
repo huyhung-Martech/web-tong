@@ -1,0 +1,15 @@
+[
+  {
+    "id": 29954,
+    "code": "S2.010207",
+    "floor_number": 2,
+    "room_number": "07",
+    "direction": "Đông Nam",
+    "area_usable": 92.0,
+    "area_carpet": 89.0,
+    "price": 3047537362.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  }
+]

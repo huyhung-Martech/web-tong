@@ -1,0 +1,28 @@
+[
+  {
+    "id": 22420,
+    "code": "C7-0601",
+    "floor_number": 6,
+    "room_number": "01",
+    "direction": "Chính Đông",
+    "area_usable": 66.0,
+    "area_carpet": 81.0,
+    "price": 7962000000.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 23837,
+    "code": "C7-0801",
+    "floor_number": 8,
+    "room_number": "01",
+    "direction": "Chính Tây",
+    "area_usable": 77.0,
+    "area_carpet": 71.0,
+    "price": 8201000000.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  }
+]

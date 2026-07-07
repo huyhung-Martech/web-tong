@@ -1,0 +1,137 @@
+{
+  "id": 594,
+  "name": "VINHOMES GOLDEN CITY",
+  "slug": "vinhomes-golden-city",
+  "description": "Biểu tượng mới của cuộc sống hiện đại tại Hải Phòng",
+  "location": "Kiến Thuỵ, Dương Kinh, Hải Phòng",
+  "developer": "VINHOMES",
+  "estateType": "low_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/VINHOMES-GOLDEN-CITY.jpg_3a59e81822821aba2d42f0c4715c0ea67ce9b1bf",
+  "viewCount": 10607,
+  "status": "opening",
+  "createdAt": 1781920218028,
+  "ownershipType": "Lâu dài",
+  "constructionDensity": "Khoảng 27–30 %",
+  "developmentScale": "Đại đô thị",
+  "buildDate": null,
+  "progress": "Đang thi công",
+  "locationHtml": "<p><img class=\"img img-fluid o_we_custom_image\" src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-1_1335ee2d77d3518b9cb784d2b0f892b06c473b0b\"></p><p><strong>Vị trí dự án Vinhomes Golden City – Hải Phòng</strong></p><ul>\n<li>\n<strong>Địa điểm:</strong><br>\nThuộc địa phận <strong>phường Hòa Nghĩa</strong> (quận Dương Kinh) và các xã <strong>Đông Phương, Đại Đồng</strong> (huyện Kiến Thụy), thành phố Hải Phòng.\n</li>\n<li>\n<strong>Diện tích toàn khu:</strong><br>\nKhoảng <strong>240,6 hecta</strong>.\n</li>\n<li>\n<strong>Kết nối giao thông thuận tiện:</strong>\n<ul>\n<li>\nGần <strong>cầu Rào 3</strong>, trục đường <strong>353</strong> (nối về trung tâm Hải Phòng và Đồ Sơn),\n</li>\n<li>\nTiếp giáp đường <strong>363 (nhựa Tiền Phong)</strong>,\n</li>\n<li>\nGần tuyến cao tốc <strong>Hà Nội – Hải Phòng – Hạ Long</strong>.\n</li>\n<li>\nCách <strong>sân bay Cát Bi</strong> khoảng <strong>6 km</strong>,\n</li>\n<li>\nCách trung tâm TP Hải Phòng khoảng <strong>10–15 phút di chuyển</strong>.\n</li>\n</ul>\n</li>\n<li>\n<strong>Tính chiến lược:</strong><br>\nNằm giữa trục phát triển mở rộng phía Nam của Hải Phòng, Vinhomes Golden City không chỉ là nơi ở cao cấp mà còn là nút kết nối vùng giữa Hải Phòng – Quảng Ninh – Thái Bình – Hà Nội.</li></ul>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d4818.068644143908!2d106.69671877621347!3d20.786522880802934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e3!4m3!3m2!1d20.7863424!2d106.69843449999999!4m3!3m2!1d20.786823599999998!2d106.69823079999999!5e1!3m2!1svi!2s!4v1749816890975!5m2!1svi!2s\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": "https://vni.pro.vn/fh/VinhomesGoldenCity?lang=vn",
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p><br></p><p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_f9c65039d50069bfafda461f77d02499c46a21f2\" class=\"img img-fluid o_we_custom_image\"></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "AS",
+      "image_coordinate_name": "avaAS",
+      "image_data": [
+        {
+          "image_name": "PKAS.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/PKAS.jpg_cb849eedd84648ec8c54ea7566ab5eadd57827e2"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "ĐLHH",
+      "image_coordinate_name": "avaDDLHH",
+      "image_data": [
+        {
+          "image_name": "ĐLHH.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/ĐLHH.jpg_542b69f65a5efdff4c68137ec2bdd706d8638690"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "MT",
+      "image_coordinate_name": "avaMT",
+      "image_data": [
+        {
+          "image_name": "PKMT1.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/PKMT1.jpg_c40fc12dc54aa72a1f4cb9fd3f87a6f22b333c41"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "TH",
+      "image_coordinate_name": "avaTH",
+      "image_data": [
+        {
+          "image_name": "PKTH.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/PKTH.jpg_47648e41605ad49ea7fdb15133ae5f482fb5af87"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "BM",
+      "image_coordinate_name": "avarBM",
+      "image_data": [
+        {
+          "image_name": "PkBM.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/PkBM.jpg_35d891f7afd2388b19c6846adb0ed499270ce038"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "AVT_GOLDEN_CITY",
+      "image_coordinate_name": "Ảnh Avatar Vinhomes Golden City",
+      "image_data": [
+        {
+          "image_name": "VINHOMES-GOLDEN-CITY.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/VINHOMES-GOLDEN-CITY.jpg_3a59e81822821aba2d42f0c4715c0ea67ce9b1bf"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "CSBH",
+      "link_utility_url": "https://drive.google.com/drive/folders/1Qf_SM5xSVSX6wFVYT2Jz_VhhPJ9CyIgM?usp=drive_link"
+    },
+    {
+      "link_utility_name": "LAYOUT",
+      "link_utility_url": "https://drive.google.com/drive/folders/1GriaYMtEA-OKH1R-DyQ3wlJpQH23tm2J?usp=drive_link"
+    },
+    {
+      "link_utility_name": "PHÁP LÝ DỰ ÁN",
+      "link_utility_url": "https://drive.google.com/drive/folders/1dlmMm1qd1oVJBpgX97ZcKYsI2FR-5cBu?usp=drive_link"
+    },
+    {
+      "link_utility_name": "PHỐI CẢNH",
+      "link_utility_url": "https://drive.google.com/drive/folders/1kyb2bGfOoMv68F_P5KZUcn-eldmJCB7V?usp=drive_link"
+    },
+    {
+      "link_utility_name": "Q&A",
+      "link_utility_url": "https://drive.google.com/drive/folders/1nXdBZvbmXgFRYe5ELpSypK6Kz9dWi3SX"
+    },
+    {
+      "link_utility_name": "SALEKIT",
+      "link_utility_url": "https://drive.google.com/drive/folders/1nvVpHgyGPaEl-MH4pJ3tAMsd4obdpqma?usp=drive_link"
+    },
+    {
+      "link_utility_name": "SLIDE ĐÀO TẠO",
+      "link_utility_url": "https://drive.google.com/drive/folders/1WfgSnFlJC6UQgijiPvPh4ugCe-nmVmBG"
+    },
+    {
+      "link_utility_name": "TIẾN ĐỘ XÂY DỰNG",
+      "link_utility_url": "https://drive.google.com/drive/folders/1Y-Cf8Uf5hRmg2O8wJPpl-CW6JA3-bXIt?usp=drive_link"
+    },
+    {
+      "link_utility_name": "TMB VINHOMES GOLDEN CITY",
+      "link_utility_url": "https://drive.google.com/drive/folders/1NL794SOC9yDSINCjVduJyxCEcvnSZN-Y?usp=drive_link"
+    },
+    {
+      "link_utility_name": "VIDEO DỰ ÁN",
+      "link_utility_url": "https://drive.google.com/drive/folders/1SqTgl5Jmqfx5D_IaDem96Yw2Rk5RhIto?usp=drive_link\n"
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}

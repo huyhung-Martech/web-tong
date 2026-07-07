@@ -105,7 +105,7 @@ import ProjectCard from '../components/ProjectCard.vue';
 import Sidebar from '../components/Sidebar.vue';
 
 const router = useRouter();
-const API_BASE = 'http://localhost:8089/rest_api';
+const API_BASE = '/api';
 
 // State variables
 const projects = ref([]);
@@ -127,7 +127,7 @@ onMounted(() => {
 async function fetchProjects() {
   loading.value = true;
   try {
-    const res = await fetch(`${API_BASE}/pu/property/master/data/search_duan_data`);
+    const res = await fetch(`${API_BASE}/search_duan_data.json`);
     if (res.ok) {
       projects.value = await res.json();
     }
@@ -140,7 +140,7 @@ async function fetchProjects() {
 
 async function fetchNews() {
   try {
-    const res = await fetch(`${API_BASE}/pu/news_public/news/get_real_news`);
+    const res = await fetch(`${API_BASE}/get_real_news.json`);
     if (res.ok) {
       newsList.value = await res.json();
     }

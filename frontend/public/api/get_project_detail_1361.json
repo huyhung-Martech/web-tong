@@ -1,0 +1,97 @@
+{
+  "id": 1361,
+  "name": "SORA BAY HẠ LONG",
+  "slug": "sora-bay-ha-long",
+  "description": "Nơi thành phố lên đèn, nơi giá trị bật sáng",
+  "location": "Đường Hoàng Quốc Việt, phường Hùng Thắng, thành phố Hạ Long, tỉnh Quảng Ninh",
+  "developer": "KHÁC",
+  "estateType": "low_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Ảnh-avata4.jpg_8fec252dfc7949f16f923fc128a2785ea963a9b9",
+  "viewCount": 314,
+  "status": "opening",
+  "createdAt": 1781920218631,
+  "ownershipType": null,
+  "constructionDensity": null,
+  "developmentScale": null,
+  "buildDate": null,
+  "progress": null,
+  "locationHtml": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-1_d8e84b45d7cc620ffd85c7ca542490056b903317\" class=\"img img-fluid o_we_custom_image\"></p><p><strong>SORA BAY HẠ LONG</strong>&nbsp;tọa lạc tại mặt đường Hoàng Quốc Việt, phường Hùng Thắng, thành phố Hạ Long, tỉnh Quảng Ninh. Vị trí dự án Sora Bay nằm ngay cạnh trung tâm thương quốc tế Lotte Mart rộng 10 nghìn m2 sắp được triển khai trong thời gian tới. Vị trí Sora Bay Hạ long được đánh giá nằm tại vị trí đắc đia nhất KĐT Halong Marina ở ngay chính giữa mang đến cho khách hàng lựa chọn tầm view toàn cảnh bán đảo 1, 2, 3, đảo Tuần Châu và Vịnh Hạ Long.\n\n</p><p>Tọa lạc trong trái tim của khu đô thị du lịch Ha Long Marina – tâm điểm vui chơi giải trí Bãi Cháy ngay kế bên vịnh di sản, Sora Bay Hạ Long mang đến một phong cách sống hiện đại, năng động cùng thiết kế hiện đại đầy tinh xảo đến từng dãy thương phố ven biển. Không chỉ mang theo nét yên bình, thơ mộng của một vùng biển rì rào sóng vỗ, thương phố Sora Bay Hạ Long còn mang đến những thanh âm náo nhiệt của tâm phố sôi đông hội tụ đầy đủ họat động giao thương, mua sắm, giải trí sầm uất và nhộn nhịp suốt ngày đêm.</p><p>Liên kết vùng dự án Sora Bay Hạ Long</p><ul><li>Cách tổ hợp Marine Plaza 5 phút đi bộ</li><li>Cách Lotte Mart 1 phút đi bộ</li><li>Cách Bến xe Bãi Cháy: 4km</li><li>Cách Công viên Hạ Long: 5km</li><li>Cách Bãi biển Manina Bay: 1km</li><li>Cách Rạp chiếu phim CGV: 1km</li><li>Cách Chợ đêm Hạ Long: 3km</li></ul><p>Dự án Sora Bay Hạ Long cũng có vị trí vô cùng thuận tiện. Chỉ trong một thời gian ngắn, cư dân có thể dễ dàng truy cập vào các điểm trung tâm giải trí và vui chơi, đồng thời có thể tận hưởng biển và khám phá nhiều điểm ẩm thực độc đáo của vùng. Dự án này có sự kết nối thuận lợi với các điểm nút giao thông.\n\n</p>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.8602178821725!2d106.99877587476745!3d20.958127890201858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a5fd9b6e7df6f%3A0x4208cad6ec828866!2sSora%20Bay!5e0!3m2!1sen!2s!4v1773740389969!5m2!1sen!2s\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": "https://kuula.co/share/collection/7Dp8x?logo=0&card=1&info=1&fs=1&vr=1&zoom=1&thumbs=1",
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_195552bfa260a050c7e182a0bc11f485ee3c33fb\" class=\"img img-fluid o_we_custom_image\"></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "AvaSORABAY",
+      "image_coordinate_name": "AvaSORABAY",
+      "image_data": [
+        {
+          "image_name": "Ảnh-avata4.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Ảnh-avata4.jpg_8fec252dfc7949f16f923fc128a2785ea963a9b9"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "sorabaypk",
+      "image_coordinate_name": "sorabaypk",
+      "image_data": [
+        {
+          "image_name": "Phân-khu.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Phân-khu.jpg_ffcb89b9aa13599a4963316057ffd04dedd1fa4c"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "BIỂU MẪU TTKH",
+      "link_utility_url": "https://drive.google.com/drive/folders/1WvgRHRbp8-NhlcegVDO-yaLUo94IYk4M?usp=drive_link"
+    },
+    {
+      "link_utility_name": "CSBH",
+      "link_utility_url": "https://drive.google.com/drive/folders/1sgr8g1p_N_ba9Es3dhHsDLSBGU2CNhlE?usp=drive_link"
+    },
+    {
+      "link_utility_name": "DANH MỤC BÀN GIAO",
+      "link_utility_url": "https://drive.google.com/drive/folders/12S3UID-eNohNqeBeMZyG1MoJ4ZZcLCDo?usp=drive_link"
+    },
+    {
+      "link_utility_name": "FILE THÔNG TIN DỰ ÁN",
+      "link_utility_url": "https://drive.google.com/drive/folders/1NxT9CVDhRBNSJR4Mgy7H_T3gDX_GjuNQ?usp=sharing"
+    },
+    {
+      "link_utility_name": "HÌNH ẢNH",
+      "link_utility_url": "https://drive.google.com/drive/folders/1BAhXuw3OfAdtrfnGhaWbLqtdjLtoUqU2?usp=drive_link"
+    },
+    {
+      "link_utility_name": "MẶT BẰNG",
+      "link_utility_url": "https://drive.google.com/drive/folders/1M0nzviPqJo7AnQbc785gFmDz2PgK79Hg?usp=drive_link"
+    },
+    {
+      "link_utility_name": "PHÁP LÝ DỰ ÁN",
+      "link_utility_url": "https://drive.google.com/drive/folders/1YFOxB9D0jdbLnSXQbLYkanFdZa2k8SH2?usp=drive_link"
+    },
+    {
+      "link_utility_name": "TÀI LIỆU KÝ VỚI KH",
+      "link_utility_url": "https://drive.google.com/drive/folders/1IlcJwz4LnXhT4QvfjP0-G-ZikXg2hm9f?usp=drive_link"
+    },
+    {
+      "link_utility_name": "TÀI LIỆU MARKETING",
+      "link_utility_url": "https://drive.google.com/drive/folders/1yP9Xzf0GbwhXdW9ygzyNxEpM6JvwHalD?usp=drive_link"
+    },
+    {
+      "link_utility_name": "VIDEO",
+      "link_utility_url": "https://drive.google.com/drive/folders/17Bw3Loy5KQyj5ax1o0vl89Jebyuf4Jyl?usp=drive_link"
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}

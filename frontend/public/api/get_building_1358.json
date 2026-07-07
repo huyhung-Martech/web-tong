@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1640,
+    "projectId": 1358,
+    "name": "S5",
+    "floorCount": 25,
+    "createdAt": 1781920219480
+  },
+  {
+    "id": 1641,
+    "projectId": 1358,
+    "name": "S3",
+    "floorCount": 25,
+    "createdAt": 1781920219471
+  },
+  {
+    "id": 1652,
+    "projectId": 1358,
+    "name": "S1",
+    "floorCount": 25,
+    "createdAt": 1781920219369
+  },
+  {
+    "id": 1653,
+    "projectId": 1358,
+    "name": "S4",
+    "floorCount": 25,
+    "createdAt": 1781920219361
+  }
+]

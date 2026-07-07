@@ -1,0 +1,105 @@
+{
+  "id": 1397,
+  "name": "FLAMINGO CÁT BÀ",
+  "slug": "flamingo-cat-ba",
+  "description": "Flamingo Cát Bà Resorts: Kiệt tác kiến trúc xanh giữa vịnh Lan Hạ",
+  "location": "Bãi tắm Cát Cò 1-2, Cát Bà, TP. Hải Phòng",
+  "developer": "FLAMINGO HOLDINGS",
+  "estateType": "high_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/flamingo.jpg_51f796b766f3c4b4ea9204229dc055341d684228",
+  "viewCount": 179,
+  "status": "opening",
+  "createdAt": 1781920218947,
+  "ownershipType": "Lâu dài",
+  "constructionDensity": "13,2%",
+  "developmentScale": null,
+  "buildDate": null,
+  "progress": null,
+  "locationHtml": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-1_97818b2231631fb1939c3a9adbef009304aa2a5e\" class=\"img img-fluid o_we_custom_image\"></p><p><strong>Flamingo Cát Bà Resort</strong>&nbsp;tọa lạc tại bãi Cát Cò 1, 2, 3 thuộc thị trấn Cát Bà, huyện Cát Hải, TP. Hải Phòng. &nbsp;Flamingo Cát Bà tọa lạc tại trung tâm đảo Cát Bà, từ lâu đã được biết đến là “ hòn ngọc của Vịnh Bắc Bộ” nhờ vẻ đẹp nguyên sơ hùng vĩ của núi non trùng điệp, hệ sinh quyển hiếm có và nhiều bãi tắm đẹp và thơ mộng. Chỉ cách Hà Nội khoảng 2 giờ chạy xe, đây là điểm đến lý tưởng mà hầu hết du khách đều lựa chọn.&nbsp;</p><p>Flamingo Cát Bà Resort tọa lạc tại bãi Cát Cò 1 và 2 là những bãi tắm đẹp và nổi tiếng nhất đảo với bãi cát trắng mịn màng, phẳng lặng dưới làn nước biển xanh trong. Không chỉ có lợi thế về cảnh quan, dự án còn nằm tại khu vực có hạ tầng phát triển đồng bộ của Hải Phòng với khả năng kết nối hạ tầng giao thông thuận tiện và nhanh chóng</p><p>+ Cạnh vườn quốc gia Cát Bà</p><p>+ Cách trung tâm thành phố Hải Phòng 45 phút bằng ô tô</p><p>+ Cách Hà Nội 2 giờ bằng ô tô…</p><p>\n\n</p>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.774900539479!2d107.05415409999999!3d20.7193634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a45d4ebb7a067%3A0x42c6ab0a5a8bdff9!2sFlamingo%20Cat%20Ba%20Resorts!5e0!3m2!1sen!2s!4v1779443064758!5m2!1sen!2s\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": null,
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p></p><p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-2_e1e7ecbcbefe1193a1dc00a7a67333fba4a50a42\" class=\"img img-fluid o_we_custom_image\"></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "AVTFLAMINGOCB",
+      "image_coordinate_name": "AVTFLAMINGOCB",
+      "image_data": [
+        {
+          "image_name": "flamingo.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/flamingo.jpg_51f796b766f3c4b4ea9204229dc055341d684228"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "avatthesea",
+      "image_coordinate_name": "avatthesea",
+      "image_data": [
+        {
+          "image_name": "The-sea.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/The-sea.jpg_1aaba385778c2249982790245e968d147652c512"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "avtstand",
+      "image_coordinate_name": "avtstand",
+      "image_data": [
+        {
+          "image_name": "Stand.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Stand.jpg_2a3dc3224675daddca391e74c86d2e23ddcd1944"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "avtthesun",
+      "image_coordinate_name": "avtthesun",
+      "image_data": [
+        {
+          "image_name": "SUN.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/SUN.jpg_aea975a3ffffec6b88a33ca7329f3baf78933ae0"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "CHÍNH SÁCH BÁN HÀNG",
+      "link_utility_url": "https://drive.google.com/drive/folders/1fmKjJmM5uAAViCcY6A22xFcrnHbON8uD?usp=drive_link"
+    },
+    {
+      "link_utility_name": "HÌNH ẢNH & VIDEO",
+      "link_utility_url": "https://drive.google.com/drive/folders/1FO63GWyvmj3__F6MM67XsnlWJhcuJLSj?usp=drive_link"
+    },
+    {
+      "link_utility_name": "MẶT BẰNG TẦNG",
+      "link_utility_url": "https://drive.google.com/drive/folders/1I3aWLDiJam_WX5R8VH16hGmzISxWBXyk?usp=drive_link"
+    },
+    {
+      "link_utility_name": "PHÁP LÝ DỰ ÁN",
+      "link_utility_url": "https://drive.google.com/drive/folders/1K7v0P9JPcDr136ZYcQiaDg1nVisZZ0Oe?usp=drive_link"
+    },
+    {
+      "link_utility_name": "Q&A",
+      "link_utility_url": "https://drive.google.com/drive/folders/1Ls5ns5nSUUU5BtCtAWKMydehGMf3YBHv?usp=drive_link"
+    },
+    {
+      "link_utility_name": "THÔNG TIN DỰ ÁN",
+      "link_utility_url": "https://drive.google.com/drive/folders/13dmU8NiHZN2JP47AW_4Co3bD4Q2aSK9R?usp=sharing"
+    },
+    {
+      "link_utility_name": "TỜ GẬP",
+      "link_utility_url": "https://drive.google.com/drive/folders/18g0s2tbhF-46ynt8CSM0-Rv57gr19-zi?usp=drive_link"
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 62,
+    "projectId": 102,
+    "name": "The LIBERTY (L1)",
+    "floorCount": 25,
+    "createdAt": 1781920222491
+  },
+  {
+    "id": 194,
+    "projectId": 102,
+    "name": "The HARMONY (L2)",
+    "floorCount": 25,
+    "createdAt": 1781920222444
+  },
+  {
+    "id": 298,
+    "projectId": 102,
+    "name": "The MAJESTY (L3)",
+    "floorCount": 25,
+    "createdAt": 1781920222389
+  }
+]
