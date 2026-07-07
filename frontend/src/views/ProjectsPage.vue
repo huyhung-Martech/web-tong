@@ -186,6 +186,10 @@ const hotProjects = computed(() => {
 
 function navigateToDetail(project) {
   const slug = project.project_slug || project.slug;
+  if (slug === 'vinhomes-global-gate-ha-long') {
+    window.open('https://ha-long-xanh.vercel.app', '_blank');
+    return;
+  }
   router.push({ name: 'ProjectDetail', params: { slug } });
 }
 </script>
