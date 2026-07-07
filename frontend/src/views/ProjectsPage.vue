@@ -112,7 +112,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, computed, watch } from 'vue';
+import { ref, computed, watch } from 'vue';
 import { useRouter } from 'vue-router';
 import ProjectCard from '../components/ProjectCard.vue';
 import Sidebar from '../components/Sidebar.vue';
@@ -122,9 +122,16 @@ import newsData from '../data/get_real_news.json';
 const router = useRouter();
 
 // State variables
-const projects = ref([]);
-const newsList = ref([]);
-const loading = ref(true);
+const getArrayData = (data) => {
+  if (!data) return [];
+  if (Array.isArray(data)) return data;
+  if (data.default && Array.isArray(data.default)) return data.default;
+  return [];
+};
+
+const projects = ref(getArrayData(projectsData));
+const newsList = ref(getArrayData(newsData));
+const loading = ref(false);
 
 const selectedCategory = ref('all');
 const selectedDeveloper = ref('all');
@@ -137,22 +144,6 @@ const displayLimit = ref(12);
 watch([selectedCategory, selectedDeveloper, selectedLocation, selectedStatus, searchQuery], () => {
   displayLimit.value = 12;
 });
-
-onMounted(() => {
-  fetchProjects();
-  fetchNews();
-});
-
-// API calls
-async function fetchProjects() {
-  loading.value = true;
-  projects.value = projectsData;
-  loading.value = false;
-}
-
-async function fetchNews() {
-  newsList.value = newsData;
-}
 
 // Compute values
 const developersList = computed(() => {

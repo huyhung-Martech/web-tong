@@ -43,13 +43,15 @@
 import { ref, onMounted } from 'vue';
 import newsData from '../data/get_real_news.json';
 
-const news = ref([]);
-const loading = ref(true);
+const getArrayData = (data) => {
+  if (!data) return [];
+  if (Array.isArray(data)) return data;
+  if (data.default && Array.isArray(data.default)) return data.default;
+  return [];
+};
 
-onMounted(() => {
-  news.value = newsData;
-  loading.value = false;
-});
+const news = ref(getArrayData(newsData));
+const loading = ref(false);
 
 function readMore(item) {
   alert(`Đang mở bài viết: "${item.title}". Tính năng đọc chi tiết đang được cập nhật.`);
