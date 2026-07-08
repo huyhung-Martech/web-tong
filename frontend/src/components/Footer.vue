@@ -3,12 +3,12 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
       <!-- About -->
       <div>
-        <h3 class="text-white font-bold text-lg mb-4">Bất Động Sản Queenland</h3>
+        <h3 class="text-white font-bold text-lg mb-4">Bất Động Sản Queen Land</h3>
         <p class="text-sm leading-relaxed mb-4">
-          Queenland là nền tảng quản trị phân phối bất động sản hiện đại, giúp kết nối môi giới và khách hàng đến những quỹ căn chất lượng cao.
+          Queen Land là nền tảng quản trị phân phối bất động sản hiện đại, giúp kết nối môi giới và khách hàng đến những quỹ căn chất lượng cao.
         </p>
         <span class="text-xs text-slate-500 block">
-          GCNĐKDN số 0110347195 | Bản quyền ©2026 thuộc về Công ty Bất Động sản Queenland.
+          GCNĐKDN số 0110347195 | Bản quyền ©2026 thuộc về Công ty Bất Động sản Queen Land.
         </span>
       </div>
 
@@ -16,7 +16,7 @@
       <div>
         <h3 class="text-white font-bold text-lg mb-4">Liên Kết Nhanh</h3>
         <ul class="space-y-2 text-sm">
-          <li><a href="#" class="hover:text-white transition-colors">Giới thiệu Queenland</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Giới thiệu Queen Land</a></li>
           <li><a href="#" class="hover:text-white transition-colors">Quy chế hoạt động sàn</a></li>
           <li><a href="#" class="hover:text-white transition-colors">Chính sách bảo mật</a></li>
           <li><a href="#" class="hover:text-white transition-colors">Hướng dẫn thanh toán khóa căn</a></li>
@@ -29,7 +29,7 @@
         <ul class="space-y-3 text-sm">
           <li class="flex items-center gap-2">
             <i class="bi bi-geo-alt-fill text-accent"></i>
-            <span>Công ty Bất Động sản Queenland, Hà Nội & TP. HCM</span>
+            <span>Công ty Bất Động sản Queen Land, Hà Nội & TP. HCM</span>
           </li>
           <li class="flex items-center gap-2">
             <i class="bi bi-envelope-fill text-accent"></i>
@@ -43,7 +43,7 @@
       </div>
     </div>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8 pt-8 border-t border-slate-800 text-center text-xs text-slate-600">
-      © 2026 Queenland. All rights reserved.
+      Bản quyền thuộc về Salehub.dev - Một sản phẩm của Queen Land Group.
     </div>
   </footer>
 </template>

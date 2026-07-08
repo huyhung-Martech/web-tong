@@ -615,7 +615,7 @@
             </a>
             <span class="flex items-center gap-2 text-slate-600 font-bold">
               <i class="bi bi-award-fill text-primary text-sm"></i>
-              Thương hiệu: Queenland
+              Thương hiệu: Queen Land
             </span>
           </div>
           <a 

@@ -2,7 +2,7 @@
   <div class="py-8 space-y-6">
     <div class="mb-8">
       <h1 class="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">TIN TỨC DỰ ÁN</h1>
-      <p class="mt-2 text-sm text-slate-500">Cập nhật tin tức thị trường bất động sản mới nhất và các chính sách ưu đãi từ Queenland.</p>
+      <p class="mt-2 text-sm text-slate-500">Cập nhật tin tức thị trường bất động sản mới nhất và các chính sách ưu đãi từ Queen Land.</p>
     </div>
 
     <div v-if="loading" class="flex justify-center items-center py-20">
