@@ -79,27 +79,16 @@ const emit = defineEmits(['select-project']);
 
 // Lists from screenshot
 const highRiseList = [
-  { name: 'LUMIÈRE HANOI SEASONS GARDEN', slug: 'lumiere-hanoi-seasons-garden' },
-  { name: 'VINHOMES STAR CITY', slug: 'vinhomes-star-city' },
-  { name: 'VINHOMES GRAND PARK', slug: 'vinhomes-grand-park' },
-  { name: 'SUN SYMPHONY 5', slug: 'sun-symphony-5' },
   { name: 'IMPERIA OCEAN CITY - THE PARKLAND', slug: 'imperia-ocean-city-the-parkland' }
 ];
 
 const lowRiseList = [
   { name: 'VINHOMES GLOBAL GATE HẠ LONG', slug: 'vinhomes-global-gate-ha-long' },
-  { name: 'VINHOMES SÀI GÒN PARK', slug: 'vinhomes-sai-gon-park-1' },
-  { name: 'VINHOMES HẢI VÂN BAY', slug: 'vinhomes-hai-van-bay' },
-  { name: 'VINHOMES OCEAN PARK 3', slug: 'vinhomes-ocean-park-3' },
-  { name: 'VINHOMES GREEN PARADISE', slug: 'vinhomes-green-paradise' }
+  { name: 'FORESTIA PARK PHỐ NỐI', slug: 'forestia' }
 ];
 
 const newestList = [
-  { name: 'FLAMINGO GOLDEN HILL', slug: 'flamingo-golden-hill' },
-  { name: 'HANOI SIGNATURE BY SWISS-BELHOTEL', slug: 'hanoi-signature-by-swiss-belhotel' },
-  { name: 'FLAMINGO HERITAGE ONSEN & RESORT', slug: 'flamingo-heritage-onsen-resort' },
-  { name: 'EUROWINDOW LIGHT CITY', slug: 'eurowindow-light-city' },
-  { name: 'PRIMA BAY HẠ LONG', slug: 'prima-bay-ha-long' }
+  { name: 'FORESTIA PARK PHỐ NỐI', slug: 'forestia' }
 ];
 
 const handleSelect = (item) => {
