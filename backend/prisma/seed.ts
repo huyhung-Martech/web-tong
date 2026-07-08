@@ -65,7 +65,7 @@ async function main() {
   for (const item of projectsData) {
     // Đổi tên Mayhomes hoặc SalePro thành thông tin cá nhân trong description hoặc slogan nếu có
     let description = item.project_slogan || '';
-    description = description.replace(/Mayhomes/gi, 'Hưng Land').replace(/SalePro/gi, 'Hưng Real Estate');
+    description = description.replace(/Mayhomes/gi, 'Queenland').replace(/SalePro/gi, 'Queenland');
 
     const createdProject = await prisma.project.create({
       data: {
@@ -74,7 +74,7 @@ async function main() {
         slug: item.project_slug,
         description: description,
         location: item.project_address || '',
-        developer: item.investor || 'Hưng Real Estate',
+        developer: item.investor || 'Queenland',
         estateType: item.project_type || 'high_rise',
         imageUrl: item.avatar_url || null,
         viewCount: item.view_count || 0,

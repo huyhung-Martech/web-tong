@@ -3,7 +3,7 @@
     <!-- Top Title and Slogan -->
     <div class="mb-8">
       <h1 class="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">DANH SÁCH DỰ ÁN</h1>
-      <p class="mt-2 text-sm text-slate-500">Tra cứu bảng hàng trực tuyến và khóa căn giữ chỗ tức thời dành cho đại lý và khách hàng Hưng Land.</p>
+      <p class="mt-2 text-sm text-slate-500">Tra cứu bảng hàng trực tuyến và khóa căn giữ chỗ tức thời dành cho đại lý và khách hàng Queenland.</p>
     </div>
 
     <!-- Sticky Search & Filters Bar -->

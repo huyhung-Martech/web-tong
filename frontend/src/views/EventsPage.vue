@@ -2,7 +2,7 @@
   <div class="py-8 space-y-6">
     <div class="mb-8">
       <h1 class="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">SỰ KIỆN MỞ BÁN</h1>
-      <p class="mt-2 text-sm text-slate-500">Tham gia các buổi lễ mở bán, lễ ký kết và trải nghiệm dự án thực tế cùng Hưng Land.</p>
+      <p class="mt-2 text-sm text-slate-500">Tham gia các buổi lễ mở bán, lễ ký kết và trải nghiệm dự án thực tế cùng Queenland.</p>
     </div>
 
     <!-- Events Timeline -->
@@ -59,7 +59,7 @@ const events = ref([
     title: 'Trải nghiệm đỉnh cao Virtual Tour 3d - Global City',
     date: '12 tháng 7, 2026',
     description: 'Sự kiện trải nghiệm thực tế ảo qua kính VR chuyên nghiệp dành riêng cho giới đầu tư, mục kích toàn cảnh khu đô thị The Global City.',
-    location: 'Văn phòng Hưng Land, Quận 2, TP.HCM',
+    location: 'Văn phòng Queenland, Quận 2, TP.HCM',
     image: 'https://s3-hfx03.fptcloud.com/image-upload/salepro/1766481729674-banner-web-2.webp',
     status: 'upcoming'
   }
