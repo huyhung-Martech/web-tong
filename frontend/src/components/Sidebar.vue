@@ -83,12 +83,11 @@ const highRiseList = [
 ];
 
 const lowRiseList = [
-  { name: 'VINHOMES GLOBAL GATE HẠ LONG', slug: 'vinhomes-global-gate-ha-long' },
-  { name: 'FORESTIA PARK PHỐ NỐI', slug: 'forestia' }
+  { name: 'VINHOMES GLOBAL GATE HẠ LONG', slug: 'vinhomes-global-gate-ha-long' }
 ];
 
 const newestList = [
-  { name: 'FORESTIA PARK PHỐ NỐI', slug: 'forestia' }
+  { name: 'VINHOMES GLOBAL GATE HẠ LONG', slug: 'vinhomes-global-gate-ha-long' }
 ];
 
 const handleSelect = (item) => {

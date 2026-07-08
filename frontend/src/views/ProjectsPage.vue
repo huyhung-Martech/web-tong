@@ -160,7 +160,7 @@ const getArrayData = (data) => {
     "available_units": 860
   };
 
-  filtered.push(forestiaProject);
+  // filtered.push(forestiaProject);
   return filtered;
 };
 
