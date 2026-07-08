@@ -11,6 +11,30 @@
   },
   "rewrites": [
     {
+      "source": "/parkland",
+      "destination": "https://landing-parkland.vercel.app/"
+    },
+    {
+      "source": "/parkland/:path*",
+      "destination": "https://landing-parkland.vercel.app/:path*"
+    },
+    {
+      "source": "/ha-long-xanh",
+      "destination": "https://ha-long-xanh.vercel.app/"
+    },
+    {
+      "source": "/ha-long-xanh/:path*",
+      "destination": "https://ha-long-xanh.vercel.app/:path*"
+    },
+    {
+      "source": "/forestia",
+      "destination": "https://forestia-park-landing-page.vercel.app/"
+    },
+    {
+      "source": "/forestia/:path*",
+      "destination": "https://forestia-park-landing-page.vercel.app/:path*"
+    },
+    {
       "source": "/api(/.*)?",
       "destination": {
         "type": "service",
