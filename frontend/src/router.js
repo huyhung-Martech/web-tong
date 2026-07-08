@@ -64,7 +64,7 @@ const router = createRouter({
 
 router.beforeEach((to, from, next) => {
   if (to.name === 'ProjectDetail' && to.params.slug === 'imperia-ocean-city-the-parkland') {
-    window.location.href = 'https://www.salehub.dev/';
+    window.location.href = '/parkland';
     return;
   }
   next();

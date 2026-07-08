@@ -221,15 +221,15 @@ const hotProjects = computed(() => {
 function navigateToDetail(project) {
   const slug = project.project_slug || project.slug;
   if (slug === 'vinhomes-global-gate-ha-long') {
-    window.location.href = 'https://globalgate.salehub.dev';
+    window.location.href = '/ha-long-xanh';
     return;
   }
   if (slug === 'imperia-ocean-city-the-parkland') {
-    window.location.href = 'https://parkland.salehub.dev';
+    window.location.href = '/parkland';
     return;
   }
   if (slug === 'forestia') {
-    window.location.href = 'https://forestia.salehub.dev';
+    window.location.href = '/forestia';
     return;
   }
   router.push({ name: 'ProjectDetail', params: { slug } });
