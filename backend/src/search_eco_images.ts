@@ -2,8 +2,16 @@ import { PrismaClient } from '@prisma/client';
 const prisma = new PrismaClient();
 
 async function main() {
-  const projects = await prisma.$queryRawUnsafe(`SELECT id, name, slug, estateType FROM Project WHERE name LIKE '%ECO%' OR slug LIKE '%eco%'`);
-  console.log(JSON.stringify(projects, null, 2));
+  const tableInfo: any = await prisma.$queryRawUnsafe(`PRAGMA table_info(Subdivision)`);
+  tableInfo.forEach((col: any) => {
+    console.log(`Column: ${col.name}, Type: ${col.type}`);
+  });
+
+  const subs: any = await prisma.$queryRawUnsafe(`SELECT * FROM Subdivision WHERE projectId = 1396`);
+  console.log("Subdivisions for project 1396:");
+  subs.forEach((sub: any) => {
+    console.log(`- ID: ${sub.id}, Name: ${sub.name}, code: ${sub.code}`);
+  });
 }
 
 main()
