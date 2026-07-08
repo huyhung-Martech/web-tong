@@ -1,4 +1,21 @@
 {
+  "redirects": [
+    {
+      "source": "/parkland",
+      "destination": "https://parkland.salehub.dev",
+      "permanent": false
+    },
+    {
+      "source": "/ha-long-xanh",
+      "destination": "https://globalgate.salehub.dev",
+      "permanent": false
+    },
+    {
+      "source": "/forestia",
+      "destination": "https://forestia.salehub.dev",
+      "permanent": false
+    }
+  ],
   "rewrites": [
     { "source": "/:path*", "destination": "/index.html" }
   ]
