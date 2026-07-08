@@ -1,22 +1,17 @@
 {
-  "redirects": [
+  "rewrites": [
     {
       "source": "/parkland",
-      "destination": "https://parkland.salehub.dev",
-      "permanent": false
+      "destination": "https://parkland.salehub.dev"
     },
     {
       "source": "/ha-long-xanh",
-      "destination": "https://globalgate.salehub.dev",
-      "permanent": false
+      "destination": "https://globalgate.salehub.dev"
     },
     {
       "source": "/forestia",
-      "destination": "https://forestia.salehub.dev",
-      "permanent": false
-    }
-  ],
-  "rewrites": [
+      "destination": "https://forestia.salehub.dev"
+    },
     { "source": "/:path*", "destination": "/index.html" }
   ]
 }
