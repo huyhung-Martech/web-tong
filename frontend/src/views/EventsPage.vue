@@ -5,40 +5,18 @@
       <p class="mt-2 text-sm text-slate-500">Tham gia các buổi lễ mở bán, lễ ký kết và trải nghiệm dự án thực tế cùng Queen Land.</p>
     </div>
 
-    <!-- Events Timeline -->
-    <div class="space-y-6 max-w-3xl mx-auto">
-      <div 
-        v-for="(event, idx) in events" 
-        :key="idx"
-        class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all flex flex-col md:flex-row gap-6"
-      >
-        <div class="w-full md:w-48 h-32 rounded-xl overflow-hidden bg-slate-100 flex-shrink-0">
-          <img :src="event.image" class="w-full h-full object-cover" alt="Event Cover">
-        </div>
-        
-        <div class="flex-grow flex flex-col justify-between">
-          <div>
-            <div class="flex items-center gap-2">
-              <span class="text-[10px] font-extrabold text-white bg-primary px-2.5 py-0.5 rounded uppercase">
-                {{ event.status === 'upcoming' ? 'Sắp diễn ra' : 'Đã kết thúc' }}
-              </span>
-              <span class="text-xs text-slate-400 font-bold">{{ event.date }}</span>
-            </div>
-            <h3 class="text-lg font-extrabold text-slate-800 mt-2.5 leading-snug">{{ event.title }}</h3>
-            <p class="text-slate-500 text-xs mt-2 leading-relaxed">{{ event.description }}</p>
-          </div>
-          
-          <div class="flex justify-between items-center mt-4">
-            <span class="text-xs text-slate-400 font-medium flex items-center gap-1">
-              <i class="bi bi-geo-alt-fill text-primary"></i>
-              {{ event.location }}
-            </span>
-            <button @click="registerEvent(event)" class="btn bg-primary hover:bg-primary-dark text-white text-xs font-bold py-2 px-4 rounded-xl transition-all shadow-sm">
-              Đăng ký tham gia
-            </button>
-          </div>
-        </div>
+    <!-- Empty State -->
+    <div class="bg-white border border-slate-200 rounded-2xl p-8 sm:p-16 text-center max-w-xl mx-auto shadow-sm space-y-4">
+      <div class="w-16 h-16 rounded-full bg-slate-50 border border-slate-100 flex items-center justify-center mx-auto text-slate-300">
+        <i class="bi bi-calendar-event text-3xl"></i>
       </div>
+      <h3 class="text-lg font-black text-slate-700">Chưa có sự kiện mở bán mới</h3>
+      <p class="text-sm text-slate-400 leading-relaxed max-w-sm mx-auto">
+        Hiện tại chưa có sự kiện mở bán nào mới được lên lịch. Vui lòng quay lại sau để cập nhật thông tin về các buổi lễ mở bán và trải nghiệm nhà mẫu thực tế.
+      </p>
+      <router-link to="/project-page" class="inline-flex items-center gap-1.5 bg-primary hover:bg-primary-dark text-white px-5 py-2.5 rounded-xl text-xs font-extrabold shadow-sm transition-colors">
+        <i class="bi bi-building"></i> Xem các dự án đang bán
+      </router-link>
     </div>
   </div>
 </template>

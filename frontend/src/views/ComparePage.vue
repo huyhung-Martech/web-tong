@@ -5,71 +5,18 @@
       <p class="mt-2 text-sm text-slate-500">So sánh chi tiết các căn hộ giữa các phân khu, diện tích, giá và hướng nhà để đưa ra lựa chọn đầu tư tối ưu.</p>
     </div>
 
-    <!-- Comparison Table Grid -->
-    <div class="bg-white border border-slate-200 rounded-2xl shadow-sm overflow-hidden max-w-4xl mx-auto">
-      <div class="p-6 border-b border-slate-100 bg-slate-50 flex justify-between items-center">
-        <h3 class="text-sm font-extrabold text-slate-800 uppercase tracking-wider flex items-center gap-2">
-          <i class="bi bi-sliders text-primary"></i> Bảng so sánh căn hộ thực tế
-        </h3>
-        <span class="text-xs text-slate-400 font-semibold">So sánh mẫu 2 căn hot nhất</span>
+    <!-- Empty State -->
+    <div class="bg-white border border-slate-200 rounded-2xl p-8 sm:p-16 text-center max-w-xl mx-auto shadow-sm space-y-4">
+      <div class="w-16 h-16 rounded-full bg-slate-50 border border-slate-100 flex items-center justify-center mx-auto text-slate-300">
+        <i class="bi bi-sliders text-3xl"></i>
       </div>
-
-      <div class="overflow-x-auto">
-        <table class="w-full text-sm text-left border-collapse">
-          <thead>
-            <tr class="border-b border-slate-200 bg-slate-50/50 text-slate-400 font-bold text-xs uppercase">
-              <th class="py-4 px-6 w-1/4">Thông số</th>
-              <th class="py-4 px-6 text-primary w-3/8 font-extrabold text-center">Căn HH-A-06-10 (Lumiere L1)</th>
-              <th class="py-4 px-6 text-emerald-600 w-3/8 font-extrabold text-center">Căn HH-B-12-08 (Lumiere L2)</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="border-b border-slate-100 hover:bg-slate-50/30">
-              <td class="py-4 px-6 font-bold text-slate-600">Dự án</td>
-              <td class="py-4 px-6 text-center font-extrabold text-slate-800">LUMIÈRE HANOI</td>
-              <td class="py-4 px-6 text-center font-extrabold text-slate-800">LUMIÈRE HANOI</td>
-            </tr>
-            <tr class="border-b border-slate-100 hover:bg-slate-50/30">
-              <td class="py-4 px-6 font-bold text-slate-600">Giá bán</td>
-              <td class="py-4 px-6 text-center font-extrabold text-primary text-base">4.2 tỷ</td>
-              <td class="py-4 px-6 text-center font-extrabold text-emerald-600 text-base">4.9 tỷ</td>
-            </tr>
-            <tr class="border-b border-slate-100 hover:bg-slate-50/30">
-              <td class="py-4 px-6 font-bold text-slate-600">Diện tích thông thủy</td>
-              <td class="py-4 px-6 text-center font-medium text-slate-700">68.5 m²</td>
-              <td class="py-4 px-6 text-center font-medium text-slate-700">79.2 m²</td>
-            </tr>
-            <tr class="border-b border-slate-100 hover:bg-slate-50/30">
-              <td class="py-4 px-6 font-bold text-slate-600">Hướng nhà</td>
-              <td class="py-4 px-6 text-center font-medium text-slate-700">Đông Nam (Mát mẻ)</td>
-              <td class="py-4 px-6 text-center font-medium text-slate-700">Tây Bắc (Thoáng đãng)</td>
-            </tr>
-            <tr class="border-b border-slate-100 hover:bg-slate-50/30">
-              <td class="py-4 px-6 font-bold text-slate-600">Số phòng ngủ</td>
-              <td class="py-4 px-6 text-center font-medium text-slate-700">2 Phòng Ngủ</td>
-              <td class="py-4 px-6 text-center font-medium text-slate-700">3 Phòng Ngủ</td>
-            </tr>
-            <tr class="border-b border-slate-100 hover:bg-slate-50/30">
-              <td class="py-4 px-6 font-bold text-slate-600">Tầng số</td>
-              <td class="py-4 px-6 text-center font-medium text-slate-700">Tầng 6 (Thấp vừa)</td>
-              <td class="py-4 px-6 text-center font-medium text-slate-700">Tầng 12 (Trung bình cao)</td>
-            </tr>
-            <tr class="hover:bg-slate-50/30">
-              <td class="py-4 px-6 font-bold text-slate-600">Hành động</td>
-              <td class="py-4 px-6 text-center">
-                <router-link to="/project-detail/lumiere-hanoi-seasons-garden" class="btn bg-primary text-white text-xs font-bold py-2 px-4 rounded-xl shadow-sm hover-premium transition-all">
-                  Đặt cọc căn này
-                </router-link>
-              </td>
-              <td class="py-4 px-6 text-center">
-                <router-link to="/project-detail/lumiere-hanoi-seasons-garden" class="btn bg-emerald-600 text-white text-xs font-bold py-2 px-4 rounded-xl shadow-sm hover-premium transition-all">
-                  Đặt cọc căn này
-                </router-link>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+      <h3 class="text-lg font-black text-slate-700">Chưa có căn hộ nào được so sánh</h3>
+      <p class="text-sm text-slate-400 leading-relaxed max-w-sm mx-auto">
+        Hiện tại chưa có dữ liệu so sánh căn hộ. Các bảng so sánh và phân tích chi tiết dòng tiền sẽ được cập nhật khi các phân khu chính thức mở bán.
+      </p>
+      <router-link to="/project-page" class="inline-flex items-center gap-1.5 bg-primary hover:bg-primary-dark text-white px-5 py-2.5 rounded-xl text-xs font-extrabold shadow-sm transition-colors">
+        <i class="bi bi-building"></i> Quay lại danh sách dự án
+      </router-link>
     </div>
   </div>
 </template>

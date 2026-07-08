@@ -9,6 +9,19 @@
       <div class="animate-spin rounded-full h-10 w-10 border-b-2 border-primary"></div>
     </div>
 
+    <div v-else-if="news.length === 0" class="bg-white border border-slate-200 rounded-2xl p-8 sm:p-16 text-center max-w-xl mx-auto shadow-sm space-y-4">
+      <div class="w-16 h-16 rounded-full bg-slate-50 border border-slate-100 flex items-center justify-center mx-auto text-slate-300">
+        <i class="bi bi-newspaper text-3xl"></i>
+      </div>
+      <h3 class="text-lg font-black text-slate-700">Chưa có tin tức mới</h3>
+      <p class="text-sm text-slate-400 leading-relaxed max-w-sm mx-auto">
+        Hiện tại chưa có tin tức hoặc chính sách mới nào được cập nhật. Vui lòng quay lại sau để xem các tin tức thị trường bất động sản mới nhất.
+      </p>
+      <router-link to="/project-page" class="inline-flex items-center gap-1.5 bg-primary hover:bg-primary-dark text-white px-5 py-2.5 rounded-xl text-xs font-extrabold shadow-sm transition-colors">
+        <i class="bi bi-building"></i> Xem các dự án đang bán
+      </router-link>
+    </div>
+
     <div v-else class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <div 
         v-for="item in news" 
@@ -40,17 +53,9 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue';
-import newsData from '../data/get_real_news.json';
+import { ref } from 'vue';
 
-const getArrayData = (data) => {
-  if (!data) return [];
-  if (Array.isArray(data)) return data;
-  if (data.default && Array.isArray(data.default)) return data.default;
-  return [];
-};
-
-const news = ref(getArrayData(newsData));
+const news = ref([]);
 const loading = ref(false);
 
 function readMore(item) {

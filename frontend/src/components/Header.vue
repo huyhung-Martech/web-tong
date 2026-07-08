@@ -119,6 +119,9 @@ const showMobileMenu = ref(false);
 
 const navItems = [
   { label: 'Dự án', to: '/project-page' },
+  { label: 'Tin tức', to: '/tin-tuc' },
+  { label: 'Sự kiện', to: '/su-kien' },
+  { label: 'So sánh căn hộ', to: '/compare' },
   { label: 'Hướng dẫn sử dụng', to: '/huong-dan-su-dung' },
 ];
 
