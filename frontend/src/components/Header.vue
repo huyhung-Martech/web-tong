@@ -33,16 +33,71 @@
         </nav>
 
         <!-- User Actions / Login / Contact Agent -->
-        <div class="flex items-center gap-3">
+        <div class="flex items-center gap-2.5">
           <!-- Liên hệ đại lý -->
-          <a href="tel:0926066888" class="flex items-center gap-1.5 bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-2 rounded-xl text-xs font-extrabold shadow-md hover-premium transition-all">
+          <a href="tel:0926066888" class="flex items-center gap-1.5 bg-emerald-500 hover:bg-emerald-600 text-white px-3.5 py-2 rounded-xl text-xs font-extrabold shadow-md hover-premium transition-all">
             <i class="bi bi-telephone-fill"></i>
-            Liên hệ đại lý
+            <span class="hidden xs:inline">Liên hệ đại lý</span>
           </a>
 
+          <!-- Hamburger Button on Mobile -->
+          <button 
+            @click="showMobileMenu = true" 
+            class="flex md:hidden items-center justify-center p-2 rounded-xl border border-slate-200 hover:bg-slate-50 text-slate-600 transition-colors outline-none"
+            aria-label="Open menu"
+          >
+            <i class="bi bi-list text-lg"></i>
+          </button>
         </div>
       </div>
     </div>
+
+    <!-- Mobile Slide-over Drawer -->
+    <transition name="drawer-fade">
+      <div v-if="showMobileMenu" class="fixed inset-0 z-50 overflow-hidden md:hidden">
+        <!-- Backdrop -->
+        <div class="absolute inset-0 bg-slate-900/60 backdrop-blur-xs transition-opacity" @click="showMobileMenu = false"></div>
+        
+        <!-- Sliding panel -->
+        <div class="absolute inset-y-0 right-0 max-w-xs w-full bg-white shadow-2xl flex flex-col justify-between transition-transform duration-300">
+          <div class="p-6">
+            <!-- Header of drawer -->
+            <div class="flex items-center justify-between pb-4 border-b border-slate-100">
+              <span class="text-xs font-extrabold text-primary uppercase tracking-wider font-label">Menu Điều Hướng</span>
+              <button 
+                @click="showMobileMenu = false" 
+                class="w-8 h-8 rounded-lg flex items-center justify-center border border-slate-250 text-slate-400 hover:text-slate-600 transition-colors outline-none"
+              >
+                <i class="bi bi-x-lg text-sm"></i>
+              </button>
+            </div>
+
+            <!-- Links list -->
+            <nav class="flex flex-col gap-1.5 mt-6">
+              <router-link 
+                v-for="(item, index) in navItems" 
+                :key="index"
+                :to="item.to" 
+                class="px-4 py-3 rounded-xl text-xs font-extrabold text-slate-600 hover:bg-slate-50 hover:text-primary transition-all flex items-center justify-between uppercase tracking-wider"
+                active-class="bg-blue-50/50 text-primary!"
+                @click="showMobileMenu = false"
+              >
+                {{ item.label }}
+                <i class="bi bi-chevron-right text-[10px] text-slate-400"></i>
+              </router-link>
+            </nav>
+          </div>
+
+          <!-- Bottom Actions -->
+          <div class="p-6 border-t border-slate-100 bg-slate-50/50">
+            <a href="tel:0926066888" class="w-full py-3 bg-emerald-500 hover:bg-emerald-600 text-white rounded-xl text-xs font-extrabold uppercase tracking-wider flex items-center justify-center gap-2 shadow-md transition-all">
+              <i class="bi bi-telephone-fill text-xs text-emerald-100"></i>
+              Hotline: 0926.066.888
+            </a>
+          </div>
+        </div>
+      </div>
+    </transition>
   </header>
 </template>
 
@@ -60,6 +115,7 @@ defineEmits(['open-login', 'logout']);
 
 const navRef = ref(null);
 const hoverX = ref(null);
+const showMobileMenu = ref(false);
 
 const navItems = [
   { label: 'Giới thiệu', to: '/huong-dan-su-dung' },
@@ -98,5 +154,28 @@ onUnmounted(() => {
 <style scoped>
 .active-link {
   background-color: rgba(14, 165, 233, 0.08);
+}
+
+/* Slide Drawer animation rules */
+.drawer-fade-enter-active, .drawer-fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+.drawer-fade-enter-from, .drawer-fade-leave-to {
+  opacity: 0;
+}
+.drawer-fade-enter-active > div:last-child {
+  animation: slide-in 0.3s ease-out;
+}
+.drawer-fade-leave-active > div:last-child {
+  animation: slide-out 0.3s ease-in;
+}
+
+@keyframes slide-in {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+@keyframes slide-out {
+  from { transform: translateX(0); }
+  to { transform: translateX(100%); }
 }
 </style>

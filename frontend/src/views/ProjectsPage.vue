@@ -7,7 +7,7 @@
     </div>
 
     <!-- Sticky Search & Filters Bar -->
-    <div class="sticky top-16 z-30 bg-slate-50/95 backdrop-blur-md py-4 mb-8 border-b border-slate-200/60 -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
+    <div class="sticky top-16 z-30 bg-slate-50/95 backdrop-blur-md py-2.5 sm:py-4 mb-4 sm:mb-8 border-b border-slate-200/60 -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
       <div class="max-w-7xl mx-auto flex flex-col xl:flex-row gap-3 items-center justify-between">
         <!-- Search Input -->
         <div class="relative w-full xl:max-w-xs">
@@ -65,7 +65,7 @@
     </div>
 
     <!-- Content Grid -->
-    <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+    <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 lg:gap-8">
       
       <!-- Left Side: Projects Grid (3 cols) -->
       <div class="lg:col-span-3">
@@ -73,14 +73,14 @@
           <div class="animate-spin rounded-full h-10 w-10 border-b-2 border-primary"></div>
         </div>
         
-        <div v-else-if="filteredProjects.length === 0" class="bg-white rounded-2xl border border-slate-200 p-12 text-center shadow-sm">
+        <div v-else-if="filteredProjects.length === 0" class="bg-white rounded-2xl border border-slate-200 p-8 sm:p-12 text-center shadow-sm">
           <i class="bi bi-folder-x text-5xl text-slate-300 block mb-4"></i>
           <h3 class="text-lg font-bold text-slate-700 mb-1">Không tìm thấy dự án</h3>
           <p class="text-sm text-slate-400">Thử thay đổi từ khóa tìm kiếm hoặc bộ lọc danh mục.</p>
         </div>
 
-        <div v-else class="space-y-6">
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div v-else class="space-y-4 sm:space-y-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
             <div v-for="p in displayedProjects" :key="p.id">
               <ProjectCard :project="p" @view-detail="navigateToDetail" />
             </div>

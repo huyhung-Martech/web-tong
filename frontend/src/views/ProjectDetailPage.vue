@@ -12,7 +12,7 @@
     </router-link>
   </div>
 
-  <div v-else class="py-6 space-y-6">
+  <div v-else class="py-4 sm:py-6 pb-20 lg:pb-6 space-y-4 sm:space-y-6">
     <!-- Breadcrumbs -->
     <nav class="text-xs font-semibold text-slate-400 flex items-center gap-1.5">
       <router-link to="/project-page" class="hover:text-primary transition-colors">Trang chủ</router-link>
@@ -65,13 +65,13 @@
     </div>
 
     <!-- Main Workspace Split -->
-    <div class="grid grid-cols-1 lg:grid-cols-4 gap-8 items-start">
+    <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 lg:gap-8 items-start">
       <!-- Left Content Column (75%) -->
       <div class="lg:col-span-3 space-y-6">
         
         <!-- 1. TỔNG QUAN -->
         <div v-if="activeTab === 'overview'" class="space-y-6">
-          <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-6">
+          <div class="bg-white p-4 md:p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-4 md:space-y-6">
             <!-- Slogan & Intro Image -->
             <div class="rounded-xl overflow-hidden h-72 relative bg-slate-100 border border-slate-200/40 shadow-sm">
               <img :src="project.avatar_url || project.image_url" class="w-full h-full object-cover" alt="Overview Image">
@@ -151,7 +151,7 @@
             </div>
 
             <!-- Carousel tiện ích -->
-            <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-6">
+            <div class="bg-white p-4 md:p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-4 md:space-y-6">
               <div class="text-center space-y-1">
                 <h4 class="text-lg font-extrabold text-blue-800 uppercase">Tiện ích</h4>
                 <p class="text-xs text-slate-400 font-bold uppercase tracking-wider">Hệ thống tiện ích đẳng cấp</p>
@@ -245,7 +245,7 @@
 
         <!-- 2. VỊ TRÍ -->
         <div v-else-if="activeTab === 'location'" class="space-y-6">
-          <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-6">
+          <div class="bg-white p-4 md:p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-4 md:space-y-6">
             <div v-if="project.locationHtml || project.location_html" class="space-y-3">
               <h4 class="text-sm font-extrabold text-slate-800 uppercase tracking-wider border-b border-slate-100 pb-2 flex items-center gap-2">
                 <i class="bi bi-geo text-primary"></i> Vị trí địa lý
@@ -269,7 +269,7 @@
 
         <!-- 3. ĐÀO TẠO -->
         <div v-else-if="activeTab === 'training'" class="space-y-6">
-          <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-6">
+          <div class="bg-white p-4 md:p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-4 md:space-y-6">
             <div class="flex justify-between items-center border-b border-slate-200/80 pb-3">
               <h4 class="text-sm font-extrabold text-slate-800 uppercase tracking-wider flex items-center gap-2">
                 <i class="bi bi-mortarboard text-primary"></i> Tài liệu Đào tạo & Sales Kit
@@ -305,7 +305,7 @@
 
         <!-- 4. MẶT BẰNG -->
         <div v-else-if="activeTab === 'layout'" class="space-y-6">
-          <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-6">
+          <div class="bg-white p-4 md:p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-4 md:space-y-6">
             <h4 class="text-sm font-extrabold text-slate-800 uppercase tracking-wider border-b border-slate-100 pb-2 flex items-center gap-2">
               <i class="bi bi-aspect-ratio text-primary"></i> Sơ đồ mặt bằng chi tiết & Thiết kế căn hộ
             </h4>
@@ -350,7 +350,7 @@
 
         <!-- 5. TÒA NHÀ -->
         <div v-else-if="activeTab === 'building'" class="space-y-6">
-          <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-6">
+          <div class="bg-white p-4 md:p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-4 md:space-y-6">
             <h4 class="text-sm font-extrabold text-slate-800 uppercase tracking-wider border-b border-slate-100 pb-2 flex items-center gap-2">
               <i class="bi bi-buildings text-primary"></i> Danh sách Block / Tòa nhà của dự án
             </h4>
@@ -381,7 +381,7 @@
 
         <!-- 6. BẢNG HÀNG (Inventory Grid) -->
         <div v-else-if="activeTab === 'inventory'" class="space-y-6">
-          <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-6">
+          <div class="bg-white p-4 md:p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-4 md:space-y-6">
             <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-slate-200 pb-3 gap-2">
               <h4 class="text-sm font-extrabold text-slate-800 uppercase tracking-wider flex items-center gap-2">
                 <i class="bi bi-grid-3x3-gap text-primary"></i> Sơ đồ căn hộ & Trạng thái khóa căn
@@ -455,7 +455,7 @@
 
         <!-- 8. ẢNH 360° -->
         <div v-else-if="activeTab === 'tour360'" class="space-y-6">
-          <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-6">
+          <div class="bg-white p-4 md:p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-4 md:space-y-6">
             <h4 class="text-sm font-extrabold text-slate-800 uppercase tracking-wider border-b border-slate-100 pb-2 flex items-center gap-2">
               <i class="bi bi-camera-video text-primary"></i> Tham quan thực tế ảo Virtual Tour 360°
             </h4>
@@ -473,7 +473,7 @@
 
         <!-- 9. CHÍNH SÁCH BÁN HÀNG -->
         <div v-else-if="activeTab === 'policy'" class="space-y-6">
-          <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-6">
+          <div class="bg-white p-4 md:p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-4 md:space-y-6">
             <!-- CSBH text description -->
             <div v-if="project.shortDescriptionSalePolicy || project.short_description_sale_policy" class="space-y-3">
               <h4 class="text-sm font-extrabold text-slate-800 uppercase tracking-wider border-b border-slate-100 pb-2 flex items-center gap-2">
@@ -515,7 +515,7 @@
 
         <!-- 10. TIẾN ĐỘ -->
         <div v-else-if="activeTab === 'progress'" class="space-y-6">
-          <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-6">
+          <div class="bg-white p-4 md:p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-4 md:space-y-6">
             <h4 class="text-sm font-extrabold text-slate-800 uppercase tracking-wider border-b border-slate-100 pb-2 flex items-center gap-2">
               <i class="bi bi-calendar-event text-primary"></i> Nhật ký tiến độ thi công thực tế
             </h4>
@@ -533,7 +533,7 @@
 
         <!-- 11. TÀI LIỆU -->
         <div v-else-if="activeTab === 'documents'" class="space-y-6">
-          <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-6">
+          <div class="bg-white p-4 md:p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-4 md:space-y-6">
             <div class="flex justify-between items-center border-b border-slate-200/80 pb-3">
               <h4 class="text-sm font-extrabold text-slate-800 uppercase tracking-wider flex items-center gap-2">
                 <i class="bi bi-file-earmark-arrow-down text-primary"></i> Tài liệu Pháp lý & Folder dự án
@@ -569,7 +569,7 @@
 
         <!-- 12. TIN TỨC -->
         <div v-else-if="activeTab === 'news'" class="space-y-6">
-          <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-6">
+          <div class="bg-white p-4 md:p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-4 md:space-y-6">
             <h4 class="text-sm font-extrabold text-slate-800 uppercase tracking-wider border-b border-slate-100 pb-2 flex items-center gap-2">
               <i class="bi bi-newspaper text-primary"></i> Tin tức thị trường & Cập nhật dự án
             </h4>
@@ -678,6 +678,25 @@
             </button>
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- Mobile Sticky Contact Bar -->
+    <div class="fixed bottom-0 left-0 right-0 z-40 bg-white border-t border-slate-200 p-3 shadow-lg flex items-center justify-between gap-3 lg:hidden">
+      <div class="flex items-center gap-2">
+        <img src="https://s3-hfx03.fptcloud.com/admin-bds/odoo/avatar.jpg_2e826f43fcd28fbd4d6f4479dfe213c9646e6ef0" class="w-8 h-8 rounded-full border border-slate-100 object-cover" alt="Broker">
+        <div>
+          <h5 class="text-xs font-black text-slate-800 leading-none">Phùng Huy Hưng</h5>
+          <span class="text-[9px] font-bold text-slate-400 uppercase tracking-wider block mt-0.5">Chuyên viên tư vấn</span>
+        </div>
+      </div>
+      <div class="flex gap-2">
+        <a href="tel:0989151897" class="bg-primary hover:bg-primary-dark text-white px-3.5 py-2 rounded-xl font-bold text-xs flex items-center gap-1.5 shadow-sm transition-colors">
+          <i class="bi bi-telephone-fill"></i> Gọi điện
+        </a>
+        <a href="https://zalo.me/0989151897" target="_blank" class="bg-blue-600 hover:bg-blue-750 text-white px-3.5 py-2 rounded-xl font-bold text-xs flex items-center gap-1.5 shadow-sm transition-colors">
+          <i class="bi bi-chat-fill"></i> Nhắn Zalo
+        </a>
       </div>
     </div>
   </div>

@@ -43,9 +43,9 @@
     </div>
 
     <!-- Info Area -->
-    <div class="p-5 flex flex-col flex-grow justify-between">
+    <div class="p-4 sm:p-5 flex flex-col flex-grow justify-between">
       <div>
-        <div class="flex justify-between items-start gap-2 mb-2">
+        <div class="flex justify-between items-start gap-2 mb-1.5 sm:mb-2">
           <h4 class="text-base font-extrabold text-slate-800 line-clamp-2 pt-1 mb-0 leading-snug">
             {{ project.name }}
           </h4>
@@ -55,13 +55,13 @@
             </a>
           </div>
         </div>
-        <p class="text-xs text-slate-500 line-clamp-3 mb-4 h-12 leading-relaxed">
+        <p class="text-xs text-slate-500 line-clamp-3 mb-3 sm:mb-4 h-12 leading-relaxed">
           {{ project.description || 'Không có mô tả dự án.' }}
         </p>
       </div>
 
       <div class="border-t border-slate-100 pt-3">
-        <div class="flex items-start gap-1.5 text-xs text-slate-500 mb-2">
+        <div class="flex items-start gap-1.5 text-xs text-slate-500 mb-1.5 sm:mb-2">
           <i class="bi bi-geo-alt-fill text-slate-400 flex-shrink-0 mt-0.5"></i>
           <span class="line-clamp-2 leading-snug">{{ project.location }}</span>
         </div>
