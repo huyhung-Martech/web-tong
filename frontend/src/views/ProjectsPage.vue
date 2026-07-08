@@ -124,9 +124,44 @@ const router = useRouter();
 // State variables
 const getArrayData = (data) => {
   if (!data) return [];
-  if (Array.isArray(data)) return data;
-  if (data.default && Array.isArray(data.default)) return data.default;
-  return [];
+  let rawList = [];
+  if (Array.isArray(data)) rawList = data;
+  else if (data.default && Array.isArray(data.default)) rawList = data.default;
+  else return [];
+
+  // Lọc chỉ giữ lại Parkland và Hạ Long Xanh
+  const targetSlugs = ['imperia-ocean-city-the-parkland', 'vinhomes-global-gate-ha-long'];
+  let filtered = rawList.filter(p => targetSlugs.includes(p.slug || p.project_slug));
+
+  // Định nghĩa và thêm dự án Forestia
+  const forestiaProject = {
+    "id": 9999,
+    "project_id": 9999,
+    "name": "FORESTIA PARK PHỐ NỐI",
+    "project_name": "FORESTIA PARK PHỐ NỐI",
+    "slug": "forestia",
+    "project_slug": "forestia",
+    "description": "Đại đô thị sinh thái xanh chuẩn MIK Group tại Phố Nối",
+    "project_slogan": "Đại đô thị sinh thái xanh chuẩn MIK Group tại Phố Nối",
+    "location": "Phố Nối, Mỹ Hào, Hưng Yên",
+    "project_address": "Phố Nối, Mỹ Hào, Hưng Yên",
+    "developer": "MIK Group",
+    "investor": "MIK Group",
+    "estate_type": "low_rise",
+    "project_type": "low_rise",
+    "image_url": "/forestia-avt.webp",
+    "avatar_url": "/forestia-avt.webp",
+    "avatar": {
+      "image_url": "/forestia-avt.webp"
+    },
+    "status": "opening",
+    "view_count": 28415,
+    "total_units": 860,
+    "available_units": 860
+  };
+
+  filtered.push(forestiaProject);
+  return filtered;
 };
 
 const projects = ref(getArrayData(projectsData));
@@ -180,14 +215,21 @@ const displayedProjects = computed(() => {
 });
 
 const hotProjects = computed(() => {
-  // Take first 3 projects with high views or arbitrary criteria as hot
   return projects.value.slice(0, 3);
 });
 
 function navigateToDetail(project) {
   const slug = project.project_slug || project.slug;
   if (slug === 'vinhomes-global-gate-ha-long') {
-    window.open('https://ha-long-xanh.vercel.app', '_blank');
+    window.location.href = 'https://globalgate.salehub.dev';
+    return;
+  }
+  if (slug === 'imperia-ocean-city-the-parkland') {
+    window.location.href = 'https://parkland.salehub.dev';
+    return;
+  }
+  if (slug === 'forestia') {
+    window.location.href = 'https://forestia.salehub.dev';
     return;
   }
   router.push({ name: 'ProjectDetail', params: { slug } });
