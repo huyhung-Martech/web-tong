@@ -609,13 +609,13 @@
               <i class="bi bi-telephone-fill text-primary text-sm"></i>
               0989151897
             </a>
-            <a href="mailto:huyhung.utehy@gmail.com" class="flex items-center gap-2 text-slate-600 hover:text-primary transition-colors font-bold">
+            <a href="mailto:contact@salehub.dev" class="flex items-center gap-2 text-slate-600 hover:text-primary transition-colors font-bold">
               <i class="bi bi-envelope-fill text-primary text-sm"></i>
-              huyhung.utehy@gmail.com
+              contact@salehub.dev
             </a>
             <span class="flex items-center gap-2 text-slate-600 font-bold">
               <i class="bi bi-award-fill text-primary text-sm"></i>
-              Thương hiệu: Queen Land
+              Thương hiệu: Salehub
             </span>
           </div>
           <a 

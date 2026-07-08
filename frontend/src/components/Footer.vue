@@ -33,7 +33,7 @@
           </li>
           <li class="flex items-center gap-2">
             <i class="bi bi-envelope-fill text-accent"></i>
-            <a href="mailto:huyhung.utehy@gmail.com" class="hover:text-white">huyhung.utehy@gmail.com</a>
+            <a href="mailto:contact@salehub.dev" class="hover:text-white">contact@salehub.dev</a>
           </li>
           <li class="flex items-center gap-2">
             <i class="bi bi-telephone-fill text-accent"></i>
