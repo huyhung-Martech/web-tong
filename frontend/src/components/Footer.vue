@@ -3,12 +3,12 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
       <!-- About -->
       <div>
-        <h3 class="text-white font-bold text-lg mb-4">Bất Động Sản Salehub</h3>
+        <h3 class="text-white font-bold text-lg mb-4">Salehub - Nền tảng công nghệ</h3>
         <p class="text-sm leading-relaxed mb-4">
           Salehub là nền tảng quản trị phân phối bất động sản hiện đại, giúp kết nối môi giới và khách hàng đến những quỹ căn chất lượng cao.
         </p>
         <span class="text-xs text-slate-500 block">
-          GCNĐKDN số 0110347195 | Bản quyền ©2026 thuộc về Công ty Bất Động sản Salehub.
+          GCNĐKDN số 0110347195 | Bản quyền ©2026 thuộc về Salehub.dev.
         </span>
       </div>
 
@@ -29,7 +29,7 @@
         <ul class="space-y-3 text-sm">
           <li class="flex items-center gap-2">
             <i class="bi bi-geo-alt-fill text-accent"></i>
-            <span>Công ty Bất Động sản Salehub, Hà Nội & TP. HCM</span>
+            <span>Salehub, Hà Nội & TP. HCM</span>
           </li>
           <li class="flex items-center gap-2">
             <i class="bi bi-envelope-fill text-accent"></i>
