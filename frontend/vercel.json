@@ -1,7 +1,24 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/parkland",
+      "destination": "/parkland/",
+      "permanent": false
+    },
+    {
+      "source": "/ha-long-xanh",
+      "destination": "/ha-long-xanh/",
+      "permanent": false
+    },
+    {
+      "source": "/forestia",
+      "destination": "/forestia/",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/parkland/",
       "destination": "https://parkland.salehub.dev/"
     },
     {
@@ -9,7 +26,7 @@
       "destination": "https://parkland.salehub.dev/:path*"
     },
     {
-      "source": "/ha-long-xanh",
+      "source": "/ha-long-xanh/",
       "destination": "https://globalgate.salehub.dev/"
     },
     {
@@ -17,7 +34,7 @@
       "destination": "https://globalgate.salehub.dev/:path*"
     },
     {
-      "source": "/forestia",
+      "source": "/forestia/",
       "destination": "https://forestia.salehub.dev/"
     },
     {
