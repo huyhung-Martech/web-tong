@@ -4,7 +4,7 @@
       <div class="flex justify-between h-16 items-center">
         <!-- Logo -->
         <router-link to="/" class="flex items-center gap-3 outline-none">
-          <img src="/Logo-Queen-Land-01.png" class="h-9 object-contain" alt="Salehub Logo">
+          <img src="/Logo-Queen-Land-01.png" class="h-[18px] object-contain" alt="Salehub Logo">
           <span class="hidden md:inline text-[10px] text-slate-400 font-extrabold uppercase tracking-widest border-l border-slate-200 pl-3">Salehub.dev</span>
         </router-link>
 
