@@ -68,7 +68,6 @@
         
         <div class="flex justify-between items-center text-xs font-semibold text-slate-400">
           <span><i class="bi bi-eye-fill"></i> {{ project.view_count || 0 }} lượt xem</span>
-          <span class="text-primary font-bold">Còn {{ project.available_units }} / {{ project.total_units }} căn</span>
         </div>
       </div>
     </div>
