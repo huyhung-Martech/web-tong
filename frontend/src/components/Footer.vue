@@ -15,8 +15,8 @@
           </div>
           
           <!-- C: Hotline -->
-          <a href="tel:0989151897" class="social-flip-node" aria-label="Hotline" style="--index: 0;">
-            <span class="social-tooltip">Hotline: 0989.151.897</span>
+          <a href="#" class="social-flip-node" aria-label="Hotline" style="--index: 0;">
+            <span class="social-tooltip">Hotline: Liên hệ</span>
             <div class="social-flip-inner">
               <div class="social-flip-front">C</div>
               <div class="social-flip-back hl-color"><i class="bi bi-telephone-fill"></i></div>
@@ -24,7 +24,7 @@
           </a>
           
           <!-- O: Zalo -->
-          <a href="https://zalo.me/0989151897" target="_blank" rel="noopener noreferrer" class="social-flip-node" aria-label="Zalo" style="--index: 1;">
+          <a href="#" class="social-flip-node" aria-label="Zalo" style="--index: 1;">
             <span class="social-tooltip">Zalo Chat</span>
             <div class="social-flip-inner">
               <div class="social-flip-front">O</div>
@@ -55,7 +55,7 @@
           </a>
           
           <!-- A: Zalo Group -->
-          <a href="https://zalo.me/0989151897" target="_blank" rel="noopener noreferrer" class="social-flip-node" aria-label="Zalo Group" style="--index: 4;">
+          <a href="#" class="social-flip-node" aria-label="Zalo Group" style="--index: 4;">
             <span class="social-tooltip">Quỹ căn Zalo Group</span>
             <div class="social-flip-inner">
               <div class="social-flip-front">A</div>
@@ -108,7 +108,7 @@
           </li>
           <li class="flex items-center gap-2">
             <i class="bi bi-telephone-fill text-accent"></i>
-            <span>Hotline: 0989151897 (Hỗ trợ 24/7)</span>
+            <span>Hotline: Liên hệ (Hỗ trợ 24/7)</span>
           </li>
         </ul>
       </div>

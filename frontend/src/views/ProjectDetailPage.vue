@@ -605,9 +605,9 @@
           <h4 class="font-extrabold text-slate-800 text-base mt-4">Phùng Huy Hưng</h4>
           <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mt-0.5">Chuyên viên Bất Động Sản</p>
           <div class="border-t border-slate-100 mt-4 pt-4 flex flex-col gap-3 text-xs text-left">
-            <a href="tel:0989151897" class="flex items-center gap-2 text-slate-600 hover:text-primary transition-colors font-bold">
+            <a href="#" class="flex items-center gap-2 text-slate-600 hover:text-primary transition-colors font-bold">
               <i class="bi bi-telephone-fill text-primary text-sm"></i>
-              0989151897
+              Hotline
             </a>
             <a href="mailto:contact@salehub.dev" class="flex items-center gap-2 text-slate-600 hover:text-primary transition-colors font-bold">
               <i class="bi bi-envelope-fill text-primary text-sm"></i>
@@ -619,7 +619,7 @@
             </span>
           </div>
           <a 
-            href="tel:0989151897"
+            href="#"
             class="w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-xl font-bold shadow-md hover-premium transition-all text-center flex items-center justify-center gap-2 text-xs mt-6"
           >
             <i class="bi bi-telephone-outbound-fill"></i>
@@ -691,10 +691,10 @@
         </div>
       </div>
       <div class="flex gap-2">
-        <a href="tel:0989151897" class="bg-primary hover:bg-primary-dark text-white px-3.5 py-2 rounded-xl font-bold text-xs flex items-center gap-1.5 shadow-sm transition-colors">
+        <a href="#" class="bg-primary hover:bg-primary-dark text-white px-3.5 py-2 rounded-xl font-bold text-xs flex items-center gap-1.5 shadow-sm transition-colors">
           <i class="bi bi-telephone-fill"></i> Gọi điện
         </a>
-        <a href="https://zalo.me/0989151897" target="_blank" class="bg-blue-600 hover:bg-blue-750 text-white px-3.5 py-2 rounded-xl font-bold text-xs flex items-center gap-1.5 shadow-sm transition-colors">
+        <a href="#" class="bg-blue-600 hover:bg-blue-750 text-white px-3.5 py-2 rounded-xl font-bold text-xs flex items-center gap-1.5 shadow-sm transition-colors">
           <i class="bi bi-chat-fill"></i> Nhắn Zalo
         </a>
       </div>

@@ -14,7 +14,7 @@
             <input 
               v-model="phone" 
               type="text" 
-              placeholder="Nhập số điện thoại (Ví dụ: 0989151897)" 
+              placeholder="Nhập số điện thoại (Ví dụ: 09xxxxxxxx)" 
               class="w-full bg-slate-50 border border-slate-200 rounded-xl py-3 pl-11 pr-4 text-sm focus:outline-none focus:border-primary focus:bg-white transition-colors"
             />
           </div>
