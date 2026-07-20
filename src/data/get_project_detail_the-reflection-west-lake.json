@@ -1,0 +1,93 @@
+{
+  "id": 1381,
+  "name": "THE REFLECTION WEST LAKE",
+  "slug": "the-reflection-west-lake",
+  "description": "Tuyệt tác giới hạn. Tâm điểm khát khao",
+  "location": "Lô A, Khu D1 Phường Tây Hồ, Thành phố Hà Nội",
+  "developer": "KHÁC",
+  "estateType": "high_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/1._AVATAR_MẪU.jpg_a5781225840f84dcf886511054fc3518931c7ce9",
+  "viewCount": 318,
+  "status": "opening",
+  "createdAt": 1781920218808,
+  "ownershipType": "Sổ hồng lâu dài",
+  "constructionDensity": "46,6%",
+  "developmentScale": "Tháp căn hộ 20 tầng, tháp khách sạn 25 tầng",
+  "buildDate": null,
+  "progress": null,
+  "locationHtml": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-1_c1961b5fa57cd23f0fb5ea051f36fb3451199ad4\" class=\"img-fluid img o_we_custom_image\"></p><p>\nTọa lạc trên trục kết nối chiến lược giữa sân bay Nội Bài và trung tâm Hà Nội, The Reflection West Lake hiện diện giữa một cộng đồng đã được định hình bởi chuẩn mực quốc tế và gu sống tinh lọc. Sở hữu tầm nhìn ngoạn mục hướng Hồ Tây, Sông Hồng và Cầu Nhật Tân, dự án mở ra một không gian nơi hiện đại và di sản giao thoa — nơi phong cách sống toàn cầu hòa quyện cùng chiều sâu văn hóa bản địa.</p><p>Không chỉ là một địa chỉ đáng giá, The Reflection West Lake còn là biểu tượng của một chuẩn sống tinh tế giữa lòng Thủ đô.\n\n</p><p>\n\n</p>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6261.188318007663!2d105.8158265179806!3d21.07566358242713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab77bcdb986d%3A0x387c7d2bec563132!2sThe%20Reflection%20Westlake!5e0!3m2!1sen!2s!4v1776852077877!5m2!1sen!2s\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": "https://thereflectionwestlake.vn/VR360.html",
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_856b688658b0f790677f1ace75a0b61988f6309c\" class=\"img img-fluid o_we_custom_image\"></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "F2_RW",
+      "image_coordinate_name": "AVA",
+      "image_data": [
+        {
+          "image_name": "1. AVATAR MẪU.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/1._AVATAR_MẪU.jpg_a5781225840f84dcf886511054fc3518931c7ce9"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "RWL",
+      "image_coordinate_name": "AVA",
+      "image_data": [
+        {
+          "image_name": "ava.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/ava.jpg_cadcf3857db33180fb8165323521dd71caf8a841"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "BROCHURE",
+      "link_utility_url": "https://drive.google.com/drive/folders/1qtgM_qJt_LxdIumalZ-6aikMdJCFuNQL?usp=drive_link"
+    },
+    {
+      "link_utility_name": "CHÍNH SÁCH BÁN HÀNG",
+      "link_utility_url": "https://drive.google.com/drive/folders/1sRZJjgoWkDl_ILZ0XCSo3Y9CFQM-pVES?usp=sharing"
+    },
+    {
+      "link_utility_name": "MẶT BẰNG",
+      "link_utility_url": "https://drive.google.com/drive/folders/1O--66E54R8JHuHWtSWswi_U8g_2ldg5G?usp=drive_link"
+    },
+    {
+      "link_utility_name": "PHỐI CẢNH",
+      "link_utility_url": "https://drive.google.com/drive/folders/1TLjCUGzgrEGuK6HTawWkOAeZTqtyZuYd?usp=drive_link"
+    },
+    {
+      "link_utility_name": "Q&A",
+      "link_utility_url": "https://drive.google.com/drive/folders/1ZBABhOPro97rmPwlTSWnZdu4Vz5D82bj?usp=drive_link"
+    },
+    {
+      "link_utility_name": "TÀI LIỆU ĐÀO TẠO",
+      "link_utility_url": "https://drive.google.com/drive/folders/1HWlWdAlg64EDMe_HJ_siWIZBluVX9Zra?usp=drive_link"
+    },
+    {
+      "link_utility_name": "VIDEO",
+      "link_utility_url": "https://drive.google.com/drive/folders/1Ew1h2s-hIJm3piDW5F7CbgfuF_MVYfiJ?usp=drive_link"
+    },
+    {
+      "link_utility_name": "VẬT LIỆU BÀN GIAO",
+      "link_utility_url": "https://drive.google.com/drive/folders/118bsp2RuJN0xoXwC0fy8FRIaFvBGBNHG?usp=drive_link"
+    },
+    {
+      "link_utility_name": null,
+      "link_utility_url": null
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 642,
+    "projectId": 772,
+    "name": "A – RIVIERA",
+    "floorCount": 25,
+    "createdAt": 1781920222226
+  },
+  {
+    "id": 643,
+    "projectId": 772,
+    "name": "B – RIVIERA",
+    "floorCount": 25,
+    "createdAt": 1781920222250
+  },
+  {
+    "id": 644,
+    "projectId": 772,
+    "name": "C – RIVIERA",
+    "floorCount": 25,
+    "createdAt": 1781920222242
+  },
+  {
+    "id": 645,
+    "projectId": 772,
+    "name": "D – RIVIERA",
+    "floorCount": 25,
+    "createdAt": 1781920222235
+  },
+  {
+    "id": 738,
+    "projectId": 772,
+    "name": "E – RIVIERA",
+    "floorCount": 25,
+    "createdAt": 1781920221075
+  }
+]

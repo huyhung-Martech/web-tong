@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1381,
+    "projectId": 1295,
+    "name": "THE CHARM",
+    "floorCount": 25,
+    "createdAt": 1781920220307
+  },
+  {
+    "id": 1393,
+    "projectId": 1295,
+    "name": "THE ONSEN 1",
+    "floorCount": 25,
+    "createdAt": 1781920220197
+  },
+  {
+    "id": 1582,
+    "projectId": 1295,
+    "name": "THE ONSEN 2",
+    "floorCount": 25,
+    "createdAt": 1781920219756
+  },
+  {
+    "id": 1651,
+    "projectId": 1295,
+    "name": "THE ONSEN 3",
+    "floorCount": 25,
+    "createdAt": 1781920219378
+  }
+]

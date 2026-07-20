@@ -1,0 +1,111 @@
+{
+  "id": 1405,
+  "name": "FLAMINGO GOLDEN HILL",
+  "slug": "flamingo-golden-hill",
+  "description": "KHU ĐÔ THỊ BẢO CHỨNG KINH DOANH DUY NHẤT TẠI PHÍA NAM THỦ ĐÔ",
+  "location": "Cốc Trại, Tam Chúc, Ninh Bình",
+  "developer": "FLAMINGO HOLDINGS",
+  "estateType": "low_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/AVT.jpg_a027d2ba786a5df6276b7c534b477fc446fe593b",
+  "viewCount": 106,
+  "status": "opening",
+  "createdAt": 1781920218866,
+  "ownershipType": "Sổ đỏ lâu dài",
+  "constructionDensity": null,
+  "developmentScale": "6,5 ha",
+  "buildDate": null,
+  "progress": null,
+  "locationHtml": "<p>\nNằm đối diện với thắng cảnh quốc gia Tam Chúc, Flamingo Golden Hill sở hữu địa thế đắt giá: Lưng tựa núi Liên Sơn, mặt hướng hồ Tam Chúc - nơi được ví như “ Vịnh Hạ Long trên cạn”.&nbsp;</p><p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-1_4f82fc04ab198fe91da8a872885c1fd60a6a1ac1\" class=\"img img-fluid o_we_custom_image\"></p><p>\nNằm trên tuyến du lịch xuyên Việt dọc Quốc lộ 1A, Đường cao tốc Bắc Nam bao gồm: Hà Nội, Phủ Lý, Tam Chúc, Bái Đính, Tràng An, Hoa Lư, thành phố FLAMINGO GOLDEN Hill chính là điểm trung chuyển của các điểm đến du lịch.&nbsp;</p><p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-2_0c5ede085585e04b794fba8b7315b7f11b477db8\" class=\"img img-fluid o_we_custom_image\"></p>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1363.8336464688934!2d105.81695124200738!3d20.56022900818901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135cd25cba9bdfb%3A0xb4236af29e49597f!2sFlamingo%20Golden%20Hill%20H%C3%A0%20Nam!5e0!3m2!1svi!2sus!4v1781754157816!5m2!1svi!2sus\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": "https://flamingogoldenhill.vn/360/",
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p></p><p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_d904c6e21df40985474c2aa8f613dd9b023eb346\" class=\"img img-fluid o_we_custom_image\"></p><p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-2_21846539a0043672e274632b03ecb7614665f50c\" class=\"img img-fluid o_we_custom_image\"></p><p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-3_efa2b066ddf8d5af2556b3dd2078878d787d133c\" class=\"img img-fluid o_we_custom_image\"></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "AVT_FGH",
+      "image_coordinate_name": "AVT_FGH",
+      "image_data": [
+        {
+          "image_name": "AVT.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/AVT.jpg_a027d2ba786a5df6276b7c534b477fc446fe593b"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "FGH_TD",
+      "image_coordinate_name": "THE DAY",
+      "image_data": [
+        {
+          "image_name": "The Day.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/The_Day.jpg_fe6385993c5c92a9cb7310b7cd666f0e7f082b02"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "FGH_TN",
+      "image_coordinate_name": "THE NIGHT",
+      "image_data": [
+        {
+          "image_name": "The Night.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/The_Night.jpg_208689766aa14f256b828eee0962c098fc5ce555"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "BẢNG GIÁ - PTG",
+      "link_utility_url": "https://drive.google.com/drive/folders/1_LlXmCKGF_2yINIF31heNQhYe3RegDj1"
+    },
+    {
+      "link_utility_name": "CSBH",
+      "link_utility_url": "https://drive.google.com/drive/folders/1QihgaHqmYOinz4Jip1oldt0QwLRLMcuy"
+    },
+    {
+      "link_utility_name": "HỢP ĐỒNG MẪU",
+      "link_utility_url": "https://drive.google.com/drive/folders/1-T2pTdC5M0HUpi9BTb-cWccpAn7-8C3c"
+    },
+    {
+      "link_utility_name": "LAYOUT THIẾT KẾ",
+      "link_utility_url": "https://drive.google.com/drive/folders/1gr0hasOhrgLVXKecBZblt_xWR0EZo19K"
+    },
+    {
+      "link_utility_name": "NỘI QUY, QUY CHẾ",
+      "link_utility_url": "https://drive.google.com/drive/folders/1y0HgumvrXT464-vukU86aWkn9E20Y0zh"
+    },
+    {
+      "link_utility_name": "PHÁP LÝ DỰ ÁN",
+      "link_utility_url": "https://drive.google.com/drive/folders/1kOr3GTT-HgDItdSal1vdI96CcUHA2FiO"
+    },
+    {
+      "link_utility_name": "Q&A",
+      "link_utility_url": "https://drive.google.com/drive/folders/1e1qv9FUPxof3277GWHyO9DW9BLUw-OV6"
+    },
+    {
+      "link_utility_name": "SẢN PHẨM",
+      "link_utility_url": "https://drive.google.com/drive/folders/1s6_DiQRfOTwgUEBR7AT0xzcwDHUyV7wh"
+    },
+    {
+      "link_utility_name": "TÀI LIỆU ĐÀO TẠO",
+      "link_utility_url": "https://drive.google.com/drive/folders/1FNEJY4aoAX_IoKKkLRMYLakPV4PWKvMG"
+    },
+    {
+      "link_utility_name": "TỔNG MẶT BẰNG",
+      "link_utility_url": "https://drive.google.com/drive/folders/1xpm_M63QMDrAgmQuBtwyYOYMBcBLSy96"
+    },
+    {
+      "link_utility_name": "VIDEO DỰ ÁN",
+      "link_utility_url": "https://drive.google.com/drive/folders/1VKVtZKOFEGmx202rTes0ZiVTDzAOUKrl"
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}

@@ -1,0 +1,135 @@
+{
+  "id": 1341,
+  "name": "IMPERIA SKY PARK",
+  "slug": "imperia-sky-park",
+  "description": "Tuyệt tác trên tầm cao",
+  "location": "Mặt đường Đại lộ Thăng Long, An Khánh, TP.Hà Nội",
+  "developer": "MIK",
+  "estateType": "high_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Ảnh-avata-Toà2.jpg_28e356f6a152590b1715d38177dc81c67ac97172",
+  "viewCount": 14053,
+  "status": "opening",
+  "createdAt": 1781920218018,
+  "ownershipType": "Sở hữu lâu dài",
+  "constructionDensity": null,
+  "developmentScale": "4 ha",
+  "buildDate": null,
+  "progress": null,
+  "locationHtml": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-1_a7678cd33463e77195def1d0567410cca68b2b59\" class=\"img img-fluid o_we_custom_image\"></p><p>Imperia Sky Park là tổ hợp chung cư cao cấp kết hợp dịch vụ thương mại, tọa lạc tại mặt đường Đại Lộ Thăng Long,&nbsp;An Khánh, thành phố Hà Nội, khu vực đang phát triển năng động bậc nhất phía Tây Thủ đô.</p><p>Một trong những điểm cộng lớn nhất của vị trí Imperia Sky Park chính là mặt tiền Đại lộ Thăng Long – tuyến đường huyết mạch rộng tới 140m, 6 làn xe, kết nối nhanh chóng từ trung tâm Hà Nội tới Hòa Lạc và các tỉnh Tây Bắc.</p><p>Từ dự án, cư dân có thể dễ dàng di chuyển:</p><ul>\n<li>\nVề trung tâm thành phố chỉ trong 15–20 phút\n</li>\n<li>\nĐến Khu công nghệ cao Hòa Lạc, Đại học Quốc gia Hà Nội nhanh chóng\n</li>\n<li>\nKết nối thuận tiện với các khu đô thị lớn đã đi vào vận hành\n</li>\n</ul><h5>Liền kề tuyến Metro số 5 – Đòn bẩy hạ tầng chiến lược</h5><p>Imperia Sky Park hưởng lợi trực tiếp từ tuyến Metro số 5 Văn Cao – Hòa Lạc, với nhà ga nằm liền kề dự án. Khi tuyến metro này hoàn thiện và đi vào hoạt động, cư dân có thể di chuyển vào nội đô một cách nhanh chóng, giảm thiểu ùn tắc và nâng tầm chất lượng sống.</p><h5>Kết nối hoàn hảo với hệ thống vành đai trọng điểm</h5><p>Không chỉ sở hữu lợi thế Metro, Imperia Sky Park còn nằm trong khu vực giao thoa của hàng loạt trục đường chiến lược:</p><ul>\n<li>\nVành đai 3.5: dự kiến hoàn thiện cuối năm, mở ra khả năng kết nối nhanh tới Mỹ Đình, Cầu Giấy\n</li>\n<li>\nVành đai 4: dự kiến đưa vào vận hành năm 2027, gia tăng giá trị dài hạn cho toàn khu vực\n</li>\n<li>\nĐường Lê Trọng Tấn – Hoàng Tùng (Vành đai 3.5) rộng 50m, 6 làn xe\n</li>\n<li>\nĐường liên khu LK8 rộng 50m, 6 làn xe\n</li>\n<li>Cầu vượt Nam An Khánh, Đường 72, và các tuyến quy hoạch tương lai như đường 36m nối Vành đai 3.5, đường nối Đường 72, Đê Sông Đáy.<strong></strong></li></ul><p>\n\n</p>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.579618987389!2d105.72122617476873!3d21.009481788441324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3134530063a7d5db%3A0xec91396c2e27f9b4!2sImperia%20Sky%20Park!5e0!3m2!1svi!2s!4v1769828518646!5m2!1svi!2s\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": "https://kuula.co/share/collection/7Mqk5?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_895c010eff6054821f682cbf3187c5d97e95bdbb\" class=\"img img-fluid o_we_custom_image\"></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "avar s3",
+      "image_coordinate_name": "Avar Sky 3",
+      "image_data": [
+        {
+          "image_name": "The Unveling Sky3-23.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/The_Unveling_Sky3-23.jpg_32ee9cd85eba6cfe1e138706e5d1775c3b840199"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "se1",
+      "image_coordinate_name": "SKY ELITE 1",
+      "image_data": [
+        {
+          "image_name": "Sky-Elite-1.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Sky-Elite-1.jpg_1709bb1c06e94ff7b1feb4c19b0eb5b996efd30d"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "avat",
+      "image_coordinate_name": "avat SKY 2",
+      "image_data": [
+        {
+          "image_name": "Sky-2.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Sky-2.jpg_600f47e7cb79322d162e05ef8dd09caac0e8bb9b"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "avata",
+      "image_coordinate_name": "avata sky 1",
+      "image_data": [
+        {
+          "image_name": "Sky-1.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Sky-1.jpg_dcdc2bf085a9dd78d22a8944cac4a57f04cb3ea7"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "avta imperia sky park",
+      "image_coordinate_name": "avta imperia sky park",
+      "image_data": [
+        {
+          "image_name": "Ảnh-avata-Toà2.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Ảnh-avata-Toà2.jpg_28e356f6a152590b1715d38177dc81c67ac97172"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "BẢN ĐỒ VỊ TRÍ",
+      "link_utility_url": "https://salepro.com/share/link-link-104"
+    },
+    {
+      "link_utility_name": "FILE ĐÀO TẠO",
+      "link_utility_url": "https://salepro.com/share/link-link-103"
+    },
+    {
+      "link_utility_name": "HÌNH ẢNH",
+      "link_utility_url": "https://salepro.com/share/link-link-101"
+    },
+    {
+      "link_utility_name": "LAYOUT CĂN HỘ",
+      "link_utility_url": "https://drive.google.com/drive/folders/1RRI5752epdHd06bnBFlzrOEC0HvD6Uga?usp=drive_link"
+    },
+    {
+      "link_utility_name": "MẶT BẰNG TẦNG",
+      "link_utility_url": "https://salepro.com/share/link-link-99"
+    },
+    {
+      "link_utility_name": "NHÀ MẪU",
+      "link_utility_url": "https://drive.google.com/drive/folders/1lTWqEzoCjHCdPfnxtfyeNby-G3Hz-XgJ?usp=sharing"
+    },
+    {
+      "link_utility_name": "NHẬN DIỆN THƯƠNG HIỆU",
+      "link_utility_url": "https://salepro.com/share/link-link-105"
+    },
+    {
+      "link_utility_name": "TIÊU CHUẨN BÀN GIAO",
+      "link_utility_url": "https://drive.google.com/drive/folders/199Gg7DWT27Uwfrma6zsd6OGoYhAemFph?usp=drive_link"
+    },
+    {
+      "link_utility_name": "TMB",
+      "link_utility_url": "https://salepro.com/share/link-link-98"
+    },
+    {
+      "link_utility_name": "TRỤC CĂN",
+      "link_utility_url": "https://salepro.com/share/rqqqs-link"
+    },
+    {
+      "link_utility_name": "VIDEO",
+      "link_utility_url": "https://drive.google.com/drive/folders/1ts0CUtTfGl5hnp4HmUC9J8CImdJVGzhE?usp=drive_link"
+    },
+    {
+      "link_utility_name": "ẢNH THỰC TẾ",
+      "link_utility_url": "https://salepro.com/share/link-link-102"
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}

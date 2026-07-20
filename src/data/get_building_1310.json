@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1378,
+    "projectId": 1310,
+    "name": "Toà SPARK 1",
+    "floorCount": 25,
+    "createdAt": 1781920220335
+  },
+  {
+    "id": 1379,
+    "projectId": 1310,
+    "name": "Toà SPARK 2",
+    "floorCount": 25,
+    "createdAt": 1781920220325
+  },
+  {
+    "id": 1380,
+    "projectId": 1310,
+    "name": "Toà SPARK 3",
+    "floorCount": 25,
+    "createdAt": 1781920220316
+  },
+  {
+    "id": 1389,
+    "projectId": 1310,
+    "name": "Tòa FLOW 1",
+    "floorCount": 25,
+    "createdAt": 1781920220264
+  },
+  {
+    "id": 1390,
+    "projectId": 1310,
+    "name": "Tòa FLOW 2",
+    "floorCount": 25,
+    "createdAt": 1781920220254
+  },
+  {
+    "id": 1391,
+    "projectId": 1310,
+    "name": "Tòa FLOW 3",
+    "floorCount": 25,
+    "createdAt": 1781920220215
+  },
+  {
+    "id": 1423,
+    "projectId": 1310,
+    "name": "The Vision 1",
+    "floorCount": 25,
+    "createdAt": 1781920220153
+  },
+  {
+    "id": 1424,
+    "projectId": 1310,
+    "name": "The Vision 2",
+    "floorCount": 25,
+    "createdAt": 1781920220139
+  },
+  {
+    "id": 1425,
+    "projectId": 1310,
+    "name": "The Vision 3",
+    "floorCount": 25,
+    "createdAt": 1781920220132
+  },
+  {
+    "id": 1426,
+    "projectId": 1310,
+    "name": "The Vision 3A",
+    "floorCount": 25,
+    "createdAt": 1781920220123
+  }
+]

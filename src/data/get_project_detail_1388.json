@@ -1,0 +1,83 @@
+{
+  "id": 1388,
+  "name": "EUROWINDOW TWIN PARKS",
+  "slug": "eurowindow-twin-parks",
+  "description": "Sống xanh giữa thủ đô",
+  "location": "Đường Thành Trung, thị trấn Trâu Qùy, Gia Lâm, Hà Nội",
+  "developer": "EUROWINDOW HOLDING",
+  "estateType": "low_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/avata-dự-án.jpg_9166d6b996ba99ef9ddd71da54c5753c9f4718d7",
+  "viewCount": 256,
+  "status": "opening",
+  "createdAt": 1781920218994,
+  "ownershipType": "Lâu dài",
+  "constructionDensity": null,
+  "developmentScale": null,
+  "buildDate": null,
+  "progress": "Sẵn sàng bàn giao",
+  "locationHtml": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-news_content-2_a3968a234beee83d252b2510a4a993cd3f8f20e0\" class=\"img img-fluid o_we_custom_image\"></p><h2>Vị trí&nbsp;“vàng”&nbsp;tâm điểm mới phía Đông Hà Nội</h2><p>\n\n\nEurowindow Twin Parks tọa lạc trên đường Thành Trung kéo dài, thuộc thị trấn Trâu Qùy, huyện Gia Lâm, Hà Nội. Dự án sở hữu lợi thế lớn khi nằm bên cạnh tuyến đường huyết mạch Lý Thánh Tông (Đường quy hoạch Đông Dư – Dương Xá 40 m) nối giữa 2 tuyến quốc lộ 5A &amp; 5B, rất thuận tiện để kết nối đến trung tâm thủ đô cũng như các tỉnh thành Bắc Ninh, Bắc Giang, Hưng Yên, Hải Dương…\n\n</p><p>\nEurowindow Gia Lâm còn nằm tiếp giáp với cả khu 31 ha và “<strong>thành phố đại dương” Vinhomes Ocean Park</strong>&nbsp;đình đám, cư dân tương lai sẽ được tiếp cận hạ tầng phát triển của khu vực cũng như có cơ hội được trải nghiệm những tiện ích “có một không hai” như đạp xe quanh biển hồ cát trắng 24.5 ha, mua sắm tại trung tâm thương mại hiện đại bậc nhất phía Đông Vincom Mega Mall Ocean Park…\n\n</p><p>\nNgoài ra theo quy hoạch thành phố Hà Nội đến năm 2030 tầm nhìn năm 2050,&nbsp;<strong>Gia Lâm sẽ chính thức lên quận trong năm 2025</strong>. Trong tương lai, Gia Lâm sẽ đón nhận thêm nhiều công trình “khủng” như cầu Ngọc Hồi, công viên hồ điều hòa Trâu Quỳ, công viên giải trí “tỷ đô” VinWonders… Với lợi thế nằm tại tâm điểm mới huyện Gia Lâm, Eurowindow Twin Parks sẽ được hưởng lợi vô cùng lớn.</p>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.6210537306974!2d105.9440242413555!3d21.00782207084444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a931c8cea8bd%3A0x53f67d7740df0bee!2sEurowindow%20Twin%20Park%20Tr%C3%A2u%20Qu%E1%BB%B3!5e0!3m2!1sen!2s!4v1777002847692!5m2!1sen!2s\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": "https://marcom3d.com/eurowindow/",
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_16b47ff0d771cde6fdd34bc17b2344ba77932974\" class=\"img img-fluid o_we_custom_image\"></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "avatawindow",
+      "image_coordinate_name": "avatawindow",
+      "image_data": [
+        {
+          "image_name": "avata-dự-án.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/avata-dự-án.jpg_9166d6b996ba99ef9ddd71da54c5753c9f4718d7"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "BIỂU MẪU HỢP ĐỒNG",
+      "link_utility_url": "https://drive.google.com/drive/folders/1DgsJYnC6Dt80ZhGaowNWiAUHmOZcINMp?usp=drive_link"
+    },
+    {
+      "link_utility_name": "CSBH",
+      "link_utility_url": "https://drive.google.com/drive/folders/1jRG2b5jaOilR57_UOGHNUcXTI7127UkW?usp=drive_link"
+    },
+    {
+      "link_utility_name": "HÌNH ẢNH VÀ VIDEO",
+      "link_utility_url": "https://drive.google.com/drive/folders/1DXFCVfPkqG1av12JoJ51lp_oKt_3ln4b?usp=drive_link"
+    },
+    {
+      "link_utility_name": "LAYOUT THIẾT KẾ",
+      "link_utility_url": "https://drive.google.com/drive/folders/1cKoEBF4uO2vBq0oHKQVCRodntoOWySxJ?usp=drive_link"
+    },
+    {
+      "link_utility_name": "MẪU NHÀ",
+      "link_utility_url": "https://drive.google.com/drive/folders/1HI5_vNZs_EK_x6EKXw3sVoXXHX7lEoR3?usp=drive_link"
+    },
+    {
+      "link_utility_name": "PHÁP LÝ DỰ ÁN",
+      "link_utility_url": "https://drive.google.com/drive/folders/1_kolOv0V1l9mYm-9HO7mGxahUChKZfiq?usp=drive_link"
+    },
+    {
+      "link_utility_name": "Q&A",
+      "link_utility_url": "https://drive.google.com/drive/folders/14SMkcfaQY2kpl-eM_rG3w2LWb1vvjiWi?usp=drive_link"
+    },
+    {
+      "link_utility_name": "TMB",
+      "link_utility_url": "https://drive.google.com/drive/folders/1smJPQGzWuI98uMwxuc4-dnw74AO_MBGG?usp=drive_link"
+    },
+    {
+      "link_utility_name": "TÀI LIỆU DỰ ÁN",
+      "link_utility_url": "https://drive.google.com/drive/folders/1CsrJ6qxy3T18JD3vUBrkmJ2T0uQb99o4?usp=drive_link"
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}

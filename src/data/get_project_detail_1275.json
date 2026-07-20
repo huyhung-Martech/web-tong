@@ -1,0 +1,99 @@
+{
+  "id": 1275,
+  "name": "SUN SPANA TOWER",
+  "slug": "sun-spana-tower",
+  "description": "Căn hộ cao cấp đầu tiên tại KĐT Hoà Xuân",
+  "location": "Nguyễn Phước Lan, Hoà Xuân, Cẩm Lệ, Đà Nẵng",
+  "developer": "SUN GROUP",
+  "estateType": "high_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/z7041364983169_eab3a9cc2cad523324ff9f9af82b8725.jpg_ced95b0d45b1f02bd2d0234bae699ec63934fe85",
+  "viewCount": 780,
+  "status": "opening",
+  "createdAt": 1781920218263,
+  "ownershipType": "Sở hữu lâu dài",
+  "constructionDensity": null,
+  "developmentScale": "02 tòa tháp cao, 22 tầng nổi và 02 tầng hầm",
+  "buildDate": null,
+  "progress": "Đang tiến hành",
+  "locationHtml": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-1_768236513aba6f75cda6a3d743a950549c0f9ee3\" class=\"img img-fluid o_we_custom_image\" style=\"width: 100%;\"></p><p>Dự án<strong> Sun Spana Tower</strong>&nbsp;sở hữu vị trí chiến lược ngay&nbsp;mặt tiền sông Cẩm Lệ, mang đến tầm nhìn trực diện thơ mộng và cơ hội ngắm trọn&nbsp;Lễ hội pháo hoa quốc tế Đà Nẵng (DIFF)&nbsp;từ ban công căn hộ. Nằm tại trung tâm khu đô thị Nam Hòa Xuân – khu vực được mệnh danh là “trung tâm mới” của Đà Nẵng sau sáp nhập với Quảng Nam cũ, dự án có kết nối giao thông vượt trội:</p><ul><li><strong>5–10 phút</strong>: Đến trung tâm quận Hải Châu, Mega Market, Trung tâm Triển lãm, bệnh viện lớn, trường học quốc tế, khu vui chơi – thể thao</li><li><strong>10 phút</strong>: Ra sân bay quốc tế Đà Nẵng</li><li><strong>15 phút</strong>: Đến bãi biển Mỹ Khê – một trong những bãi biển đẹp nhất hành tinh</li><li><strong>20–25 phút:</strong> Kết nối đến bán đảo Sơn Trà, chùa Linh Ứng, hoặc Phố cổ Hội An – di sản văn hóa thế giới</li><li><strong>Liền kề khu biệt thự Euro Village 2:</strong> Cộng đồng cư dân văn minh, đẳng cấp</li></ul><p>\n\n</p>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.8271279829023!2d108.22190407465558!3d16.022512140687898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421968d44ac513%3A0x881b2c23cb5abf33!2zU3VuIFNwYW5hIFRvd2VyIMSQw6AgTuG6tW5n!5e0!3m2!1svi!2s!4v1757648299743!5m2!1svi!2s\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": "https://kuula.co/share/L0z5V?logo=0",
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_72abbbe4439874358154fa68abc1a6c2b34ae890\" class=\"img img-fluid o_we_custom_image\"></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "S1",
+      "image_coordinate_name": "S1",
+      "image_data": [
+        {
+          "image_name": "Avatar toà S1.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Avatar_toà_S1.jpg_2a11cd5defc6c9457ec043ef46283192139164bd"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S2",
+      "image_coordinate_name": "S2",
+      "image_data": [
+        {
+          "image_name": "Avatar S2.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Avatar_S2.jpg_00b5de408b6fd6c3b1950a1a5b9bfbb20184265e"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "ST",
+      "image_coordinate_name": "SPANA TOWER",
+      "image_data": [
+        {
+          "image_name": "z7041364983169_eab3a9cc2cad523324ff9f9af82b8725.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/z7041364983169_eab3a9cc2cad523324ff9f9af82b8725.jpg_ced95b0d45b1f02bd2d0234bae699ec63934fe85"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "CSBH",
+      "link_utility_url": "https://salepro.com/share/link-link-110"
+    },
+    {
+      "link_utility_name": "LAYOUT BÓC MÁI",
+      "link_utility_url": "https://salepro.com/share/aring-link-27"
+    },
+    {
+      "link_utility_name": "LAYOUT CĂN HỘ",
+      "link_utility_url": "https://salepro.com/share/aring-link-26"
+    },
+    {
+      "link_utility_name": "MẶT BẰNG TẦNG",
+      "link_utility_url": "https://salepro.com/share/aring-link-25"
+    },
+    {
+      "link_utility_name": "PHỐI CẢNH",
+      "link_utility_url": "https://salepro.com/share/aring-link-24"
+    },
+    {
+      "link_utility_name": "SLIDE ĐÀO TẠO",
+      "link_utility_url": "https://salepro.com/share/aring-link-28"
+    },
+    {
+      "link_utility_name": "TIÊU CHUẨN BÀN GIAO & HỢP ĐỒNG MUA BÁN",
+      "link_utility_url": "https://salepro.com/share/aring-link-29"
+    },
+    {
+      "link_utility_name": "TỔNG MẶT BẰNG",
+      "link_utility_url": "https://salepro.com/share/aring-link-23"
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}

@@ -1,0 +1,247 @@
+{
+  "id": 92,
+  "name": "VINHOMES OCEAN PARK 1",
+  "slug": "vinhomes-ocean-park-1",
+  "description": "Khu đô thị sinh thái thiên đường đẳng cấp all in one tại phía Đông thủ đô Hà Nội",
+  "location": "Khu Đô Thị Vinhomes Ocean Park 1, Gia Lâm, Hà Nội",
+  "developer": "VINHOMES",
+  "estateType": "high_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/phối-cảnh-Vinhomes-Ocean-Park-fly-cam.jpg_2233e9cdf28cdb51491cac6caa0737ba4505dbfe",
+  "viewCount": 2498,
+  "status": "opening",
+  "createdAt": 1781920218894,
+  "ownershipType": "Sổ đỏ lâu dài",
+  "constructionDensity": "19.2%",
+  "developmentScale": "66 tòa căn hộ & 3.500 căn nhà ở thấp tầng",
+  "buildDate": null,
+  "progress": null,
+  "locationHtml": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-1_2f9cd25fbb49a541d4af85f2252e2f0438f9bbc1\" class=\"img img-fluid o_we_custom_image\"></p><p>Vinhomes Ocean Park sở hữu kết nối giao thông” thuận trăm đường, tiện trăm ngả” với mô hình thành phố 15 phút:<br>• <strong>2 phút</strong> di chuyển tới cao tốc Hà Nội – Hải Phòng, kết nối liên tỉnh tam giác kinh tế phía bắc: Hà Nội – Hải Phòng – Quảng Ninh.<br>• <strong>2 phút</strong> di chuyển qua quốc lộ 5A để kết nối tới sân bay Quốc Tế Nội Bài.<br>• <strong>10 - 15 phút</strong> tới 3 khu đô thị Vinhomes: Vinhomes Riverside, Vinhomes Symphony, Vinhomes Times City.<br>• <strong>15 phút</strong> tới khu vực Hồ Gươm - Cơ quan trọng điểm các Bộ, Ban, Ngành &amp; Khu vực CBD của Hà Nội: Bộ Công Thương, Bộ Giao Thông Vận Tải, Bộ Tài Chính, Sở văn hóa thông tin Hà Nội, Nhà Hát Lớn.<br>Đặc biệt, Hệ thống xe bus điện thông minh đầu tiên của Việt Nam - VinBus từ tháng 4/2021, giúp 28.000 cư dân dễ dàng di chuyển nội khu và kết nối trung tâm Hà Nội.<br></p>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14899.731431091583!2d105.94604881052807!3d20.99532837327606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135af4a6ec55c7d%3A0xad450dcc7630508c!2sVinhomes%20Ocean%20Park%2C%20Gia%20L%C3%A2m%2C%20Hanoi%2C%20Vietnam!5e0!3m2!1sen!2s!4v1741834481546!5m2!1sen!2s\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": "https://kuula.co/share/n1/collection/7ZC9h?logo=0",
+  "shortDescription": "<p><strong>TIỆN ÍCH:</strong></p><p>Cư dân The London được thụ hưởng hệ thống tiện ích nội khu và ngoại khu hiện đại, bao gồm:</p><ul><li><strong>Hồ Ngọc Trai trung tâm</strong>: Nơi thư giãn và tận hưởng không gian xanh mát.</li><li><strong>Biển nhân tạo</strong>: Mang đến trải nghiệm biển ngay trong lòng thành phố.</li><li><strong>Vincom Mega Mall</strong>: Trung tâm mua sắm sầm uất với nhiều thương hiệu nổi tiếng.</li><li><strong>Trường liên cấp Vinschool</strong>: Đảm bảo môi trường giáo dục chất lượng cao cho con em cư dân.</li><li><strong>Hệ thống giao thông công cộng</strong>: Bao gồm xe buýt nội và ngoại khu, giúp cư dân dễ dàng tiếp cận các tiện ích khác.</li></ul><p>\n\n<br></p>",
+  "shortDescriptionSalePolicy": "<p><img class=\"img-fluid\" src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_decdb465bac67ff16ac9d9b8455d47046ec875db\"></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "BE11",
+      "image_coordinate_name": "BE1",
+      "image_data": [
+        {
+          "image_name": "Thiết kế chưa có tên.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Thiết_kế_chưa_có_tên.jpg_118ea9bdf83ff434c9fb8c63cb1582d3a314fc15"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "BE22",
+      "image_coordinate_name": "BE2",
+      "image_data": [
+        {
+          "image_name": "RGERHG.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/RGERHG.jpg_9525d401a6d4171623ed481f35f9f59c49cc55f9"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "GreenHub1",
+      "image_coordinate_name": "GreenHub",
+      "image_data": [
+        {
+          "image_name": "vin-a2-3-1514.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/vin-a2-3-1514.jpg_92e587ad8535eda38429fd4439b42c9bce36a759"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "HA BE3",
+      "image_coordinate_name": "HA BE3",
+      "image_data": [
+        {
+          "image_name": "BE3.png",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/BE3.png_9d8ef5e18849833517812a18fe5358a9f4ca8892"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "HA BE4",
+      "image_coordinate_name": "HA BE4",
+      "image_data": [
+        {
+          "image_name": "BE4.png",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/BE4.png_5a25367d44cbb97b7fcc08e2d1f953fcea018826"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "HA LD1",
+      "image_coordinate_name": "HA LD1",
+      "image_data": [
+        {
+          "image_name": "LD1.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/LD1.jpg_96f65d05feba7216c982aba60a27e16511ce2541"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "HA LD2",
+      "image_coordinate_name": "HA LD2",
+      "image_data": [
+        {
+          "image_name": "LD2.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/LD2.jpg_a14bc35e45b7ae94d0e4d902dc4ed56211902ab2"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "HA LD3",
+      "image_coordinate_name": "HA LD3",
+      "image_data": [
+        {
+          "image_name": "LD3.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/LD3.jpg_ce139130224aaac7912c0d5be44fea4a66017bff"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "HA PR1",
+      "image_coordinate_name": "HA PR1",
+      "image_data": [
+        {
+          "image_name": "PR1.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/PR1.jpg_60f27b3cd08084771421e62d6a4553bdfaa1d13c"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "HA PR2",
+      "image_coordinate_name": "HA PR2",
+      "image_data": [
+        {
+          "image_name": "PR2.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/PR2.jpg_b0f5139016cf834ba0e4aa3fa29d329b353f0d16"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "HA PR3",
+      "image_coordinate_name": "HA PR3",
+      "image_data": [
+        {
+          "image_name": "PR3.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/PR3.jpg_3b1faf6b73aad654df3a039135a5e45fd0cace12"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "HA PR5",
+      "image_coordinate_name": "HA PR5",
+      "image_data": [
+        {
+          "image_name": "PR5.png",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/PR5.png_d5add703c6f2a012971a978ff10f91d8f0e94529"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "HA PR6",
+      "image_coordinate_name": "HA PR6",
+      "image_data": [
+        {
+          "image_name": "PR6.png",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/PR6.png_4613cfee642b67cbd9d35a56a2415649388f4ac8"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "HATN_The Sunrise",
+      "image_coordinate_name": "Hình ảnh tòa nhà The Sunrise",
+      "image_data": [
+        {
+          "image_name": "S2.17.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/S2.17.jpg_2c75f4bc06a052e8af5fa5acbe9db372ced9e88b"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "OC1",
+      "image_coordinate_name": "VOP1",
+      "image_data": [
+        {
+          "image_name": "phối-cảnh-Vinhomes-Ocean-Park-fly-cam.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/phối-cảnh-Vinhomes-Ocean-Park-fly-cam.jpg_2233e9cdf28cdb51491cac6caa0737ba4505dbfe"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "CHÍNH SÁCH BÁN HÀNG",
+      "link_utility_url": "https://drive.google.com/drive/folders/1gbz1s6wANLFklIxjn-kD_8HykPX5g415"
+    },
+    {
+      "link_utility_name": "PHÂN KHU BEVERLY",
+      "link_utility_url": "https://drive.google.com/drive/folders/1NLduhQlfh2IrfKqr7ykfspy7gXhND0S9?usp=drive_link"
+    },
+    {
+      "link_utility_name": "PHÂN KHU LONDON",
+      "link_utility_url": "https://drive.google.com/drive/folders/1uvGaJMJ710nerm_3_zr64hKgEN18-Qt4"
+    },
+    {
+      "link_utility_name": "PHÂN KHU PARIS",
+      "link_utility_url": "https://drive.google.com/drive/folders/19Yp4siCynTocACRk-inPxUs9N6-UOpuL"
+    },
+    {
+      "link_utility_name": "PHÂN KHU S2.17 & S2.10",
+      "link_utility_url": "https://drive.google.com/drive/folders/1a_RkKcI1s3fNQHdrNVxYNvdXAU0_YVp-"
+    },
+    {
+      "link_utility_name": "TMB",
+      "link_utility_url": "https://drive.google.com/file/d/1JUtAJWnmQUsQXvBQ2v_b0KEGxX2B_y2C/view?usp=sharing"
+    },
+    {
+      "link_utility_name": "VINHOMES GREENHUB",
+      "link_utility_url": "https://drive.google.com/drive/folders/1VvW5FAgraNw6wNAI3lOIm7jvhkxN0-hY?usp=sharing"
+    }
+  ],
+  "link_sale_policy": [
+    {
+      "image_coordinate_code": "PR - LD",
+      "image_coordinate_name": "Chính sách bán hàng PR và LD",
+      "link_utility_data": [
+        {
+          "link_utility_name": "Chính sách bán hàng PR và LD",
+          "link_utility_url": "https://drive.google.com/file/d/1iLcc5tMYHqX89HgdNd_c-X-iVNFaYVGP/view?usp=drive_link"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "S2.10 và S217",
+      "image_coordinate_name": "Chính sách bán hàng S2.17 và S2.10",
+      "link_utility_data": [
+        {
+          "link_utility_name": "Chính sách bán hàng S2.17 và S2.10",
+          "link_utility_url": "https://drive.google.com/file/d/1ehKmWLicWWYJkE4gqPhmucAJn1kEUuRi/view?usp=drive_link"
+        }
+      ]
+    }
+  ],
+  "link_utility": [
+    {
+      "image_coordinate_code": "CSBH PR5",
+      "image_coordinate_name": "Chính sách bán hàng PR5",
+      "link_utility_data": [
+        {
+          "link_utility_name": "Chính sách bán hàng PR5",
+          "link_utility_url": "https://docs.google.com/spreadsheets/d/1RPxBMz6as2oFr3eoSUOHixGEUParspJ1/edit?usp=drive_link&ouid=116175024185853131487&rtpof=true&sd=true"
+        }
+      ]
+    }
+  ],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}

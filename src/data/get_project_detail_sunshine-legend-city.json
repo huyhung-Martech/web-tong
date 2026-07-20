@@ -1,0 +1,223 @@
+{
+  "id": 1292,
+  "name": "SUNSHINE LEGEND CITY",
+  "slug": "sunshine-legend-city",
+  "description": "Di sản sống tinh hoa bên bờ đông Thăng Long",
+  "location": "Xã Nghĩa Trụ (Văn Giang, Hưng Yên) nằm giữa các dự án lớn Vinhomes Ocean Park 2, 3 và Ecopark, giáp cao tốc Hà Nội – Hải Phòng",
+  "developer": "KHÁC",
+  "estateType": "high_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/SUNSHINE-LEGEND-CITY.jpg_5b2542bdafbe36fa3902f4debf2a4406538a6572",
+  "viewCount": 835,
+  "status": "opening",
+  "createdAt": 1781920218485,
+  "ownershipType": "Sở hữu lâu dài",
+  "constructionDensity": "~20%",
+  "developmentScale": "~50ha",
+  "buildDate": null,
+  "progress": "Đang thi công",
+  "locationHtml": "<p><strong>Tọa lạc tại xã Nghĩa Trụ, Hưng Yên</strong>, Sunshine Legend City nằm trong tâm điểm phát triển năng động phía Đông Hà Nội – khu vực đang bứt phá mạnh mẽ để trở thành cực tăng trưởng chiến lược mới của Thủ đô. Dự án sở hữu vị trí hiếm có khi nằm sát cao tốc Hà Nội – Hải Phòng, đồng thời kết nối linh hoạt qua hai trục giao thông huyết mạch <strong>Vành đai 4 và Vành đai 3.5</strong>, cùng hệ thống <strong>7 cây cầu vượt sông Hồng</strong>.</p><p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-1_73face43681d177d18fe7f5c64719062ded2cbab\" class=\"img img-fluid o_we_custom_image\" style=\"width: 100%;\"></p><p>Từ dự án, cư dân dễ dàng di chuyển:</p><ul>\n<li>\n3 phút đến <strong>Vinhomes Ocean Park</strong>\n</li>\n<li>\n5 phút đến <strong>nút giao Cổ Linh</strong>\n</li>\n<li>\n10 phút đến <strong>cầu Vĩnh Tuy</strong>\n</li>\n<li>\n15 phút đến <strong>Vinhomes Times City</strong>\n</li>\n<li>\n20 phút đến <strong>Hồ Hoàn Kiếm</strong>\n</li>\n<li>\n40 phút đến <strong>sân bay Nội Bài</strong>\n</li>\n<li>\n45 phút đến <strong>Hải Phòng</strong> qua Quốc lộ 5B\n</li>\n</ul><p>Sunshine Legend City còn đón đầu xung lực hạ tầng từ <strong>hai siêu dự án vừa khởi công</strong> – <strong>Cầu Ngọc Hồi</strong> và <strong>Cảng hàng không quốc tế Gia Bình (Bắc Ninh)</strong>. Trong đó, sân bay Gia Bình được định vị là cảng hàng không lớn nhất miền Bắc, giúp cư dân thuận tiện kết nối qua các tuyến <strong>Vành đai 3 – Vành đai 4</strong>, đồng thời mở ra tiềm năng gia tăng giá trị thương mại và đầu tư bền vững cho toàn khu vực Hưng Yên – Bắc Ninh.</p><p>\n\n</p>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7452.4055684417635!2d105.95858364478977!3d20.9443700927223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x408941e86aef1dbd%3A0x4af81e8bad5ff1a8!2sSunshine%20Legend%20City!5e0!3m2!1svi!2s!4v1760580388240!5m2!1svi!2s\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": "https://vr360vietnam.vn/iholdings/",
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_ffc21e00ed47348ca4cb879cda3388c2d02e78ff\" class=\"img img-fluid o_we_custom_image\"></p><p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-2_092b18bfbd8f25174067fe08430c76c992d97818\" class=\"img img-fluid o_we_custom_image\"></p><p></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "SLC",
+      "image_coordinate_name": "AvataSLC",
+      "image_data": [
+        {
+          "image_name": "SUNSHINE-LEGEND-CITY.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/SUNSHINE-LEGEND-CITY.jpg_5b2542bdafbe36fa3902f4debf2a4406538a6572"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "L10",
+      "image_coordinate_name": "L10",
+      "image_data": [
+        {
+          "image_name": "L10.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/L10.jpg_a45406627703669f80856af7bb59723a29b0f3bb"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "L11",
+      "image_coordinate_name": "L11",
+      "image_data": [
+        {
+          "image_name": "L11.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/L11.jpg_9af76581b5d5f56a0f0b1e90308b1593ce6fc0aa"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "L12",
+      "image_coordinate_name": "L12",
+      "image_data": [
+        {
+          "image_name": "L12.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/L12.jpg_5a27d94e537b54bd82a2095edb425dfb640464ea"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "L12A",
+      "image_coordinate_name": "L12A",
+      "image_data": [
+        {
+          "image_name": "L12A.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/L12A.jpg_85438ed51d93399e065860385105f2dfaae7f2cd"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "L12B",
+      "image_coordinate_name": "L12B",
+      "image_data": [
+        {
+          "image_name": "L12B.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/L12B.jpg_1b02763342c239f7cc6aba4d7966b60b8992107b"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "LEGEND 3",
+      "image_coordinate_name": "L3",
+      "image_data": [
+        {
+          "image_name": "L3 - ảnh toà nhà.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/L3_-_ảnh_toà_nhà.jpg_dd86e2bf77384b0a4babfd19cbc30963ba67c180"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "L5",
+      "image_coordinate_name": "L5",
+      "image_data": [
+        {
+          "image_name": "L5 - ảnh toà nhà.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/L5_-_ảnh_toà_nhà.jpg_515a4992763abc6f41f5aa9d7e6cb65c5fef0883"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "L6",
+      "image_coordinate_name": "L6",
+      "image_data": [
+        {
+          "image_name": "L6 - ảnh toà nhà.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/L6_-_ảnh_toà_nhà.jpg_90fbfc40342cf542632276c5b4a2c05330a056c5"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "L8",
+      "image_coordinate_name": "L8",
+      "image_data": [
+        {
+          "image_name": "L8 - ảnh toà nhà.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/L8_-_ảnh_toà_nhà.jpg_441ae88286229869081311b90c22b78aec514d16"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "L9",
+      "image_coordinate_name": "L9",
+      "image_data": [
+        {
+          "image_name": "L9.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/L9.jpg_598dd24030a9e1240e0a963eeb784c00a25ae404"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "LEGEND 1",
+      "image_coordinate_name": "LEGEND 1",
+      "image_data": [
+        {
+          "image_name": "L1 - ảnh toà nhà.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/L1_-_ảnh_toà_nhà.jpg_6a5d2ce237d1032b198092ce19a7db8655acad0f"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "LEGEND 2",
+      "image_coordinate_name": "LEGEND 2",
+      "image_data": [
+        {
+          "image_name": "L2 - ảnh toà nhà.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/L2_-_ảnh_toà_nhà.jpg_4eb8b67a90540f979719dc9bcdfd0c4743c017ba"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "L3A",
+      "image_coordinate_name": "LEGEND 3A",
+      "image_data": [
+        {
+          "image_name": "L3A - ảnh toà nhà.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/L3A_-_ảnh_toà_nhà.jpg_891c95a542c35a9cfdb2732b8b2ab619326ae81f"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "L7",
+      "image_coordinate_name": "LEGEND 7",
+      "image_data": [
+        {
+          "image_name": "L7 - ảnh toà nhà.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/L7_-_ảnh_toà_nhà.jpg_a5eb3afac02b7b487609d86700627ce62dd4fdd2"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "Chính sách bán hàng",
+      "link_utility_url": "https://drive.google.com/drive/folders/1ll8xzjU9HYjWvI00we5Q-9pvgE5odpuM"
+    },
+    {
+      "link_utility_name": "Mẫu HĐMB",
+      "link_utility_url": "https://drive.google.com/drive/folders/1Shw0eObAvLIOOssqsFN32k5rZUCogj96"
+    },
+    {
+      "link_utility_name": "Pháp lý",
+      "link_utility_url": "https://drive.google.com/drive/folders/1q01zR81UsLix3bJ4VokGFeDrA2xCS2y8"
+    },
+    {
+      "link_utility_name": "Phối cảnh",
+      "link_utility_url": "https://drive.google.com/drive/folders/1oO3_Q_KgmPzahTarh0J95SlKZHw6GSpo"
+    },
+    {
+      "link_utility_name": "Tiêu chuẩn bàn giao",
+      "link_utility_url": "https://drive.google.com/drive/folders/1lphYU2DBEukjy0SFkxf4AH0kXysNuawX"
+    },
+    {
+      "link_utility_name": "Tài liệu đào tạo",
+      "link_utility_url": "https://drive.google.com/drive/folders/1vpK1bu114FVGrfkLjQSiw00_6bSXyMvD"
+    },
+    {
+      "link_utility_name": "Tổng mặt bằng",
+      "link_utility_url": "https://drive.google.com/drive/folders/1i_9DVAKep_zdUzvAVcamTKoW-zGUZ2Fc"
+    },
+    {
+      "link_utility_name": "Video-Hình ảnh",
+      "link_utility_url": "https://drive.google.com/drive/folders/1OKDHQO8m5IQR7EIZGJ_fcZEl2_Mw2WTh"
+    },
+    {
+      "link_utility_name": "Ảnh nội thất",
+      "link_utility_url": "https://drive.google.com/drive/folders/1QaYdB44dfk4D0F-Ci0jlKr6XxTNGxdmU"
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}

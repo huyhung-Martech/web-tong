@@ -1,0 +1,28 @@
+[
+  {
+    "id": 24879,
+    "code": "L9-1807",
+    "floor_number": 18,
+    "room_number": "07",
+    "direction": "Chính Đông",
+    "area_usable": 71.0,
+    "area_carpet": 85.0,
+    "price": 6994611889.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 29842,
+    "code": "L9-1007",
+    "floor_number": 10,
+    "room_number": "07",
+    "direction": "Đông Nam",
+    "area_usable": 85.0,
+    "area_carpet": 67.0,
+    "price": 6870998366.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  }
+]

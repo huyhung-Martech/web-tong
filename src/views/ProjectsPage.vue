@@ -1,0 +1,237 @@
+<template>
+  <div class="py-8">
+    <!-- Top Title and Slogan -->
+    <div class="mb-8">
+      <h1 class="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">DANH SÁCH DỰ ÁN</h1>
+      <p class="mt-2 text-sm text-slate-500">Tra cứu bảng hàng trực tuyến và khóa căn giữ chỗ tức thời dành cho đại lý và khách hàng Queen Land.</p>
+    </div>
+
+    <!-- Sticky Search & Filters Bar -->
+    <div class="sticky top-16 z-30 bg-slate-50/95 backdrop-blur-md py-2.5 sm:py-4 mb-4 sm:mb-8 border-b border-slate-200/60 -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
+      <div class="max-w-7xl mx-auto flex flex-col xl:flex-row gap-3 items-center justify-between">
+        <!-- Search Input -->
+        <div class="relative w-full xl:max-w-xs">
+          <i class="bi bi-search absolute left-3 top-3 text-slate-400 text-sm"></i>
+          <input 
+            v-model="searchQuery" 
+            type="text" 
+            placeholder="Tìm kiếm dự án..." 
+            class="cf-input pl-9"
+          />
+        </div>
+
+        <!-- Filters Row -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-2 w-full xl:w-auto flex-grow xl:flex-grow-0 justify-end">
+          <!-- Developer Select -->
+          <div class="relative w-full min-w-[140px]">
+            <i class="bi bi-person-badge absolute left-3 top-3.5 text-slate-400 text-xs pointer-events-none"></i>
+            <select v-model="selectedDeveloper" class="cf-select pl-9 text-xs">
+              <option value="all">Chủ đầu tư (Tất cả)</option>
+              <option v-for="dev in developersList" :key="dev" :value="dev">{{ dev }}</option>
+            </select>
+          </div>
+
+          <!-- Region Select -->
+          <div class="relative w-full min-w-[140px]">
+            <i class="bi bi-geo-alt absolute left-3 top-3.5 text-slate-400 text-xs pointer-events-none"></i>
+            <select v-model="selectedLocation" class="cf-select pl-9 text-xs">
+              <option value="all">Khu vực (Tất cả)</option>
+              <option v-for="loc in locationsList" :key="loc" :value="loc">{{ loc }}</option>
+            </select>
+          </div>
+
+          <!-- Estate Type Select -->
+          <div class="relative w-full min-w-[140px]">
+            <i class="bi bi-building absolute left-3 top-3.5 text-slate-400 text-xs pointer-events-none"></i>
+            <select v-model="selectedCategory" class="cf-select pl-9 text-xs">
+              <option value="all">Loại hình (Tất cả)</option>
+              <option value="high_rise">Cao tầng</option>
+              <option value="low_rise">Thấp tầng</option>
+            </select>
+          </div>
+
+          <!-- Status Select -->
+          <div class="relative w-full min-w-[140px]">
+            <i class="bi bi-info-circle absolute left-3 top-3.5 text-slate-400 text-xs pointer-events-none"></i>
+            <select v-model="selectedStatus" class="cf-select pl-9 text-xs">
+              <option value="all">Trạng thái (Tất cả)</option>
+              <option value="opening">Đang mở bán</option>
+              <option value="upcoming">Sắp mở bán</option>
+              <option value="sold_out">Đã bán hết</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Content Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 lg:gap-8">
+      
+      <!-- Left Side: Projects Grid (3 cols) -->
+      <div class="lg:col-span-3">
+        <div v-if="loading" class="flex justify-center items-center py-20">
+          <div class="animate-spin rounded-full h-10 w-10 border-b-2 border-primary"></div>
+        </div>
+        
+        <div v-else-if="filteredProjects.length === 0" class="bg-white rounded-2xl border border-slate-200 p-8 sm:p-12 text-center shadow-sm">
+          <i class="bi bi-folder-x text-5xl text-slate-300 block mb-4"></i>
+          <h3 class="text-lg font-bold text-slate-700 mb-1">Không tìm thấy dự án</h3>
+          <p class="text-sm text-slate-400">Thử thay đổi từ khóa tìm kiếm hoặc bộ lọc danh mục.</p>
+        </div>
+
+        <div v-else class="space-y-4 sm:space-y-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
+            <div v-for="p in displayedProjects" :key="p.id">
+              <ProjectCard :project="p" @view-detail="navigateToDetail" />
+            </div>
+          </div>
+
+          <!-- Show More Button -->
+          <div v-if="filteredProjects.length > displayedProjects.length" class="flex justify-center pt-4">
+            <button 
+              @click="displayLimit += 12" 
+              class="flex items-center gap-2 bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 px-6 py-2.5 rounded-xl text-xs font-extrabold shadow-sm transition-all"
+            >
+              <i class="bi bi-arrow-down-short text-base"></i>
+              Xem thêm dự án
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Side: Hot Projects & News (1 col) -->
+      <div class="lg:col-span-1">
+        <Sidebar 
+          :projects="projects" 
+          @select-project="navigateToDetail" 
+        />
+      </div>
+
+    </div>
+  </div>
+</template>
+
+<script setup>
+import { ref, computed, watch } from 'vue';
+import { useRouter } from 'vue-router';
+import ProjectCard from '../components/ProjectCard.vue';
+import Sidebar from '../components/Sidebar.vue';
+import projectsData from '../data/search_duan_data.json';
+import newsData from '../data/get_real_news.json';
+
+const router = useRouter();
+
+// State variables
+const getArrayData = (data) => {
+  if (!data) return [];
+  let rawList = [];
+  if (Array.isArray(data)) rawList = data;
+  else if (data.default && Array.isArray(data.default)) rawList = data.default;
+  else return [];
+
+  // Lọc chỉ giữ lại Parkland và Hạ Long Xanh
+  const targetSlugs = ['imperia-ocean-city-the-parkland', 'vinhomes-global-gate-ha-long'];
+  let filtered = rawList.filter(p => targetSlugs.includes(p.slug || p.project_slug));
+
+  // Định nghĩa và thêm dự án Forestia
+  const forestiaProject = {
+    "id": 9999,
+    "project_id": 9999,
+    "name": "FORESTIA PARK PHỐ NỐI",
+    "project_name": "FORESTIA PARK PHỐ NỐI",
+    "slug": "forestia",
+    "project_slug": "forestia",
+    "description": "Đại đô thị sinh thái xanh chuẩn MIK Group tại Phố Nối",
+    "project_slogan": "Đại đô thị sinh thái xanh chuẩn MIK Group tại Phố Nối",
+    "location": "Phố Nối, Mỹ Hào, Hưng Yên",
+    "project_address": "Phố Nối, Mỹ Hào, Hưng Yên",
+    "developer": "MIK Group",
+    "investor": "MIK Group",
+    "estate_type": "low_rise",
+    "project_type": "low_rise",
+    "image_url": "/forestia-avt.webp",
+    "avatar_url": "/forestia-avt.webp",
+    "avatar": {
+      "image_url": "/forestia-avt.webp"
+    },
+    "status": "opening",
+    "view_count": 28415,
+    "total_units": 860,
+    "available_units": 860
+  };
+
+  // filtered.push(forestiaProject);
+  return filtered;
+};
+
+const projects = ref(getArrayData(projectsData));
+const newsList = ref(getArrayData(newsData));
+const loading = ref(false);
+
+const selectedCategory = ref('all');
+const selectedDeveloper = ref('all');
+const selectedLocation = ref('all');
+const selectedStatus = ref('all');
+const searchQuery = ref('');
+
+const displayLimit = ref(12);
+
+watch([selectedCategory, selectedDeveloper, selectedLocation, selectedStatus, searchQuery], () => {
+  displayLimit.value = 12;
+});
+
+// Compute values
+const developersList = computed(() => {
+  const list = projects.value.map(p => p.investor || p.developer).filter(Boolean);
+  return [...new Set(list)];
+});
+
+const locationsList = computed(() => {
+  return ['Hồ Chí Minh', 'Hà Nội', 'Phú Quốc', 'Nha Trang', 'Hưng Yên', 'Quảng Ninh', 'Đà Nẵng'];
+});
+
+const filteredProjects = computed(() => {
+  return projects.value.filter((p) => {
+    const matchesCategory = selectedCategory.value === 'all' || p.project_type === selectedCategory.value || p.estate_type === selectedCategory.value;
+    const matchesDeveloper = selectedDeveloper.value === 'all' || (p.investor === selectedDeveloper.value || p.developer === selectedDeveloper.value);
+    const matchesLocation = selectedLocation.value === 'all' || 
+      (p.project_address || p.location).toLowerCase().includes(selectedLocation.value.toLowerCase());
+    const matchesStatus = selectedStatus.value === 'all' || p.status === selectedStatus.value;
+    
+    const searchLow = searchQuery.value.toLowerCase();
+    const matchesSearch = !searchQuery.value || 
+      p.project_name.toLowerCase().includes(searchLow) ||
+      p.name.toLowerCase().includes(searchLow) ||
+      (p.project_address || p.location).toLowerCase().includes(searchLow) ||
+      (p.investor && p.investor.toLowerCase().includes(searchLow)) ||
+      (p.description && p.description.toLowerCase().includes(searchLow));
+      
+    return matchesCategory && matchesDeveloper && matchesLocation && matchesStatus && matchesSearch;
+  });
+});
+
+const displayedProjects = computed(() => {
+  return filteredProjects.value.slice(0, displayLimit.value);
+});
+
+const hotProjects = computed(() => {
+  return projects.value.slice(0, 3);
+});
+
+function navigateToDetail(project) {
+  const slug = project.project_slug || project.slug;
+  if (slug === 'vinhomes-global-gate-ha-long') {
+    window.location.href = '/ha-long-xanh';
+    return;
+  }
+  if (slug === 'imperia-ocean-city-the-parkland') {
+    window.location.href = '/parkland';
+    return;
+  }
+  if (slug === 'forestia') {
+    window.location.href = '/forestia';
+    return;
+  }
+  router.push({ name: 'ProjectDetail', params: { slug } });
+}
+</script>

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 828,
+    "projectId": 1248,
+    "name": "SKYLINE (B1)",
+    "floorCount": 25,
+    "createdAt": 1781920220885
+  },
+  {
+    "id": 898,
+    "projectId": 1248,
+    "name": "CITYLINE (A1)",
+    "floorCount": 25,
+    "createdAt": 1781920220708
+  },
+  {
+    "id": 1563,
+    "projectId": 1248,
+    "name": "PEAK 1",
+    "floorCount": 25,
+    "createdAt": 1781920219804
+  },
+  {
+    "id": 1654,
+    "projectId": 1248,
+    "name": "PEAK 2",
+    "floorCount": 25,
+    "createdAt": 1781920219352
+  }
+]

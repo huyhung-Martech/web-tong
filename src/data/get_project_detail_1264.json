@@ -1,0 +1,95 @@
+{
+  "id": 1264,
+  "name": "SUN ELITE CITY",
+  "slug": "sun-elite-city",
+  "description": "QUẦN THỂ ĐÔ THỊ NGHỈ DƯỠNG SUN ELITE CITY",
+  "location": "Phường Bãi Cháy - Hạ Long - Tỉnh Quảng Ninh",
+  "developer": "SUN GROUP",
+  "estateType": "high_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/avt.jpg_926da5c3fd8e1c29e6542373aee1dc6816f81b3b",
+  "viewCount": 2434,
+  "status": "opening",
+  "createdAt": 1781920218137,
+  "ownershipType": "Đến 2084",
+  "constructionDensity": "40%",
+  "developmentScale": "Đô thị nghỉ dưỡng",
+  "buildDate": null,
+  "progress": "Đang thi công",
+  "locationHtml": "<h5><span style=\"font-size: 14px;\"><strong>Sun Elite City </strong>sở hữu vị trí “kim cương” – tâm điểm trục giao thương kinh tế, du lịch của Quảng Ninh, ôm trọn kỳ quan vịnh di sản. Từ đây, cư dân và du khách có thể dễ dàng tiếp cận hệ thống giao thông kết nối liên vùng: tuyến cao tốc Hà Nội – Hải Phòng – Hạ Long – Vân Đồn – Móng Cái, sân bay quốc tế Vân Đồn, cảng tàu khách quốc tế Hạ Long, cầu Bãi Cháy hay hầm đường bộ xuyên vịnh Cửa Lục, tàu thủy kết nối vịnh Lan Hạ (Cát Bà) và đường sắt cao tốc Hà Nội – Hạ Long trong tương lai…</span><span style=\"font-size: 12px;\">&nbsp;</span><br></h5>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11472.22866430121!2d107.04144780883851!3d20.949639136224153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a451feb37551b%3A0xe601b60d24386547!2sSun%20Elite%20City%20H%E1%BA%A1%20Long!5e1!3m2!1svi!2s!4v1780375248870!5m2!1svi!2s\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": "https://kuula.co/share/n1/collection/71Q0P?logo=0",
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p><br></p><p><br></p><p></p><p></p><p></p><p></p><p></p><p></p><p><br></p><p><br></p><p><img class=\"img-fluid\" src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_3c5287dd10e35cffb39839ecef622ccfcdc2298c\"></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "TOÀ C2",
+      "image_coordinate_name": "TOÀ C2",
+      "image_data": [
+        {
+          "image_name": "c2.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/c2.jpg_8946eabda983e47310331e5588ba7a0b598da51f"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "TC3",
+      "image_coordinate_name": "Toà C3",
+      "image_data": [
+        {
+          "image_name": "c3.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/c3.jpg_e9a89cc5af853f771a7b67fd0c21c81cb169f460"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "avatar c1",
+      "image_coordinate_name": "TÒA C1",
+      "image_data": [
+        {
+          "image_name": "c1.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/c1.jpg_91f1c2c131dc69584c7ad316a63fd40c015696b1"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "f2 sft",
+      "image_coordinate_name": "f2 sft",
+      "image_data": [
+        {
+          "image_name": "f2.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/f2.jpg_15ed67392313b46108576748612d31fcdc8ae1fc"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "sec",
+      "image_coordinate_name": "sec",
+      "image_data": [
+        {
+          "image_name": "avt.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/avt.jpg_926da5c3fd8e1c29e6542373aee1dc6816f81b3b"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "SUN CENTRO TOWN",
+      "link_utility_url": "https://drive.google.com/drive/folders/1XZ0kGlm6P0KPCy33tV5pB8Xw3P6jQaOs"
+    },
+    {
+      "link_utility_name": "SUN FESTO TOWN",
+      "link_utility_url": "https://drive.google.com/drive/folders/1dWEKI_Nrd6roKAeHuQ-7DvR-c4CRiqcm"
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}

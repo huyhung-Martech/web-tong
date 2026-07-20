@@ -1,0 +1,93 @@
+[
+  {
+    "id": 20977,
+    "code": "BE730.16",
+    "floor_number": 30,
+    "room_number": "16",
+    "direction": "Chính Nam",
+    "area_usable": 89.0,
+    "area_carpet": 83.0,
+    "price": 3279642511.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 21336,
+    "code": "BE731.16",
+    "floor_number": 31,
+    "room_number": "16",
+    "direction": "Tây Bắc",
+    "area_usable": 73.0,
+    "area_carpet": 69.0,
+    "price": 3453165727.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 22149,
+    "code": "BE702.08",
+    "floor_number": 2,
+    "room_number": "08",
+    "direction": "Chính Bắc",
+    "area_usable": 59.0,
+    "area_carpet": 83.0,
+    "price": 3385204714.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 22152,
+    "code": "BE717.11",
+    "floor_number": 17,
+    "room_number": "11",
+    "direction": "Đông Bắc",
+    "area_usable": 71.0,
+    "area_carpet": 77.0,
+    "price": 2750973444.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 22153,
+    "code": "BE726.15",
+    "floor_number": 26,
+    "room_number": "15",
+    "direction": "Chính Đông",
+    "area_usable": 88.0,
+    "area_carpet": 97.0,
+    "price": 2795726659.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 25593,
+    "code": "BE732.01",
+    "floor_number": 32,
+    "room_number": "01",
+    "direction": "Chính Tây",
+    "area_usable": 65.0,
+    "area_carpet": 95.0,
+    "price": 5075776116.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 29434,
+    "code": "BE721.08",
+    "floor_number": 21,
+    "room_number": "08",
+    "direction": "Đông Nam",
+    "area_usable": 71.0,
+    "area_carpet": 85.0,
+    "price": 3816160492.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  }
+]

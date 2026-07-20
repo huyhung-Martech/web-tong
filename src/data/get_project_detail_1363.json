@@ -1,0 +1,103 @@
+{
+  "id": 1363,
+  "name": "FOURS TOWER",
+  "slug": "fours-tower",
+  "description": "Bốn Mùa Khoe Sắc - Tứ Bình Toả Hương",
+  "location": "Phường Hòa Quý, quận Ngũ Hành Sơn, thành phố Đà Nẵng",
+  "developer": "SUN GROUP",
+  "estateType": "high_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/phôi_avt.jpg_c7f38739a8268abe24081e75e25edaa414e55f25",
+  "viewCount": 2101,
+  "status": "opening",
+  "createdAt": 1781920218420,
+  "ownershipType": "Lâu dài",
+  "constructionDensity": null,
+  "developmentScale": null,
+  "buildDate": null,
+  "progress": "Đang tiến hành",
+  "locationHtml": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-1_4179b4261aa2730113dc94d11886d0ca3f078607\" class=\"img img-fluid o_we_custom_image\"></p><p>4 tòa tháp FourS Tower sở hữu vị trí đắt giá ngay tại ngã tư huyết mạch Nguyễn Phước Lan - Minh Mạng. Từ dự án, cư dân chỉ mất vài phút di chuyển để “chạm” biển Sơn Thủy, tham quan danh thắng Ngũ Hành Sơn, đồng thời dễ dàng tiếp cận sân bay quốc tế Đà Nẵng và dự án biểu tượng<u>&nbsp;Da Nang Downtown.</u>&nbsp;Vị trí này cũng được bao quanh bởi hệ thống trung tâm thương mại, resort, khách sạn quốc tế…, và thuận tiện kết nối đến hai di sản thế giới ở miền Trung là Hội An và Thánh địa Mỹ Sơn.</p><p>Mặt khác, FourS Tower hưởng trọn lợi thế của hệ thống giao thông hoàn thiện từ những trục đường rộng lớn, quy hoạch các cây cầu và nút giao thông hiện đại như Hòa Xuân, Đồng Nò 2,…, mở ra mạng lưới liên kết đa hướng tới trung tâm thành phố và các khu vực đô thị sôi động lân cận.</p><p>Từ dự án có thể di chuyển đến:</p><ul><li>3 phút tới bãi biển Sơn Thuỷ</li></ul><ul style=\"margin-bottom: 0px;\"><li>5 phút tới Ngũ Hành Sơn</li><li>10 phút tới Cầu Rồng</li><li>15 phút tới Sân bay quốc tế Đà Nẵng</li><li>25 phút tới Bán đảo Sơn Trà</li></ul><ul><li>40 phút tới Phố cổ Hội An</li></ul><p>\n\n</p>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3835.07477465275!2d108.24021797465538!3d16.00962254103183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421167a4c91a09%3A0x37bf76a8dcc205f4!2zQ8SDbiBI4buZIEZvdXJTIFRvd2Vy!5e0!3m2!1svi!2s!4v1774234885200!5m2!1svi!2s\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": "https://kuula.co/share/L0jRn?logo=0",
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_8bb79c6a10edf44f7656631f1e10ea35db029342\" class=\"img img-fluid o_we_custom_image\"></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "F1FT",
+      "image_coordinate_name": "F1",
+      "image_data": [
+        {
+          "image_name": "F1.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/F1.jpg_b0d032914d242fe530ad292c8b81ba2b3a704aa7"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "fa",
+      "image_coordinate_name": "F5",
+      "image_data": [
+        {
+          "image_name": "phôi avt.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/phôi_avt.jpg_c7f38739a8268abe24081e75e25edaa414e55f25"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "ff5",
+      "image_coordinate_name": "ff5",
+      "image_data": [
+        {
+          "image_name": "F5.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/F5.jpg_a4fad5609b1e64dbc83ad1417da57491802000d3"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "BRANDING",
+      "link_utility_url": "https://drive.google.com/drive/folders/15zz73R4U8dvlujiZolsjewpxxmIOcT2c?usp=drive_link"
+    },
+    {
+      "link_utility_name": "CHÍNH SÁCH BÁN HÀNG",
+      "link_utility_url": "https://drive.google.com/drive/folders/17Gw7CcomK0ZrKmEJCJDSpTSnzkIj4xI3"
+    },
+    {
+      "link_utility_name": "GIỎ BANK",
+      "link_utility_url": "https://drive.google.com/drive/folders/1sgwT_OTImxPjJyL5IkhKgEgO1oHslQPo"
+    },
+    {
+      "link_utility_name": "KEY VISUAL",
+      "link_utility_url": "https://drive.google.com/drive/folders/1-dD4KPlwSOZr0-OBubu81N4-uWG9BtgB?usp=drive_link"
+    },
+    {
+      "link_utility_name": "MAP",
+      "link_utility_url": "https://drive.google.com/drive/folders/1ECBZf1koF896Rtfr00tWaoVB0wicTHYB?usp=drive_link"
+    },
+    {
+      "link_utility_name": "MẶT BẰNG TẦNG",
+      "link_utility_url": "https://drive.google.com/drive/folders/1AzTOY-uBf5SUkqZZaVQWaWalqHTZHVDU"
+    },
+    {
+      "link_utility_name": "PHÁP LÝ",
+      "link_utility_url": "https://drive.google.com/drive/folders/1yljxxa3qgjO_HFiHUQ5ncHXSBanetTQ9"
+    },
+    {
+      "link_utility_name": "PHỐI CẢNH",
+      "link_utility_url": "https://drive.google.com/drive/folders/1Xeg7coNF_UV3yB4bE6CbQuWYYAlY8DsE?usp=drive_link"
+    },
+    {
+      "link_utility_name": "SLIDE ĐÀO TẠO",
+      "link_utility_url": "https://drive.google.com/drive/folders/1-7EEngZXthhA5yld_KFF8V1o0Y8-qwBD?usp=drive_link"
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}

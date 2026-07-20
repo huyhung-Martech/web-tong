@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1520,
+    "projectId": 1322,
+    "name": "H1A",
+    "floorCount": 25,
+    "createdAt": 1781920219870
+  },
+  {
+    "id": 1521,
+    "projectId": 1322,
+    "name": "H1B",
+    "floorCount": 25,
+    "createdAt": 1781920219860
+  },
+  {
+    "id": 1522,
+    "projectId": 1322,
+    "name": "H2",
+    "floorCount": 25,
+    "createdAt": 1781920219850
+  },
+  {
+    "id": 1684,
+    "projectId": 1322,
+    "name": "THANH LONG",
+    "floorCount": 25,
+    "createdAt": 1781920219151
+  }
+]

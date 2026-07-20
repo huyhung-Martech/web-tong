@@ -1,0 +1,107 @@
+{
+  "id": 1352,
+  "name": "THE FLAME VINE",
+  "slug": "the-flame-vine",
+  "description": "The Flame Vine( Hinode Royal Park)-Biểu tượng sống mới – Sức khỏe & May mắn",
+  "location": "Khu đô thị mới Kim Chung - Di Trạch, xã Hoài Đức, TP.Hà Nội",
+  "developer": "KHÁC",
+  "estateType": "high_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/ảnh-avata.jpg_ce028b8f50d481aef149215474e6e8fe3c44ea11",
+  "viewCount": 943,
+  "status": "opening",
+  "createdAt": 1781920218363,
+  "ownershipType": "Lâu dài",
+  "constructionDensity": null,
+  "developmentScale": null,
+  "buildDate": null,
+  "progress": null,
+  "locationHtml": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-news_content-3_a037107e8d4ce7f066abbf8ae005dae743cfb2dd\" class=\"img img-fluid o_we_custom_image\"></p><p><strong>The Flame Vine Hinode Royal Park</strong>&nbsp;Với nằm tại điểm giao cắt giữa quốc lộ 32 và Vành đai 3.5, dự án đã tạo ra lợi thế vô cùng quan trọng cho cư dân. Kết nối thuận tiện với các tuyến đường lớn như Bắc quốc lộ 32 và Vành đai 3.5 giúp cư dân dễ dàng di chuyển đến các khu vực quan trọng trong thành phố, như Mỹ Đình, Cầu Giấy và Đại Lộ Thăng Long.</p><p><strong>Liên kết vùng dự án The Flame Vine Hinode Royal Park Kim Chung Di Trạch</strong></p><ul><li>Cách Đại Học Công Nghiệp Hà Nội 800m</li><li>Cách Đại Học QG Hà Nội 6km</li><li>Cách KĐT Mỹ Đình 4km</li><li>Cách bến xe Mỹ Đình 6km</li><li>Cách Trung tâm huấn luyện TDTT Quốc Gia 2,5km</li><li>Cách sân vận động Mỹ Đình 5,5km</li><li>Cách Bến Xe Mỹ Đình: 10 phút</li><li>Cách Sân bay Nội Bài: 30 phút di chuyển</li><li>Cách Trung tâm Hội nghị quốc gia: 15 phút di chuyển</li><li>Cách Hồ Hoàn Kiếm: 14km di chuyển</li><li>Cách Cầu Diễn: 3km.</li></ul><p><strong>The Flame Vine Hinode Royal Park&nbsp;</strong>còn hưởng lợi từ sự phát triển mạnh mẽ của huyện Hoài Đức trong thời gian gần đây, sẽ trở thành trung tâm kinh tế mới của thủ đô, Hoài Đức hứa hẹn mang đến nhiều cơ hội đầu tư và phát triển. Hạ tầng giao thông đồng bộ, cùng với sự tập trung các trường đại học lớn và đầu tư của các tập đoàn kinh tế, tạo nên một bước đột phá cho khu vực Tây Hà Nội. Dự án The Flame Vine nắm bắt cơ hội này để trở thành biểu tượng mới, góp phần thúc đẩy sự phát triển bền vững của khu vực.</p>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.5177119417394!2d105.7229235!3d21.0519751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313455004883ee61%3A0x73fcbfc09f619a71!2sThe%20Flame%20Vine%20Hinode%20Royal%20Park!5e0!3m2!1sen!2s!4v1773026926268!5m2!1sen!2s\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": "https://360.hinoderoyalpark.com.vn/tour",
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_47da2daa0df686bff4d3afe55401a88c9373f10f\" class=\"img img-fluid o_we_custom_image\"></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "AVTF1",
+      "image_coordinate_name": "AVTF1",
+      "image_data": [
+        {
+          "image_name": "Ảnh-avatatoàF1.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Ảnh-avatatoàF1.jpg_9d4804959a9f3933c59cedd38732ac3e5425eba9"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "AVTF2",
+      "image_coordinate_name": "AVTF2",
+      "image_data": [
+        {
+          "image_name": "Ảnh-avatatoàF2.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/Ảnh-avatatoàF2.jpg_d0bec890c71dbf72edbf7871dba46fe8171ccb8c"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "avata THE FLAME VINE",
+      "image_coordinate_name": "avata THE FLAME VINE",
+      "image_data": [
+        {
+          "image_name": "ảnh-avata.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/ảnh-avata.jpg_ce028b8f50d481aef149215474e6e8fe3c44ea11"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "CSBH",
+      "link_utility_url": "https://drive.google.com/drive/folders/1KbX62Y61Ra2_wLwZApiSRyWPY_FKwAsy?usp=sharing"
+    },
+    {
+      "link_utility_name": "HỢP ĐỒNG MẪU",
+      "link_utility_url": "https://drive.google.com/drive/folders/1-OfW8cQVROivYVBbzjGBkKvr7Ki9qcCi?usp=drive_link"
+    },
+    {
+      "link_utility_name": "MẶT BẰNG TẦNG",
+      "link_utility_url": "https://salepro.com/share/link-link-116"
+    },
+    {
+      "link_utility_name": "PHÁP LÝ DỰ ÁN",
+      "link_utility_url": "https://drive.google.com/drive/folders/1fvQK4aPJLJwxIkGMue_xqS_HbnTW8O5r?usp=sharing"
+    },
+    {
+      "link_utility_name": "PHỐI CẢNH",
+      "link_utility_url": "https://salepro.com/share/aring-link-33"
+    },
+    {
+      "link_utility_name": "Q&A",
+      "link_utility_url": "https://drive.google.com/file/d/1iN-AGwXLso7KRZeDbE77Rp5E_679H7Sp/view?usp=drive_link"
+    },
+    {
+      "link_utility_name": "TIÊU CHUẨN BÀN GIAO",
+      "link_utility_url": "https://salepro.com/share/link-link-121"
+    },
+    {
+      "link_utility_name": "TÀI LIỆU ĐÀO TẠO",
+      "link_utility_url": "https://salepro.com/share/aring-link-32"
+    },
+    {
+      "link_utility_name": "TỜ GẬP",
+      "link_utility_url": "https://drive.google.com/drive/folders/1hkckU65iDoci14yFgyjHhAZlyALimYdr?usp=drive_link"
+    },
+    {
+      "link_utility_name": "VIDEO",
+      "link_utility_url": "https://drive.google.com/drive/folders/17xv5Yq1FfCa7DqfNETG2egJLhEgi3vGn?usp=drive_link"
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}

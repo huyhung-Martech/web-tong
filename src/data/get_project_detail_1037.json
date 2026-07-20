@@ -1,0 +1,109 @@
+{
+  "id": 1037,
+  "name": "VINHOMES GREEN CITY",
+  "slug": "vinhomes-green-city",
+  "description": "Khu đô thị hiện đại đầu tiên phía Tây Bắc TP.HCM",
+  "location": "Đường Quốc Lộ N2, Hậu Nghĩa, Long An (cũ)",
+  "developer": "VINHOMES",
+  "estateType": "low_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/z6724622380337_f872c1501f6280d8dd7255620a165380.jpg_8b7d9af56b549fbf9a6cd187e9ee7e3dae6230d5",
+  "viewCount": 1938,
+  "status": "opening",
+  "createdAt": 1781920218166,
+  "ownershipType": "Sở hữu lâu dài",
+  "constructionDensity": null,
+  "developmentScale": null,
+  "buildDate": null,
+  "progress": "Đang xây dựng",
+  "locationHtml": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-1_c1965d9fe0be3ce60621b1372cc9fd5406e07ce4\" class=\"img img-fluid o_we_custom_image\"></p><p>\nVinhomes Green City được xây dựng tại <strong>thị trấn Hậu Nghĩa, xã Đức Lập Thượng và xã Tân Mỹ (huyện Đức Hoà, tỉnh Long An).</strong> Dự án nằm tại vị trí chiến lược giúp kết nối thuận tiện với TP.HCM và các tỉnh miền Tây Nam Bộ. Chỉ <em><strong>cách trung tâm TP.Hồ Chí Minh khoảng 40km</strong></em> về phía Tây Nam, Vinhomes Green City Long An&nbsp;dễ dàng kết nối với các tuyến đường huyết mạch như Quốc lộ 1A, Quốc lộ 22 và cao tốc TP.Hồ Chí Minh – Trung Lương. Chính điều này sẽ giúp cư dân di chuyển nhanh chóng đến TP.Hồ Chí Minh và các tỉnh miền Tây Nam Bộ, mang đến cơ hội giao thương, làm việc và phát triển kinh tế vượt trội.</p><p>Vinhomes Green City sở hữu vị trí VÀNG đầy&nbsp;tiềm năng:</p><ul><li><strong>Phía Bắc giáp khu dân cư hiện hữu ở đường Bàu Công.</strong></li><li><strong>Phía Nam giáp khu dân cư hiện hữu ở đường Nguyễn Thị Hạnh.</strong></li><li><strong>Phía Đông giáp khu dân cư hiện hữu thuộc xã Đức Lập Thượng.</strong></li><li><strong>Phía Tây giáp khu dân cư hiện hữu của thị trấn Hậu Nghĩa và khu dân cư ở trục đường Quốc lộ N2.</strong></li></ul><p>Từ Vinhomes Green City, cư dân dễ dàng tiếp cận các tiện ích ngoại khu và kết nối đến các tuyến đường huyết mạch với thời gian di chuyển nhanh chóng:</p><ul style=\"margin-bottom: 0px;\"><li><strong>Đường Vành đai 4: 6 phút</strong></li><li><strong>Tây Ninh – Cửa khẩu Mộc Bài: 15 phút</strong></li><li><strong>Vinpearl Golf Leman: 15 phút</strong></li><li><strong>Bến Lức: 24 phút</strong></li><li><strong>Quốc lộ 22: 26 phút</strong></li><li><strong>Đường Vành đai 3: 28 phút</strong></li><li><strong>Tuyến Metro số 2: 45 phút</strong></li></ul><ul><li><strong>Sân bay Tân Sơn Nhất (Ga T3): 60 phút</strong><br></li></ul>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29996.46308720708!2d106.37281762962051!3d10.894795067377979!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f914b3c3eeb%3A0xc090097c31e8ea93!2sVinhome%20Green%20City%20Long%20An!5e1!3m2!1svi!2s!4v1750407659301!5m2!1svi!2s\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": "https://vni.pro.vn/fh/VinhomesGreenCity",
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p></p><p><br></p><p></p><p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_6e3f276ddf4a53affefc593b576b65860f39df46\" class=\"img img-fluid o_we_custom_image\"></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "VHCG",
+      "image_coordinate_name": "Vinhomes Green City",
+      "image_data": [
+        {
+          "image_name": "z6724622380337_f872c1501f6280d8dd7255620a165380.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/z6724622380337_f872c1501f6280d8dd7255620a165380.jpg_8b7d9af56b549fbf9a6cd187e9ee7e3dae6230d5"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "fo",
+      "image_coordinate_name": "fo",
+      "image_data": [
+        {
+          "image_name": "the fo.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/the_fo.jpg_7ad9423b1e0d656176835895dbbc23311526ac60"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "sunrise",
+      "image_coordinate_name": "sun",
+      "image_data": [
+        {
+          "image_name": "the ríe.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/the_ríe.jpg_64cb70138f21285e18a7e5e8030896ae44cf9166"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "swan",
+      "image_coordinate_name": "swan",
+      "image_data": [
+        {
+          "image_name": "the swan.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/the_swan.jpg_c9c1e01828c25c1a6e40a59678bfb61c34c0eb8b"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "CHÍNH SÁCH BÁN HÀNG",
+      "link_utility_url": "https://drive.google.com/drive/folders/11CdMsefCJGqiVfmKb7CCoOZOwh6jbYzV?usp=drive_link"
+    },
+    {
+      "link_utility_name": "FACTSHEET & LEAFLET",
+      "link_utility_url": "https://drive.google.com/drive/folders/1rMg8lHgQFUyd01_fsJZQ2j3HfKbqCtxE?usp=drive_link"
+    },
+    {
+      "link_utility_name": "HÌNH ẢNH & VIDEO",
+      "link_utility_url": "https://drive.google.com/drive/folders/1mOucMYzViTU43FIZWYoLQWaskBd3sx08?usp=drive_link"
+    },
+    {
+      "link_utility_name": "MẪU THỦ TỤC",
+      "link_utility_url": "https://drive.google.com/drive/folders/1cvmNTNy2yNPe3TyrR_T18PWkAXm9qZhQ?usp=drive_link"
+    },
+    {
+      "link_utility_name": "MẶT BẰNG & LAYOUT",
+      "link_utility_url": "https://drive.google.com/drive/folders/1YcMQGjXhy96y1JENKxFDFT9eBlcypGh5?usp=drive_link"
+    },
+    {
+      "link_utility_name": "THAM QUAN DỰ ÁN 360",
+      "link_utility_url": "https://vni.pro.vn/fh/VinhomesGreenCity?lang=vn"
+    },
+    {
+      "link_utility_name": "THÔNG TIN CHUNG & PHÁP LÝ",
+      "link_utility_url": "https://drive.google.com/drive/folders/1yqkRCmfZYQo7KHBtrQ9_k8Y4hpCal_fF?usp=drive_link"
+    },
+    {
+      "link_utility_name": "ĐÀO TẠO DỰ ÁN",
+      "link_utility_url": "https://drive.google.com/drive/folders/1tp93kfSj7Y4SJqoG3NJNHa4bd--1O9wM?usp=drive_link"
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}

@@ -1,45 +1,46 @@
 {
-  "services": {
-    "frontend": {
-      "root": "frontend",
-      "framework": "vite"
-    },
-    "backend": {
-      "root": "backend",
-      "entrypoint": "src/main.ts"
-    }
-  },
   "redirects": [
     {
       "source": "/parkland",
-      "destination": "https://parkland.salehub.dev",
+      "destination": "/parkland/",
       "permanent": false
     },
     {
       "source": "/ha-long-xanh",
-      "destination": "https://globalgate.salehub.dev",
+      "destination": "/ha-long-xanh/",
       "permanent": false
     },
     {
       "source": "/forestia",
-      "destination": "https://forestia.salehub.dev",
+      "destination": "/forestia/",
       "permanent": false
     }
   ],
   "rewrites": [
     {
-      "source": "/api(/.*)?",
-      "destination": {
-        "type": "service",
-        "service": "backend"
-      }
+      "source": "/parkland/",
+      "destination": "https://parkland.salehub.dev/"
     },
     {
-      "source": "/(.*)",
-      "destination": {
-        "type": "service",
-        "service": "frontend"
-      }
-    }
+      "source": "/parkland/:path*",
+      "destination": "https://parkland.salehub.dev/:path*"
+    },
+    {
+      "source": "/ha-long-xanh/",
+      "destination": "https://globalgate.salehub.dev/"
+    },
+    {
+      "source": "/ha-long-xanh/:path*",
+      "destination": "https://globalgate.salehub.dev/:path*"
+    },
+    {
+      "source": "/forestia/",
+      "destination": "https://forestia.salehub.dev/"
+    },
+    {
+      "source": "/forestia/:path*",
+      "destination": "https://forestia.salehub.dev/:path*"
+    },
+    { "source": "/:path*", "destination": "/index.html" }
   ]
 }

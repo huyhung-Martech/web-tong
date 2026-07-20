@@ -1,0 +1,65 @@
+[
+  {
+    "id": 301,
+    "projectId": 533,
+    "name": "S2 - SOUTHERN SQUARE",
+    "floorCount": 25,
+    "createdAt": 1781920222335
+  },
+  {
+    "id": 302,
+    "projectId": 533,
+    "name": "S1 - SOUTHERN SQUARE",
+    "floorCount": 25,
+    "createdAt": 1781920222325
+  },
+  {
+    "id": 303,
+    "projectId": 533,
+    "name": "S3 - SOUTHERN SQUARE",
+    "floorCount": 25,
+    "createdAt": 1781920222316
+  },
+  {
+    "id": 427,
+    "projectId": 533,
+    "name": "C1 - CENTRAL SQUARE",
+    "floorCount": 25,
+    "createdAt": 1781920222279
+  },
+  {
+    "id": 428,
+    "projectId": 533,
+    "name": "C2 - CENTRAL SQUARE",
+    "floorCount": 25,
+    "createdAt": 1781920222270
+  },
+  {
+    "id": 429,
+    "projectId": 533,
+    "name": "C3 - CENTRAL SQUARE",
+    "floorCount": 25,
+    "createdAt": 1781920222261
+  },
+  {
+    "id": 760,
+    "projectId": 533,
+    "name": "N1 - NORTHERN SQUARE",
+    "floorCount": 25,
+    "createdAt": 1781920220947
+  },
+  {
+    "id": 761,
+    "projectId": 533,
+    "name": "N2 - NORTHERN SQUARE",
+    "floorCount": 25,
+    "createdAt": 1781920220936
+  },
+  {
+    "id": 762,
+    "projectId": 533,
+    "name": "N3 - NORTHERN SQUARE",
+    "floorCount": 25,
+    "createdAt": 1781920220924
+  }
+]

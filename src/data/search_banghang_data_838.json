@@ -1,0 +1,15 @@
+[
+  {
+    "id": 28484,
+    "code": "K51509",
+    "floor_number": 15,
+    "room_number": "09",
+    "direction": "Đông Nam",
+    "area_usable": 66.0,
+    "area_carpet": 77.0,
+    "price": 1888870060.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  }
+]

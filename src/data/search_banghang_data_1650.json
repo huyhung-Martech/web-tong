@@ -1,0 +1,80 @@
+[
+  {
+    "id": 24437,
+    "code": "C1-1506",
+    "floor_number": 15,
+    "room_number": "06",
+    "direction": "Tây Bắc",
+    "area_usable": 92.0,
+    "area_carpet": 61.0,
+    "price": 5444230670.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 27028,
+    "code": "C1-1501",
+    "floor_number": 15,
+    "room_number": "01",
+    "direction": "Tây Bắc",
+    "area_usable": 82.0,
+    "area_carpet": 66.0,
+    "price": 7930104138.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 27029,
+    "code": "C1-1502",
+    "floor_number": 15,
+    "room_number": "02",
+    "direction": "Đông Bắc",
+    "area_usable": 75.0,
+    "area_carpet": 71.0,
+    "price": 6133254282.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 27030,
+    "code": "C1-1505",
+    "floor_number": 15,
+    "room_number": "05",
+    "direction": "Chính Nam",
+    "area_usable": 72.0,
+    "area_carpet": 67.0,
+    "price": 10989728282.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 27031,
+    "code": "C1-1508",
+    "floor_number": 15,
+    "room_number": "08",
+    "direction": "Chính Tây",
+    "area_usable": 72.0,
+    "area_carpet": 83.0,
+    "price": 6040560906.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  },
+  {
+    "id": 27033,
+    "code": "C1-1509",
+    "floor_number": 15,
+    "room_number": "09",
+    "direction": "Tây Bắc",
+    "area_usable": 88.0,
+    "area_carpet": 97.0,
+    "price": 6143504326.0,
+    "status": "available",
+    "lock_expire_at": null,
+    "locked_by": null
+  }
+]

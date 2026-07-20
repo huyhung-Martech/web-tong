@@ -1,0 +1,107 @@
+{
+  "id": 1296,
+  "name": "CHARMORA CITY_TT",
+  "slug": "charmora-citytt",
+  "description": "Đô thị mô hình Sponge City đầu tiên tại Việt Nam",
+  "location": "Phường Nam Nha Trang, TP. Nha Trang, tỉnh Khánh Hòa.",
+  "developer": "SUN GROUP",
+  "estateType": "low_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/CHARMORA-CITYTT.jpg_5b788d8a9446dd4ff6711cbb69009d8455a162bc",
+  "viewCount": 3322,
+  "status": "opening",
+  "createdAt": 1781920218116,
+  "ownershipType": "Lâu dài",
+  "constructionDensity": "26,7%",
+  "developmentScale": null,
+  "buildDate": null,
+  "progress": "Đang tiến hành",
+  "locationHtml": "<h3><img class=\"img-fluid\" src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-1_9a912ea0a89e0f6be4c2005a76217eea99544aa9\"></h3><h3><strong>VỊ TRÍ \"TAM CẬN\" SINH TÀI</strong></h3><p>Tọa lạc tại <strong>phường Phước Long và xã Vĩnh Thái, thành phố Nha Trang, tỉnh Khánh Hòa</strong>, <strong>CHARMORA CITY</strong> sở hữu vị trí đắc địa hiếm có với thế <strong>“tam cận sinh tài”</strong>:</p><ul>\n<li>\n<strong>Nhất cận thị</strong> – Nằm ngay cửa ngõ phía Tây Nam trung tâm <strong>thành phố Nha Trang</strong>, chỉ vài phút di chuyển đến khu vực hành chính, thương mại và bãi biển Trần Phú sôi động.\n</li>\n<li>\n<strong>Nhị cận giang</strong> – Tiếp giáp <strong>hai dòng sông Quán Trường và sông Tắc</strong>, mang lại địa thế phong thủy thịnh vượng, không gian sống trong lành và cảnh quan sông nước hữu tình.\n</li>\n<li>\n<strong>Tam cận lộ</strong> – Kết nối trực tiếp với <strong>Quốc lộ 1C</strong> cùng trục đường Võ Nguyên Giáp – tuyến giao thông huyết mạch giúp cư dân dễ dàng di chuyển đến sân bay Cam Ranh, các khu công nghiệp và các đô thị lân cận.\n</li>\n</ul><p>Nhờ vị trí chiến lược này, <strong><strong>CHARMORA CITY</strong></strong> không chỉ thuận lợi về giao thương – kết nối, mà còn hội tụ đầy đủ yếu tố <strong>“nhất cận thị, nhị cận giang, tam cận lộ”</strong>, mở ra cơ hội an cư – đầu tư sinh lời bền vững cho chủ nhân tương lai.</p><p><br></p><p>\n\n</p>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6557.95468922345!2d109.17640756717243!3d12.222313429736895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31705d000de6fec3%3A0xf80db5db96a0f135!2zS2h1IMSRw7QgdGjhu4sgSOG7l24gSOG7o3AgTmhhIFRyYW5nIC0gU3VuIEdyb3Vw!5e0!3m2!1svi!2s!4v1761711343045!5m2!1svi!2s\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": "https://kuula.co/share/hRSGl?logo=0",
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_a6912b27e6853fb3cdaba26b18521f02edc4e50e\" class=\"img img-fluid o_we_custom_image\"></p><p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-2_c086e260c3c46eb9b8e795aa1fca2d1bf83c5024\" class=\"img img-fluid o_we_custom_image\"></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "Avata CHARMORA CITY_TT",
+      "image_coordinate_name": "CHARMORA CITY TT",
+      "image_data": [
+        {
+          "image_name": "CHARMORA-CITYTT.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/CHARMORA-CITYTT.jpg_5b788d8a9446dd4ff6711cbb69009d8455a162bc"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "DN3",
+      "image_coordinate_name": "DN3",
+      "image_data": [
+        {
+          "image_name": "đN3.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/đN3.jpg_a777810d4726e966ef1e62f909ee43199fe0379d"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "FES",
+      "image_coordinate_name": "FESTIVAL",
+      "image_data": [
+        {
+          "image_name": "FES ISL.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/FES_ISL.jpg_bc05bb001aa264ea20137e20f403c7561a727a49"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "Branding",
+      "link_utility_url": "https://salepro.com/share/link-link-47"
+    },
+    {
+      "link_utility_name": "CSBH",
+      "link_utility_url": "https://drive.google.com/drive/folders/127bh4iIwU4vL13lvPnVgoJzfB_lc-Epc?usp=drive_link"
+    },
+    {
+      "link_utility_name": "Layout căn",
+      "link_utility_url": "https://salepro.com/share/25n0p-link"
+    },
+    {
+      "link_utility_name": "Link 360",
+      "link_utility_url": "https://salepro.com/share/link-link-46"
+    },
+    {
+      "link_utility_name": "Thông tin dự án",
+      "link_utility_url": "https://salepro.com/share/link-link-40"
+    },
+    {
+      "link_utility_name": "Tiến độ dự án",
+      "link_utility_url": "https://salepro.com/share/link-link-45"
+    },
+    {
+      "link_utility_name": "Tổng mặt bằng",
+      "link_utility_url": "https://salepro.com/share/link-link-63"
+    },
+    {
+      "link_utility_name": "Video dự án",
+      "link_utility_url": "https://salepro.com/share/link-link-44"
+    },
+    {
+      "link_utility_name": "Ảnh 3D biệt thự",
+      "link_utility_url": "https://salepro.com/share/link-link-48"
+    },
+    {
+      "link_utility_name": "Ảnh phối cảnh",
+      "link_utility_url": "https://salepro.com/share/link-link-43"
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}

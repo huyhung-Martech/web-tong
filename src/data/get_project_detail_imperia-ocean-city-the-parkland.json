@@ -1,0 +1,221 @@
+{
+  "id": 1315,
+  "name": "IMPERIA OCEAN CITY - THE PARKLAND",
+  "slug": "imperia-ocean-city-the-parkland",
+  "description": "Tổ hợp cao tầng cá tính dành cho cư dân thế hệ mới",
+  "location": "Vinhomes Ocean Park 2, Nghĩa Trụ, Văn Giang, Hưng Yên",
+  "developer": "MIK",
+  "estateType": "high_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/avatar.jpg_2e826f43fcd28fbd4d6f4479dfe213c9646e6ef0",
+  "viewCount": 3120,
+  "status": "opening",
+  "createdAt": 1781920217989,
+  "ownershipType": "Sở hữu lâu dài",
+  "constructionDensity": "29%",
+  "developmentScale": "32 tòa căn hộ cao 35 tầng, 2 tầng hầm",
+  "buildDate": null,
+  "progress": "Đang thi công",
+  "locationHtml": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-1_cd2e5be1b125f13f2d4f1bf15373ba8b8c50905c\" class=\"img img-fluid o_we_custom_image\"></p><p>\nSở hữu vị trí chiến lược tại <strong>trung tâm lõi phía Đông Hà Nội</strong>, <strong>&nbsp;Imperia Ocean City</strong> nổi bật như “điểm hội tụ kết nối” khi nằm ngay khu vực giao thoa của các trục giao thông huyết mạch:</p><p><strong>Khả năng kết nối nhanh chóng tới các khu vực trọng điểm</strong>:</p><ul>\n<li>\n<strong>Cao tốc Hà Nội – Hải Phòng</strong>: mở rộng hành trình thuận tiện đến Hải Dương, Hải Phòng, Quảng Ninh\n</li>\n<li>\n<strong>Cầu Vĩnh Tuy 2</strong>: rút ngắn thời gian di chuyển vào trung tâm Hà Nội\n</li>\n<li>\n<strong>Cầu Ngọc Hồi, cầu Trần Hưng Đạo (tương lai)</strong>: tạo thêm trục kết nối xuyên tâm hiện đại\n</li>\n<li>\n<strong>Đường vành đai 3.5 – vành đai 4</strong>: liên thông mạnh mẽ tới các cực phát triển phía Bắc – Đông – Nam</li></ul><p>\n\n</p><p>\nNhờ những tuyến đường huyết mạch này, cư dân The ParkLand có thể di chuyển linh hoạt chỉ trong <strong>5 – 15 phút</strong> đến các khu đô thị lớn như <strong>Ecopark, Ocean Park 1</strong>, hay chuỗi trường đại học danh tiếng gồm <strong>VinUni,...</strong></p><p>\nVới vị trí chiến lược, khả năng kết nối mạnh mẽ và hưởng trọn lợi thế từ quy hoạch phía Đông Hà Nội,<strong>&nbsp;Imperia Ocean City</strong> xứng đáng là “tâm điểm sống mới” dành cho cộng đồng cư dân hiện đại. Đây là nơi hội tụ đủ ba yếu tố: <strong>khả năng kết nối – giá trị bền vững – tiềm năng tăng trưởng</strong>, tạo nên chuẩn sống đẳng cấp và khác biệt cho tương lai.\n\n</p>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3110.191298171037!2d105.9806435!3d20.9361626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a5dafcfd5c2b%3A0x3ab613e104c98fd1!2sImperia%20Ocean%20City!5e1!3m2!1svi!2s!4v1765186231851!5m2!1svi!2s\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": "https://kuula.co/share/LGmRn/collection/7HT9r?logo=0",
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p></p><p></p><p></p><p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_16bd55fe73d0989151897af4ba0e0f9c3204212d2\" class=\"img img-fluid o_we_custom_image\"><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-2_a462bbb7873c6a67642c220be456b29b2b438ce2\" class=\"img img-fluid o_we_custom_image\"><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-3_487d44d976a1f03345e22ce879fa5b1f027f5dd2\" class=\"img img-fluid o_we_custom_image\"></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "m1",
+      "image_coordinate_name": "1",
+      "image_data": [
+        {
+          "image_name": "phôi avt, toà nhà.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/phôi_avt,_toà_nhà.jpg_319a99873fa7c58a24551135c9147e5090d27716"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "M2",
+      "image_coordinate_name": "M2",
+      "image_data": [
+        {
+          "image_name": "M2.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/M2.jpg_2ca27b6ae17404302d156223f5a43784da76813f"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "M3",
+      "image_coordinate_name": "M3",
+      "image_data": [
+        {
+          "image_name": "M3.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/M3.jpg_a916392c401dca89d7b5eb687997a884ec8ef22e"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "P1",
+      "image_coordinate_name": "P1",
+      "image_data": [
+        {
+          "image_name": "P1.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/P1.jpg_42045bae7272545fdfbb6590ae3b2075cb2733cd"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "P2",
+      "image_coordinate_name": "P2",
+      "image_data": [
+        {
+          "image_name": "P2.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/P2.jpg_ab6d33c569dfff692ab3beaa9f3a63d9362f41d9"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "P3",
+      "image_coordinate_name": "P3",
+      "image_data": [
+        {
+          "image_name": "p3.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/p3.jpg_9cfbabae3a82c0defb9aa9cc6512a13f842f41e7"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "P5",
+      "image_coordinate_name": "P5",
+      "image_data": [
+        {
+          "image_name": "P5.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/P5.jpg_8bccc1b20d5c81977b06ed3cfd1f59f163bd1a85"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "P6",
+      "image_coordinate_name": "P6",
+      "image_data": [
+        {
+          "image_name": "P6.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/P6.jpg_ddb242537796c37cbbc68de0c4e9f7ad1ed75245"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "P8",
+      "image_coordinate_name": "P8",
+      "image_data": [
+        {
+          "image_name": "P8.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/P8.jpg_42f7b1d7ff3deb5844eebdeeed84cb37ad204c10"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "ảnh avata IMPERIA",
+      "image_coordinate_name": "ảnh avata IMPERIA",
+      "image_data": [
+        {
+          "image_name": "AVATA.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/AVATA.jpg_f6ef6d7f9adc7c771d524401c9efd233aead22ba"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "BÓC MÁI 3D",
+      "link_utility_url": "https://drive.google.com/drive/folders/1HMct-hTafIHs_GrqFd6P7DKOam6zlkaJ?usp=drive_link"
+    },
+    {
+      "link_utility_name": "CHÍNH SÁCH BÁN HÀNG",
+      "link_utility_url": "https://drive.google.com/drive/folders/14-yjJjeV6KfjtCzMBQQ7R6AGEjARND0j"
+    },
+    {
+      "link_utility_name": "MB TẦNG ĐIỂN HÌNH",
+      "link_utility_url": "https://drive.google.com/drive/folders/1XXP9Hs-QIYokf8FjZh4FccKSv8hyeT6J?usp=drive_link"
+    },
+    {
+      "link_utility_name": "PHÁP LÝ",
+      "link_utility_url": "https://drive.google.com/drive/folders/1THy3lwT9RlyjBWjKc7LQF-F_2vofVSCv"
+    },
+    {
+      "link_utility_name": "SALESKIT",
+      "link_utility_url": "https://drive.google.com/drive/folders/1KbrzzO5xoepiL996z1dRMJtr7rWdgojM"
+    },
+    {
+      "link_utility_name": "TIÊU CHUẨN BÀN GIAO",
+      "link_utility_url": "https://drive.google.com/drive/folders/1Pk2r-HB34TlD_cYLn4nFRGFZK0IEraXr?usp=drive_link"
+    },
+    {
+      "link_utility_name": "TMB",
+      "link_utility_url": "https://drive.google.com/drive/folders/1CRqa_RMbTj0-C5ljFyZoFP8jsiS8fHhn?usp=drive_link"
+    },
+    {
+      "link_utility_name": "TÀI LIỆU ĐÀO TẠO",
+      "link_utility_url": "https://drive.google.com/drive/folders/1GJgDOg9vi_D9qhhlxuyTGXCrbtv7TjyL?usp=drive_link"
+    },
+    {
+      "link_utility_name": "VIDEO",
+      "link_utility_url": "https://drive.google.com/drive/folders/1tQpvmveU2jRpbPMhx-yY_Ee8hWLpR4hl?usp=drive_link"
+    },
+    {
+      "link_utility_name": "ẢNH PHỐI CẢNH",
+      "link_utility_url": "https://drive.google.com/drive/folders/1_JQcKbWraCCF9fNcDWJhnZtb80puO-8A"
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/AVATA.jpg_f6ef6d7f9adc7c771d524401c9efd233aead22ba",
+  "avatar_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/AVATA.jpg_f6ef6d7f9adc7c771d524401c9efd233aead22ba",
+  "avatar": {
+    "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/AVATA.jpg_f6ef6d7f9adc7c771d524401c9efd233aead22ba"
+  },
+  "utilities": [
+    {
+      "name": "CÔNG VIÊN TRUNG TÂM",
+      "image": "https://s3-hfx03.fptcloud.com/image-upload/salepro/1766481729674-banner-web-2.webp"
+    },
+    {
+      "name": "PHÒNG GYM",
+      "image": "https://s3-hfx03.fptcloud.com/image-upload/salepro/1766481729674-banner-web-2.webp"
+    },
+    {
+      "name": "PHÒNG GAME",
+      "image": "https://s3-hfx03.fptcloud.com/image-upload/salepro/1766481729674-banner-web-2.webp"
+    },
+    {
+      "name": "CO-WORKING SPACE",
+      "image": "https://s3-hfx03.fptcloud.com/image-upload/salepro/1766481729674-banner-web-2.webp"
+    }
+  ],
+  "floorPlans": [
+    {
+      "code": "STUDIO",
+      "name": "Căn Studio",
+      "area": "30-33 m²",
+      "quantity": "1 căn/sàn",
+      "image": "https://s3-hfx03.fptcloud.com/image-upload/salepro/1766481729674-banner-web-2.webp"
+    },
+    {
+      "code": "1PN+",
+      "name": "Căn 1PN+",
+      "area": "46-48.5 m²",
+      "quantity": "5 căn/sàn",
+      "image": "https://s3-hfx03.fptcloud.com/image-upload/salepro/1766481729674-banner-web-2.webp"
+    },
+    {
+      "code": "2PN",
+      "name": "Căn 2PN+",
+      "area": "65-68 m²",
+      "quantity": "2 căn/sàn",
+      "image": "https://s3-hfx03.fptcloud.com/image-upload/salepro/1766481729674-banner-web-2.webp"
+    }
+  ]
+}

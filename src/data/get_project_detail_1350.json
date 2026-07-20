@@ -1,0 +1,135 @@
+{
+  "id": 1350,
+  "name": "TMDV VINHOMES OCEAN PARK 1",
+  "slug": "tmdv-vinhomes-ocean-park-1",
+  "description": "Khu đô thị sinh thái thiên đường đẳng cấp all in one tại phía Đông thủ đô Hà Nội",
+  "location": "Khu Đô Thị Vinhomes Ocean Park 1, Gia Lâm, Hà Nội",
+  "developer": "VINHOMES",
+  "estateType": "low_rise",
+  "imageUrl": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/1._AVATAR_MẪU.jpg_b2a1c325ab833f0d13d02654af1574c7560e233c",
+  "viewCount": 562,
+  "status": "opening",
+  "createdAt": 1781920218649,
+  "ownershipType": "Sở hữu 50 năm",
+  "constructionDensity": null,
+  "developmentScale": null,
+  "buildDate": null,
+  "progress": null,
+  "locationHtml": "<p>\n<img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_location-1_407fcbb1e2fb0471a4d0018da75f76323d01c5c9\" class=\"img-fluid\">Vinhomes Ocean Park sở hữu kết nối giao thông” thuận trăm đường, tiện trăm ngả” với mô hình thành phố 15 phút:</p><p>•&nbsp;<strong>2 phút</strong>&nbsp;di chuyển tới cao tốc Hà Nội – Hải Phòng, kết nối liên tỉnh tam giác kinh tế phía bắc: Hà Nội – Hải Phòng – Quảng Ninh.</p><p>•&nbsp;<strong>2 phút</strong>&nbsp;di chuyển qua quốc lộ 5A để kết nối tới sân bay Quốc Tế Nội Bài.</p><p>•&nbsp;<strong>10 - 15 phút</strong>&nbsp;tới 3 khu đô thị Vinhomes: Vinhomes Riverside, Vinhomes Symphony, Vinhomes Times City.</p><p>•&nbsp;<strong>15 phút</strong>&nbsp;tới khu vực Hồ Gươm - Cơ quan trọng điểm các Bộ, Ban, Ngành &amp; Khu vực CBD của Hà Nội: Bộ Công Thương, Bộ Giao Thông Vận Tải, Bộ Tài Chính, Sở văn hóa thông tin Hà Nội, Nhà Hát Lớn.</p><p>Đặc biệt, Hệ thống xe bus điện thông minh đầu tiên của Việt Nam - VinBus từ tháng 4/2021, giúp 28.000 cư dân dễ dàng di chuyển nội khu và kết nối trung tâm Hà Nội.\n\n</p><p></p>",
+  "iframeLocation": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29799.657328092442!2d105.92698428417438!3d20.994354066501682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135af4a6ec55c7d%3A0xad450dcc7630508c!2sVinhomes%20Ocean%20Park%2C%20Gia%20L%C3%A2m%2C%20Hanoi%2C%20Vietnam!5e0!3m2!1sen!2s!4v1772788413007!5m2!1sen!2s\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "projectOverview": null,
+  "iframeOverview": null,
+  "projectDetailHtml": null,
+  "iframeDetail": null,
+  "image360": "https://kuula.co/share/LfWZV/collection/7Mn4C?logo=0",
+  "shortDescription": null,
+  "shortDescriptionSalePolicy": "<p><img src=\"https://s3-hfx03.fptcloud.com/admin-bds/odoo/EmbeddedImage-project_short_description_sale_policy-1_3f9042cdb1ae79041b6de4cfca09891518974cd7\" class=\"img img-fluid o_we_custom_image\"></p><p><br></p>",
+  "state": "public",
+  "image_data": [
+    {
+      "image_coordinate_code": "CCTP-01",
+      "image_coordinate_name": "CCTP-01",
+      "image_data": [
+        {
+          "image_name": "cctp-01.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/cctp-01.jpg_76f4c44ac360c2561e355aa899b5f5b4857ead01"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "CCTP-02",
+      "image_coordinate_name": "CCTP-02",
+      "image_data": [
+        {
+          "image_name": "cctp-02.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/cctp-02.jpg_6af726615f4e13fa8010aea118d43a90d568eeb3"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "Ha08",
+      "image_coordinate_name": "Ha08",
+      "image_data": [
+        {
+          "image_name": "dưadaacfw.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/dưadaacfw.jpg_4e9d0b8971a92228e4d577c006d3af3619091b90"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "SB11A",
+      "image_coordinate_name": "SB11A",
+      "image_data": [
+        {
+          "image_name": "260410_ĐÀO TẠO SẢN PHẨM TMDV OP1 gửi ĐL-4.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/260410_ĐÀO_TẠO_SẢN_PHẨM_TMDV_OP1_gửi_ĐL-4.jpg_d2b5e3517767768aa1a214edbbb19c066cda8f1b"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "TMDV",
+      "image_coordinate_name": "ava",
+      "image_data": [
+        {
+          "image_name": "1. AVATAR MẪU.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/1._AVATAR_MẪU.jpg_b2a1c325ab833f0d13d02654af1574c7560e233c"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "bh9b",
+      "image_coordinate_name": "bh9b",
+      "image_data": [
+        {
+          "image_name": "BH09.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/BH09.jpg_20693e2332ae3c5387d9b4fd85074ff12a98f5c3"
+        }
+      ]
+    },
+    {
+      "image_coordinate_code": "sh09",
+      "image_coordinate_name": "sh09",
+      "image_data": [
+        {
+          "image_name": "SH09.jpg",
+          "image_url": "https://s3-hfx03.fptcloud.com/admin-bds/odoo/SH09.jpg_9cae3583d5a7746a273212e00e2b25aff8de51a7"
+        }
+      ]
+    }
+  ],
+  "link_general": [
+    {
+      "link_utility_name": "CHÍNH SÁCH BÁN HÀNG",
+      "link_utility_url": "https://drive.google.com/drive/folders/1mMV9IFjTbRxqifdpM6UhckKJ4mp0tmZe?usp=drive_link"
+    },
+    {
+      "link_utility_name": "HỢP ĐỒNG THỦ TỤC",
+      "link_utility_url": "https://drive.google.com/drive/folders/15drALj3BF5CfgeJIsAYSUOIFpI3xmRiP"
+    },
+    {
+      "link_utility_name": "TÀI LIỆU ĐÀO TẠO",
+      "link_utility_url": "https://drive.google.com/drive/folders/1L5IKdhroAHBE90p3k2VSR4SdZ589J86E?usp=sharing"
+    },
+    {
+      "link_utility_name": "TỔNG MẶT BẰNG",
+      "link_utility_url": "https://drive.google.com/drive/folders/1FkX4ZjMpFHfo9TscO-7PO77Ru_SAsq_g"
+    },
+    {
+      "link_utility_name": "ẢNH THỰC TẾ BH9B",
+      "link_utility_url": "https://drive.google.com/drive/folders/16Oy8y2a9KJb0yoSloDOfkr57-C46OjuN?usp=drive_link"
+    },
+    {
+      "link_utility_name": "ẢNH THỰC TẾ SH09",
+      "link_utility_url": "https://drive.google.com/drive/folders/14Ujnfa9Um-fzY9iTJBPBr3ni51-5JukP?usp=drive_link"
+    },
+    {
+      "link_utility_name": null,
+      "link_utility_url": null
+    }
+  ],
+  "link_sale_policy": [],
+  "link_utility": [],
+  "img_360_data": [],
+  "utilities": [],
+  "floorPlans": []
+}
