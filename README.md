@@ -1,87 +1,69 @@
-# 🏢 Salehub.dev — Hệ thống Website Tổng BĐS & Cổng Thông Tin Dự Án
+# 🏢 Salehub.dev - Hệ Thống Website Tổng BĐS
 
-[![Website](https://img.shields.io/badge/Live%20Web-salehub.dev-2563eb?style=for-the-badge&logo=vercel&logoColor=white)](https://salehub.dev/)
-[![Vue 3](https://img.shields.io/badge/Vue.js-3.x-42b883?style=for-the-badge&logo=vue.js&logoColor=white)](https://vuejs.org/)
-[![Vite](https://img.shields.io/badge/Vite-5.x-646cff?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.x-06b6d4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+Dự án Cổng thông tin trung tâm (Portal) kết nối, giới thiệu và điều hướng toàn bộ hệ sinh thái Landing Page và sản phẩm bất động sản của Queen Land.
 
-Hệ thống Website Tổng BĐS **Salehub** là cổng thông tin trung tâm (Portal) kết nối, giới thiệu và điều hướng toàn bộ hệ sinh thái các dự án bất động sản, landing page bán hàng và dữ liệu phân khu của doanh nghiệp.
+Kiến trúc Single Page App xây dựng bằng Vue 3 + Vite, cấu hình routing proxy đa phân khu. Domain: <https://salehub.dev/>
 
----
+## 📁 Cấu trúc thư mục dự án
+*   [`src/App.vue`](src/App.vue): Component gốc của ứng dụng, thiết lập layout chung, notification và viewport router.
+*   [`src/components/Header.vue`](src/components/Header.vue): Header nhận diện thương hiệu Queen Land, responsive navigation đa thiết bị.
+*   [`src/views/ProjectsPage.vue`](src/views/ProjectsPage.vue): Trang tổng hợp danh mục dự án BĐS trọng điểm, bộ lọc phân khúc và trạng thái mở bán.
+*   [`src/views/ProjectDetailPage.vue`](src/views/ProjectDetailPage.vue): Trang chi tiết dự án, mặt bằng, vị trí và form liên hệ tư vấn.
+*   [`src/views/ComparePage.vue`](src/views/ComparePage.vue): Công cụ so sánh thông số các dự án BĐS trực quan.
+*   [`src/data/search_duan_data.json`](src/data/search_duan_data.json): Cơ sở dữ liệu mẫu danh mục dự án phục vụ tìm kiếm nhanh.
+*   [`vercel.json`](vercel.json): Cấu hình reverse proxy & routing chuyển tiếp tới các landing page vệ tinh (`/parkland/`, `/ha-long-xanh/`, `/forestia/`).
+*   `public/`: Logo thương hiệu, favicon, robots.txt và sitemap.xml.
 
-## 🌐 Đường Dẫn Mở Trang Web Trực Tiếp
+## 🎨 Thông tin thiết kế chính (Design System)
+*   **Tông màu chủ đạo:**
+    *   `Navy Dark (#0F172A)`: Màu nền chủ đạo tạo phong cách công nghệ sang trọng, tin cậy.
+    *   `Brand Blue (#2563EB)`: Màu nhấn tương tác, nút bấm hành động (CTA) và hiệu ứng active.
+    *   `Gold Amber (#F59E0B)`: Điểm xuyết cho huy hiệu dự án VIP và biểu tượng nổi bật.
+    *   `Slate Light (#F8FAFC)`: Nền thẻ card nội dung, tạo độ tương phản dịu mắt.
+*   **Fonts:**
+    *   Tiêu đề (Headings): *Plus Jakarta Sans* / *Google Sans Flex*.
+    *   Nội dung (Body): *Inter*.
 
-* **Website Tổng chính thức:** 👉 **[https://salehub.dev](https://salehub.dev)** *(hoặc `https://www.salehub.dev/`)*
-* **Hệ thống phân khu vệ tinh (Tích hợp rewrite qua Vercel):**
-  * 🏢 **The Parkland (Imperia Ocean City):** [https://salehub.dev/parkland/](https://salehub.dev/parkland/) *(Trỏ về `https://parkland.salehub.dev/`)*
-  * 🌊 **Vinhomes Cổ Loa / Hạ Long Xanh:** [https://salehub.dev/ha-long-xanh/](https://salehub.dev/ha-long-xanh/) *(Trỏ về `https://globalgate.salehub.dev/`)*
-  * 🌳 **Forestia Park (MIK Phố Nối):** [https://salehub.dev/forestia/](https://salehub.dev/forestia/) *(Trỏ về `https://forestia.salehub.dev/`)*
+## 🚀 Chạy thử
+Cài đặt thư viện và khởi động môi trường phát triển cục bộ:
 
----
-
-## 🚀 Tính Năng Nổi Bật
-
-1. **Giao diện Modern Real Estate Portal:** Thiết kế sang trọng chuẩn thương hiệu Queen Land, tối ưu trải nghiệm mượt mà trên cả Desktop lẫn Mobile.
-2. **Thanh điều hướng Spotlight & Header tinh chỉnh:** Tích hợp nhận diện thương hiệu, bộ lọc dự án theo trạng thái mở bán, vị trí địa lý và phân khúc đầu tư.
-3. **Cấu hình Redirects & Proxy Routing đa dự án (`vercel.json`):** Điều hướng liền mạch giữa tên miền tổng `salehub.dev` tới các landing page chuyên biệt độc lập mà người dùng không bị gián đoạn trải nghiệm.
-4. **Chuẩn hóa SEO On-page:** Tích hợp meta thẻ canonical, structured data Schema.org, Open Graph preview và bộ lọc chặn bots cào dữ liệu khi chưa công bố chính thức.
-
----
-
-## 🛠️ Công Nghệ Sử Dụng
-
-* **Frontend:** Vue 3 (Composition API / `<script setup>`), Vue Router.
-* **Build Tool:** Vite tốc độ cao, hỗ trợ Hot Module Replacement (HMR).
-* **Styling:** Tailwind CSS, Heroicons, Google Sans Flex & Inter typography.
-* **Hosting & CDN:** Vercel Global Edge Network với chứng chỉ bảo mật SSL tự động.
-
----
-
-## 📁 Cấu Trúc Thư Mục Dự Án
-
-```text
-├── public/                # Hình ảnh logo, favicon, sitemap.xml, robots.txt
-├── src/
-│   ├── assets/            # CSS toàn cục và hình ảnh tĩnh
-│   ├── components/        # Header, Footer, SpotlightNavbar, ProjectCard,...
-│   ├── views/             # HomePage, ProjectDetailPage, AboutView,...
-│   ├── router/            # Cấu hình Vue Router
-│   ├── App.vue            # Component gốc
-│   └── main.js            # Khởi tạo Vue Application
-├── vercel.json            # Cấu hình Routing, Proxy & Sub-domain redirects
-├── vite.config.js         # Cấu hình Vite Build
-└── package.json           # Dependencies và scripts
-```
-
----
-
-## 💻 Hướng Dẫn Cài Đặt & Chạy Thử Trên Máy
-
-### Yêu cầu môi trường
-* Node.js phiên bản **18.x** hoặc **20.x trở lên**.
-* Trình quản lý gói `npm` hoặc `pnpm`.
-
-### Các bước thực hiện
 ```bash
-# 1. Cài đặt các gói phụ thuộc
+# 1. Cài đặt dependencies
 npm install
 
-# 2. Khởi chạy môi trường phát triển (Local Dev)
+# 2. Chạy server phát triển
 npm run dev
-# Mở trình duyệt tại: http://localhost:5173
-
-# 3. Đóng gói mã nguồn cho Production
-npm run build
-
-# 4. Xem trước bản đóng gói
-npm run preview
+# rồi mở http://localhost:5173
 ```
 
+Để đóng gói bản production:
+```bash
+npm run build
+```
 
----
+## 📌 Việc cần làm khi có tài nguyên mới
 
-## 📋 Thông Tin Bàn Giao
+### 1. Thêm dự án mới vào danh mục
+*   Cập nhật dữ liệu dự án trong file JSON [`src/data/search_duan_data.json`](src/data/search_duan_data.json) (tên, chủ đầu tư, vị trí, khoảng giá, trạng thái).
+*   Thêm card hiển thị tương ứng trong [`src/views/ProjectsPage.vue`](src/views/ProjectsPage.vue).
 
-* **Đơn vị phát triển:** Phòng MarTech / Kỹ thuật số BĐS.
-* **Người bàn giao:** `huyhung-Martech`
-* **Vị trí thư mục cục bộ:** `H:\test antigravity\projects\web-tong\`
+### 2. Cấu hình điều hướng phân khu con (Sub-project)
+Nếu dự án mới có Landing Page độc lập (sub-domain), thêm rewrite rule vào [`vercel.json`](vercel.json):
+```json
+{
+  "source": "/ten-du-an/:path*",
+  "destination": "https://ten-du-an.salehub.dev/:path*"
+}
+```
+
+### 3. Cập nhật thông tin liên hệ & kênh mạng xã hội
+Kiểm tra số hotline, email `contact@salehub.dev` và liên kết Zalo/Facebook tại footer trong [`src/components/Header.vue`](src/components/Header.vue) và [`src/views/ProjectDetailPage.vue`](src/views/ProjectDetailPage.vue).
+
+## 🖼️ Quy ước xử lý ảnh
+Toàn bộ ảnh dự án hiển thị nên được nén sang định dạng **WebP** để tối ưu tốc độ tải trang:
+
+| Loại ảnh | Vị trí | Bề ngang tối đa |
+| --- | --- | --- |
+| Banner dự án chính | `public/projects/` | 1920px (WebP chất lượng 80%) |
+| Card thumbnail danh mục | `public/projects/` | 800px (tỷ lệ 16:9 hoặc 4:3) |
+| Logo đối tác / CĐT | `public/` | Chiều cao 40px–60px (PNG trong suốt hoặc SVG) |
