@@ -77,13 +77,6 @@ npm run build
 npm run preview
 ```
 
----
-
-## ☁️ Quy Trình Triển Khai (Deployment)
-
-Dự án đã được liên kết trực tiếp với dịch vụ **Vercel**:
-* **Branch triển khai chính:** `main` (hoặc `master`).
-* Mỗi khi có commit mới được đẩy (push) lên GitHub, Vercel sẽ tự động trigger quy trình CI/CD build và cập nhật phiên bản mới nhất lên tên miền **`salehub.dev`**.
 
 ---
 
